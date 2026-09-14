@@ -1,11 +1,20 @@
 import os
 from pathlib import Path
 
+import pytest
 from fastapi.testclient import TestClient
 
+import app.storage as storage
 from app.config import BASE_DIR
 from app.main import app
 from app.storage import clear_db_for_tests
+
+
+@pytest.fixture(autouse=True)
+def isolated_analysis_database(tmp_path, monkeypatch):
+    """Keep API tests from clearing the user's local analysis history."""
+    monkeypatch.setattr(storage, 'DB_PATH', tmp_path / 'lifecircle-test.db')
+    storage.init_db()
 
 
 def client():
