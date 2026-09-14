@@ -1,0 +1,5106 @@
+[
+  {
+    "mode": "real",
+    "data_notice": "LIVE_BAIDU_MAP_API",
+    "center_input": {
+      "lng": 121.62086828423158,
+      "lat": 31.211058397141414
+    },
+    "center_bd09": {
+      "lng": 121.62086828423158,
+      "lat": 31.211058397141414
+    },
+    "center_name": "张江镇街道级样例",
+    "city": "上海市",
+    "coord_type_input": "bd09ll",
+    "threshold_minutes": 15,
+    "sample_bearings": 16,
+    "sample_radii_m": [
+      500,
+      900,
+      1300,
+      1700
+    ],
+    "poi_radius_meters": 1800,
+    "isochrone": [
+      {
+        "lat": 31.217234469346526,
+        "lng": 121.62086828423158,
+        "bearing": 0.0,
+        "radius_m": 686.7
+      },
+      {
+        "lat": 31.21767694191676,
+        "lng": 121.62407395935978,
+        "bearing": 22.5,
+        "radius_m": 796.6
+      },
+      {
+        "lat": 31.215898149196022,
+        "lng": 121.62652749841763,
+        "bearing": 45.0,
+        "radius_m": 761.1
+      },
+      {
+        "lat": 31.21369218854707,
+        "lng": 121.62830367998058,
+        "bearing": 67.5,
+        "radius_m": 765.4
+      },
+      {
+        "lat": 31.211058164058546,
+        "lng": 121.62863139781571,
+        "bearing": 90.0,
+        "radius_m": 738.3
+      },
+      {
+        "lat": 31.20879968682921,
+        "lng": 121.62724350600512,
+        "bearing": 112.5,
+        "radius_m": 656.3
+      },
+      {
+        "lat": 31.204612390243447,
+        "lng": 121.62840437362492,
+        "bearing": 135.0,
+        "radius_m": 1013.6
+      },
+      {
+        "lat": 31.20612384226853,
+        "lng": 121.62325800615592,
+        "bearing": 157.5,
+        "radius_m": 593.9
+      },
+      {
+        "lat": 31.205527310833393,
+        "lng": 121.62086828423158,
+        "bearing": 180.0,
+        "radius_m": 615.0
+      },
+      {
+        "lat": 31.20497562085731,
+        "lng": 121.61792253682063,
+        "bearing": 202.5,
+        "radius_m": 732.1
+      },
+      {
+        "lat": 31.207284201485834,
+        "lng": 121.61645564839617,
+        "bearing": 225.0,
+        "radius_m": 593.5
+      },
+      {
+        "lat": 31.208825237764543,
+        "lng": 121.61456517344344,
+        "bearing": 247.5,
+        "radius_m": 648.8
+      },
+      {
+        "lat": 31.211058198510234,
+        "lng": 121.61370182769464,
+        "bearing": 270.0,
+        "radius_m": 681.5
+      },
+      {
+        "lat": 31.21323452546823,
+        "lng": 121.61472502296773,
+        "bearing": 292.5,
+        "radius_m": 632.4
+      },
+      {
+        "lat": 31.215536596515733,
+        "lng": 121.615631870512,
+        "bearing": 315.0,
+        "radius_m": 704.2
+      },
+      {
+        "lat": 31.219392148585293,
+        "lng": 121.61683177365586,
+        "bearing": 337.5,
+        "radius_m": 1003.0
+      }
+    ],
+    "isochrone_diagnostics": {
+      "monotonic_corrections": 1,
+      "truncated_bearings": 0,
+      "extrapolated_bearings": 0,
+      "valid_bearings": 16
+    },
+    "route_samples": [
+      {
+        "lat": 31.215554998960034,
+        "lng": 121.62086828423158,
+        "distance_m": 701.0,
+        "duration_s": 597.0,
+        "_bearing": 0.0,
+        "_radius": 500,
+        "_origin_lat": 31.211058397141414,
+        "_origin_lng": 121.62086828423158,
+        "reachable": true
+      },
+      {
+        "lat": 31.219152280414935,
+        "lng": 121.62086828423158,
+        "distance_m": 1459.0,
+        "duration_s": 1246.0,
+        "_bearing": 0.0,
+        "_radius": 900,
+        "_origin_lat": 31.211058397141414,
+        "_origin_lng": 121.62086828423158,
+        "reachable": false
+      },
+      {
+        "lat": 31.222749561869833,
+        "lng": 121.62086828423158,
+        "distance_m": 1742.0,
+        "duration_s": 1488.0,
+        "_bearing": 0.0,
+        "_radius": 1300,
+        "_origin_lat": 31.211058397141414,
+        "_origin_lng": 121.62086828423158,
+        "reachable": false
+      },
+      {
+        "lat": 31.22634684332473,
+        "lng": 121.62086828423158,
+        "distance_m": 2288.0,
+        "duration_s": 1957.0,
+        "_bearing": 0.0,
+        "_radius": 1700,
+        "_origin_lat": 31.211058397141414,
+        "_origin_lng": 121.62086828423158,
+        "reachable": false
+      },
+      {
+        "lat": 31.215212699869994,
+        "lng": 121.6228803531264,
+        "distance_m": 749.0,
+        "duration_s": 639.0,
+        "_bearing": 22.5,
+        "_radius": 500,
+        "_origin_lat": 31.211058397141414,
+        "_origin_lng": 121.62086828423158,
+        "reachable": true
+      },
+      {
+        "lat": 31.218536119502655,
+        "lng": 121.62449013554942,
+        "distance_m": 1159.0,
+        "duration_s": 991.0,
+        "_bearing": 22.5,
+        "_radius": 900,
+        "_origin_lat": 31.211058397141414,
+        "_origin_lng": 121.62086828423158,
+        "reachable": false
+      },
+      {
+        "lat": 31.221859519086323,
+        "lng": 121.62610003115823,
+        "distance_m": 1663.0,
+        "duration_s": 1421.0,
+        "_bearing": 22.5,
+        "_radius": 1300,
+        "_origin_lat": 31.211058397141414,
+        "_origin_lng": 121.62086828423158,
+        "reachable": false
+      },
+      {
+        "lat": 31.22518289861697,
+        "lng": 121.62771003997496,
+        "distance_m": 2329.0,
+        "duration_s": 1992.0,
+        "_bearing": 22.5,
+        "_radius": 1700,
+        "_origin_lat": 31.211058397141414,
+        "_origin_lng": 121.62086828423158,
+        "reachable": false
+      },
+      {
+        "lat": 31.214237921322653,
+        "lng": 121.62458606444477,
+        "distance_m": 690.0,
+        "duration_s": 588.0,
+        "_bearing": 45.0,
+        "_radius": 500,
+        "_origin_lat": 31.211058397141414,
+        "_origin_lng": 121.62086828423158,
+        "reachable": true
+      },
+      {
+        "lat": 31.216781463680693,
+        "lng": 121.62756046864047,
+        "distance_m": 1247.0,
+        "duration_s": 1066.0,
+        "_bearing": 45.0,
+        "_radius": 900,
+        "_origin_lat": 31.211058397141414,
+        "_origin_lng": 121.62086828423158,
+        "reachable": false
+      },
+      {
+        "lat": 31.21932493759445,
+        "lng": 121.6305350328806,
+        "distance_m": 1925.0,
+        "duration_s": 1647.0,
+        "_bearing": 45.0,
+        "_radius": 1300,
+        "_origin_lat": 31.211058397141414,
+        "_origin_lng": 121.62086828423158,
+        "reachable": false
+      },
+      {
+        "lat": 31.221868343053405,
+        "lng": 121.63350975718544,
+        "distance_m": 2256.0,
+        "duration_s": 1929.0,
+        "_bearing": 45.0,
+        "_radius": 1700,
+        "_origin_lat": 31.211058397141414,
+        "_origin_lng": 121.62086828423158,
+        "reachable": false
+      },
+      {
+        "lat": 31.21277908090522,
+        "lng": 121.62572572322956,
+        "distance_m": 660.0,
+        "duration_s": 563.0,
+        "_bearing": 67.5,
+        "_radius": 500,
+        "_origin_lat": 31.211058397141414,
+        "_origin_lng": 121.62086828423158,
+        "reachable": true
+      },
+      {
+        "lat": 31.21415549650214,
+        "lng": 121.62961180170589,
+        "distance_m": 1255.0,
+        "duration_s": 1071.0,
+        "_bearing": 67.5,
+        "_radius": 900,
+        "_origin_lat": 31.211058397141414,
+        "_origin_lng": 121.62086828423158,
+        "reachable": false
+      },
+      {
+        "lat": 31.215531795275947,
+        "lng": 121.63349799331795,
+        "distance_m": 1777.0,
+        "duration_s": 1520.0,
+        "_bearing": 67.5,
+        "_radius": 1300,
+        "_origin_lat": 31.211058397141414,
+        "_origin_lng": 121.62086828423158,
+        "reachable": false
+      },
+      {
+        "lat": 31.216907977216902,
+        "lng": 121.63738429806556,
+        "distance_m": 2226.0,
+        "duration_s": 1903.0,
+        "_bearing": 67.5,
+        "_radius": 1700,
+        "_origin_lat": 31.211058397141414,
+        "_origin_lng": 121.62086828423158,
+        "reachable": false
+      },
+      {
+        "lat": 31.21105829023427,
+        "lng": 121.62612584264245,
+        "distance_m": 697.0,
+        "duration_s": 595.0,
+        "_bearing": 90.0,
+        "_radius": 500,
+        "_origin_lat": 31.211058397141414,
+        "_origin_lng": 121.62086828423158,
+        "reachable": true
+      },
+      {
+        "lat": 31.211058050762293,
+        "lng": 121.63033188935515,
+        "distance_m": 1295.0,
+        "duration_s": 1107.0,
+        "_bearing": 90.0,
+        "_radius": 900,
+        "_origin_lat": 31.211058397141414,
+        "_origin_lng": 121.62086828423158,
+        "reachable": false
+      },
+      {
+        "lat": 31.21105767444919,
+        "lng": 121.63453793604049,
+        "distance_m": 1717.0,
+        "duration_s": 1467.0,
+        "_bearing": 90.0,
+        "_radius": 1300,
+        "_origin_lat": 31.211058397141414,
+        "_origin_lng": 121.62086828423158,
+        "reachable": false
+      },
+      {
+        "lat": 31.211057161294953,
+        "lng": 121.63874398268624,
+        "distance_m": 2023.0,
+        "duration_s": 1730.0,
+        "_bearing": 90.0,
+        "_radius": 1700,
+        "_origin_lat": 31.211058397141414,
+        "_origin_lng": 121.62086828423158,
+        "reachable": false
+      },
+      {
+        "lat": 31.2093375308757,
+        "lng": 121.62572554645436,
+        "distance_m": 780.0,
+        "duration_s": 666.0,
+        "_bearing": 112.5,
+        "_radius": 500,
+        "_origin_lat": 31.211058397141414,
+        "_origin_lng": 121.62086828423158,
+        "reachable": true
+      },
+      {
+        "lat": 31.207960706474545,
+        "lng": 121.62961122895422,
+        "distance_m": 1480.0,
+        "duration_s": 1265.0,
+        "_bearing": 112.5,
+        "_radius": 900,
+        "_origin_lat": 31.211058397141414,
+        "_origin_lng": 121.62086828423158,
+        "reachable": false
+      },
+      {
+        "lat": 31.206583765294074,
+        "lng": 121.63349679831754,
+        "distance_m": 1547.0,
+        "duration_s": 1323.0,
+        "_bearing": 112.5,
+        "_radius": 1300,
+        "_origin_lat": 31.211058397141414,
+        "_origin_lng": 121.62086828423158,
+        "reachable": false
+      },
+      {
+        "lat": 31.205206707344026,
+        "lng": 121.63738225454419,
+        "distance_m": 2256.0,
+        "duration_s": 1928.0,
+        "_bearing": 112.5,
+        "_radius": 1700,
+        "_origin_lat": 31.211058397141414,
+        "_origin_lng": 121.62086828423158,
+        "reachable": false
+      },
+      {
+        "lat": 31.207878766053025,
+        "lng": 121.62458581444686,
+        "distance_m": 537.0,
+        "duration_s": 458.0,
+        "_bearing": 135.0,
+        "_radius": 500,
+        "_origin_lat": 31.211058397141414,
+        "_origin_lng": 121.62086828423158,
+        "reachable": true
+      },
+      {
+        "lat": 31.205334984223004,
+        "lng": 121.62755965864729,
+        "distance_m": 938.0,
+        "duration_s": 802.0,
+        "_bearing": 135.0,
+        "_radius": 900,
+        "_origin_lat": 31.211058397141414,
+        "_origin_lng": 121.62086828423158,
+        "reachable": true
+      },
+      {
+        "lat": 31.202791133996133,
+        "lng": 121.63053334289478,
+        "distance_m": 1341.0,
+        "duration_s": 1147.0,
+        "_bearing": 135.0,
+        "_radius": 1300,
+        "_origin_lat": 31.211058397141414,
+        "_origin_lng": 121.62086828423158,
+        "reachable": false
+      },
+      {
+        "lat": 31.20024721538291,
+        "lng": 121.63350686720969,
+        "distance_m": 1787.0,
+        "duration_s": 1529.0,
+        "_bearing": 135.0,
+        "_radius": 1700,
+        "_origin_lat": 31.211058397141414,
+        "_origin_lng": 121.62086828423158,
+        "reachable": false
+      },
+      {
+        "lat": 31.206904063100453,
+        "lng": 121.6228801763512,
+        "distance_m": 844.0,
+        "duration_s": 719.0,
+        "_bearing": 157.5,
+        "_radius": 500,
+        "_origin_lat": 31.211058397141414,
+        "_origin_lng": 121.62086828423158,
+        "reachable": true
+      },
+      {
+        "lat": 31.203580573328072,
+        "lng": 121.62448956279773,
+        "distance_m": 1746.0,
+        "duration_s": 1490.0,
+        "_bearing": 157.5,
+        "_radius": 900,
+        "_origin_lat": 31.211058397141414,
+        "_origin_lng": 121.62086828423158,
+        "reachable": false
+      },
+      {
+        "lat": 31.200257063524848,
+        "lng": 121.62609883615778,
+        "distance_m": 1745.0,
+        "duration_s": 1492.0,
+        "_bearing": 157.5,
+        "_radius": 1300,
+        "_origin_lat": 31.211058397141414,
+        "_origin_lng": 121.62086828423158,
+        "reachable": false
+      },
+      {
+        "lat": 31.19693353369479,
+        "lng": 121.62770799645344,
+        "distance_m": 2455.0,
+        "duration_s": 2098.0,
+        "_bearing": 157.5,
+        "_radius": 1700,
+        "_origin_lat": 31.211058397141414,
+        "_origin_lng": 121.62086828423158,
+        "reachable": false
+      },
+      {
+        "lat": 31.206561795322788,
+        "lng": 121.62086828423158,
+        "distance_m": 770.0,
+        "duration_s": 657.0,
+        "_bearing": 180.0,
+        "_radius": 500,
+        "_origin_lat": 31.211058397141414,
+        "_origin_lng": 121.62086828423158,
+        "reachable": true
+      },
+      {
+        "lat": 31.20296451386789,
+        "lng": 121.62086828423158,
+        "distance_m": 1758.0,
+        "duration_s": 1502.0,
+        "_bearing": 180.0,
+        "_radius": 900,
+        "_origin_lat": 31.211058397141414,
+        "_origin_lng": 121.62086828423158,
+        "reachable": false
+      },
+      {
+        "lat": 31.199367232412992,
+        "lng": 121.62086828423158,
+        "distance_m": 1932.0,
+        "duration_s": 1651.0,
+        "_bearing": 180.0,
+        "_radius": 1300,
+        "_origin_lat": 31.211058397141414,
+        "_origin_lng": 121.62086828423158,
+        "reachable": false
+      },
+      {
+        "lat": 31.195769950958095,
+        "lng": 121.62086828423158,
+        "distance_m": 2305.0,
+        "duration_s": 1970.0,
+        "_bearing": 180.0,
+        "_radius": 1700,
+        "_origin_lat": 31.211058397141414,
+        "_origin_lng": 121.62086828423158,
+        "reachable": false
+      },
+      {
+        "lat": 31.206904063100453,
+        "lng": 121.61885639211197,
+        "distance_m": 725.0,
+        "duration_s": 618.0,
+        "_bearing": 202.5,
+        "_radius": 500,
+        "_origin_lat": 31.211058397141414,
+        "_origin_lng": 121.62086828423158,
+        "reachable": true
+      },
+      {
+        "lat": 31.203580573328072,
+        "lng": 121.61724700566543,
+        "distance_m": 1293.0,
+        "duration_s": 1104.0,
+        "_bearing": 202.5,
+        "_radius": 900,
+        "_origin_lat": 31.211058397141414,
+        "_origin_lng": 121.62086828423158,
+        "reachable": false
+      },
+      {
+        "lat": 31.200257063524848,
+        "lng": 121.61563773230537,
+        "distance_m": 1659.0,
+        "duration_s": 1418.0,
+        "_bearing": 202.5,
+        "_radius": 1300,
+        "_origin_lat": 31.211058397141414,
+        "_origin_lng": 121.62086828423158,
+        "reachable": false
+      },
+      {
+        "lat": 31.19693353369479,
+        "lng": 121.61402857200973,
+        "distance_m": 2391.0,
+        "duration_s": 2044.0,
+        "_bearing": 202.5,
+        "_radius": 1700,
+        "_origin_lat": 31.211058397141414,
+        "_origin_lng": 121.62086828423158,
+        "reachable": false
+      },
+      {
+        "lat": 31.207878766053025,
+        "lng": 121.61715075401631,
+        "distance_m": 827.0,
+        "duration_s": 706.0,
+        "_bearing": 225.0,
+        "_radius": 500,
+        "_origin_lat": 31.211058397141414,
+        "_origin_lng": 121.62086828423158,
+        "reachable": true
+      },
+      {
+        "lat": 31.205334984223004,
+        "lng": 121.61417690981588,
+        "distance_m": 1798.0,
+        "duration_s": 1536.0,
+        "_bearing": 225.0,
+        "_radius": 900,
+        "_origin_lat": 31.211058397141414,
+        "_origin_lng": 121.62086828423158,
+        "reachable": false
+      },
+      {
+        "lat": 31.202791133996133,
+        "lng": 121.61120322556839,
+        "distance_m": 2017.0,
+        "duration_s": 1722.0,
+        "_bearing": 225.0,
+        "_radius": 1300,
+        "_origin_lat": 31.211058397141414,
+        "_origin_lng": 121.62086828423158,
+        "reachable": false
+      },
+      {
+        "lat": 31.20024721538291,
+        "lng": 121.60822970125346,
+        "distance_m": 2592.0,
+        "duration_s": 2217.0,
+        "_bearing": 225.0,
+        "_radius": 1700,
+        "_origin_lat": 31.211058397141414,
+        "_origin_lng": 121.62086828423158,
+        "reachable": false
+      },
+      {
+        "lat": 31.2093375308757,
+        "lng": 121.61601102200879,
+        "distance_m": 885.0,
+        "duration_s": 756.0,
+        "_bearing": 247.5,
+        "_radius": 500,
+        "_origin_lat": 31.211058397141414,
+        "_origin_lng": 121.62086828423158,
+        "reachable": true
+      },
+      {
+        "lat": 31.207960706474545,
+        "lng": 121.61212533950895,
+        "distance_m": 1341.0,
+        "duration_s": 1143.0,
+        "_bearing": 247.5,
+        "_radius": 900,
+        "_origin_lat": 31.211058397141414,
+        "_origin_lng": 121.62086828423158,
+        "reachable": false
+      },
+      {
+        "lat": 31.206583765294074,
+        "lng": 121.60823977014562,
+        "distance_m": 1877.0,
+        "duration_s": 1602.0,
+        "_bearing": 247.5,
+        "_radius": 1300,
+        "_origin_lat": 31.211058397141414,
+        "_origin_lng": 121.62086828423158,
+        "reachable": false
+      },
+      {
+        "lat": 31.205206707344026,
+        "lng": 121.60435431391898,
+        "distance_m": 2410.0,
+        "duration_s": 2060.0,
+        "_bearing": 247.5,
+        "_radius": 1700,
+        "_origin_lat": 31.211058397141414,
+        "_origin_lng": 121.62086828423158,
+        "reachable": false
+      },
+      {
+        "lat": 31.21105829023427,
+        "lng": 121.6156107258207,
+        "distance_m": 917.0,
+        "duration_s": 782.0,
+        "_bearing": 270.0,
+        "_radius": 500,
+        "_origin_lat": 31.211058397141414,
+        "_origin_lng": 121.62086828423158,
+        "reachable": true
+      },
+      {
+        "lat": 31.211058050762293,
+        "lng": 121.611404679108,
+        "distance_m": 1219.0,
+        "duration_s": 1042.0,
+        "_bearing": 270.0,
+        "_radius": 900,
+        "_origin_lat": 31.211058397141414,
+        "_origin_lng": 121.62086828423158,
+        "reachable": false
+      },
+      {
+        "lat": 31.21105767444919,
+        "lng": 121.60719863242267,
+        "distance_m": 1829.0,
+        "duration_s": 1564.0,
+        "_bearing": 270.0,
+        "_radius": 1300,
+        "_origin_lat": 31.211058397141414,
+        "_origin_lng": 121.62086828423158,
+        "reachable": false
+      },
+      {
+        "lat": 31.211057161294953,
+        "lng": 121.60299258577692,
+        "distance_m": 2157.0,
+        "duration_s": 1844.0,
+        "_bearing": 270.0,
+        "_radius": 1700,
+        "_origin_lat": 31.211058397141414,
+        "_origin_lng": 121.62086828423158,
+        "reachable": false
+      },
+      {
+        "lat": 31.21277908090522,
+        "lng": 121.61601084523359,
+        "distance_m": 844.0,
+        "duration_s": 720.0,
+        "_bearing": 292.5,
+        "_radius": 500,
+        "_origin_lat": 31.211058397141414,
+        "_origin_lng": 121.62086828423158,
+        "reachable": true
+      },
+      {
+        "lat": 31.21415549650214,
+        "lng": 121.61212476675728,
+        "distance_m": 1481.0,
+        "duration_s": 1264.0,
+        "_bearing": 292.5,
+        "_radius": 900,
+        "_origin_lat": 31.211058397141414,
+        "_origin_lng": 121.62086828423158,
+        "reachable": false
+      },
+      {
+        "lat": 31.215531795275947,
+        "lng": 121.60823857514522,
+        "distance_m": 2416.0,
+        "duration_s": 2066.0,
+        "_bearing": 292.5,
+        "_radius": 1300,
+        "_origin_lat": 31.211058397141414,
+        "_origin_lng": 121.62086828423158,
+        "reachable": false
+      },
+      {
+        "lat": 31.216907977216902,
+        "lng": 121.6043522703976,
+        "distance_m": 2306.0,
+        "duration_s": 1972.0,
+        "_bearing": 292.5,
+        "_radius": 1700,
+        "_origin_lat": 31.211058397141414,
+        "_origin_lng": 121.62086828423158,
+        "reachable": false
+      },
+      {
+        "lat": 31.214237921322653,
+        "lng": 121.6171505040184,
+        "distance_m": 857.0,
+        "duration_s": 731.0,
+        "_bearing": 315.0,
+        "_radius": 500,
+        "_origin_lat": 31.211058397141414,
+        "_origin_lng": 121.62086828423158,
+        "reachable": true
+      },
+      {
+        "lat": 31.216781463680693,
+        "lng": 121.61417609982269,
+        "distance_m": 1246.0,
+        "duration_s": 1062.0,
+        "_bearing": 315.0,
+        "_radius": 900,
+        "_origin_lat": 31.211058397141414,
+        "_origin_lng": 121.62086828423158,
+        "reachable": false
+      },
+      {
+        "lat": 31.21932493759445,
+        "lng": 121.61120153558257,
+        "distance_m": 1759.0,
+        "duration_s": 1502.0,
+        "_bearing": 315.0,
+        "_radius": 1300,
+        "_origin_lat": 31.211058397141414,
+        "_origin_lng": 121.62086828423158,
+        "reachable": false
+      },
+      {
+        "lat": 31.221868343053405,
+        "lng": 121.60822681127772,
+        "distance_m": 2342.0,
+        "duration_s": 2003.0,
+        "_bearing": 315.0,
+        "_radius": 1700,
+        "_origin_lat": 31.211058397141414,
+        "_origin_lng": 121.62086828423158,
+        "reachable": false
+      },
+      {
+        "lat": 31.215212699869994,
+        "lng": 121.61885621533675,
+        "distance_m": 562.0,
+        "duration_s": 479.0,
+        "_bearing": 337.5,
+        "_radius": 500,
+        "_origin_lat": 31.211058397141414,
+        "_origin_lng": 121.62086828423158,
+        "reachable": true
+      },
+      {
+        "lat": 31.218536119502655,
+        "lng": 121.61724643291373,
+        "distance_m": 934.0,
+        "duration_s": 798.0,
+        "_bearing": 337.5,
+        "_radius": 900,
+        "_origin_lat": 31.211058397141414,
+        "_origin_lng": 121.62086828423158,
+        "reachable": true
+      },
+      {
+        "lat": 31.221859519086323,
+        "lng": 121.61563653730494,
+        "distance_m": 1397.0,
+        "duration_s": 1194.0,
+        "_bearing": 337.5,
+        "_radius": 1300,
+        "_origin_lat": 31.211058397141414,
+        "_origin_lng": 121.62086828423158,
+        "reachable": false
+      },
+      {
+        "lat": 31.22518289861697,
+        "lng": 121.6140265284882,
+        "distance_m": 1832.0,
+        "duration_s": 1567.0,
+        "_bearing": 337.5,
+        "_radius": 1700,
+        "_origin_lat": 31.211058397141414,
+        "_origin_lng": 121.62086828423158,
+        "reachable": false
+      }
+    ],
+    "route_sample_success_ratio": 1.0,
+    "area_m2": 1607539,
+    "area_km2": 1.608,
+    "reachability_comparison": {
+      "baseline_walk_speed_mps": 1.2,
+      "naive_radius_m": 1080,
+      "naive_circle_area_km2": 3.664,
+      "isochrone_to_naive_area_ratio": 0.439,
+      "median_route_detour_ratio": 1.39,
+      "median_time_penalty_ratio": 1.425,
+      "note": "直线基线仅用于说明“直线半径”与真实路网测时的差异，不属于官方公共服务评价标准。"
+    },
+    "pois": [
+      {
+        "uid": "9892ac3b9343fad3cb213d76",
+        "name": "古桐社区卫生服务站",
+        "address": "上海市浦东新区川北公路2820号",
+        "lat": 31.209877,
+        "lng": 121.61834,
+        "distance_m": 273,
+        "detail_tag": "医疗;其他",
+        "category": "medical",
+        "category_label": "基础医疗"
+      },
+      {
+        "uid": "b388f9fd8c00b358b35c6a55",
+        "name": "浦东新区张江社区卫生服务中心",
+        "address": "上海市浦东新区益江路店浦东新张江镇区益江路458号",
+        "lat": 31.202938,
+        "lng": 121.632443,
+        "distance_m": 1423,
+        "detail_tag": "医疗;其他",
+        "category": "medical",
+        "category_label": "基础医疗"
+      },
+      {
+        "uid": "820e5d3defbe36894c3a5969",
+        "name": "上海市浦东新区张江社区卫生服务中心香楠路社区卫生服务站",
+        "address": "上海市浦东新区香楠路258号",
+        "lat": 31.221895,
+        "lng": 121.619912,
+        "distance_m": 1208,
+        "detail_tag": "医疗;其他",
+        "category": "medical",
+        "category_label": "基础医疗"
+      },
+      {
+        "uid": "c2af9ef74b7569268605bff1",
+        "name": "上海向日葵全科诊所",
+        "address": "上海市浦东新区张江镇祖冲之路2288弄",
+        "lat": 31.216163,
+        "lng": 121.632597,
+        "distance_m": 1251,
+        "detail_tag": "医疗;诊所",
+        "category": "medical",
+        "category_label": "基础医疗"
+      },
+      {
+        "uid": "76e29fc039b4c3c351e5c573",
+        "name": "上海中医大中医诊所",
+        "address": "上海市浦东新区秋月路樟盛苑",
+        "lat": 31.209611,
+        "lng": 121.635828,
+        "distance_m": 1431,
+        "detail_tag": "医疗;诊所",
+        "category": "medical",
+        "category_label": "基础医疗"
+      },
+      {
+        "uid": "e49923a481bc2e672cb17e12",
+        "name": "浦东新区张江社区卫生服务中心-发热门诊",
+        "address": "益江路458号",
+        "lat": 31.203044,
+        "lng": 121.632971,
+        "distance_m": 1455,
+        "detail_tag": "医疗;发热门诊",
+        "category": "medical",
+        "category_label": "基础医疗"
+      },
+      {
+        "uid": "a336105651ef70d2e011034e",
+        "name": "优合美医疗美容门诊部(天之骄子生活新天地店)",
+        "address": "上海市浦东新区祖冲之路2305号123-124大门在盛夏路上(日月光集团对面)",
+        "lat": 31.217838,
+        "lng": 121.635543,
+        "distance_m": 1586,
+        "detail_tag": "医疗;其他",
+        "category": "medical",
+        "category_label": "基础医疗"
+      },
+      {
+        "uid": "15ed53ce3cd6592a9222e015",
+        "name": "上海市张江中心小学",
+        "address": "上海市浦东新区紫薇路686弄",
+        "lat": 31.211411,
+        "lng": 121.628718,
+        "distance_m": 747,
+        "detail_tag": "教育培训;小学",
+        "category": "primary_school",
+        "category_label": "小学"
+      },
+      {
+        "uid": "00586108614bd3a446e2744a",
+        "name": "张江高科实验小学(香楠校区)",
+        "address": "上海市浦东新区香楠路295号(丹桂路与香楠路交叉口东北角)",
+        "lat": 31.220929,
+        "lng": 121.621046,
+        "distance_m": 1097,
+        "detail_tag": "教育培训;小学",
+        "category": "primary_school",
+        "category_label": "小学"
+      },
+      {
+        "uid": "09fbc643d537d568c336444d",
+        "name": "张江镇川北公路老菜市场",
+        "address": "上海市浦东新区川北公路2820号",
+        "lat": 31.21028,
+        "lng": 121.618387,
+        "distance_m": 251,
+        "detail_tag": "购物;市场",
+        "category": "market",
+        "category_label": "菜市场"
+      },
+      {
+        "uid": "6fddd7fd495415663517dc71",
+        "name": "益江菜市场",
+        "address": "益江路433号",
+        "lat": 31.203695,
+        "lng": 121.634275,
+        "distance_m": 1515,
+        "detail_tag": "购物;市场",
+        "category": "market",
+        "category_label": "菜市场"
+      },
+      {
+        "uid": "cde9e2c7a38ebfade81e9752",
+        "name": "养和堂药业连锁(张江店)",
+        "address": "上海市浦东新区川北公路3003号",
+        "lat": 31.210945,
+        "lng": 121.619053,
+        "distance_m": 173,
+        "detail_tag": "医疗;药店",
+        "category": "pharmacy",
+        "category_label": "药店"
+      },
+      {
+        "uid": "fffff64ed7cc6dba581093e2",
+        "name": "益丰大药房(建中路店)",
+        "address": "上海市上海城区浦东新区建中路136号",
+        "lat": 31.209332,
+        "lng": 121.621263,
+        "distance_m": 195,
+        "detail_tag": "医疗;药店",
+        "category": "pharmacy",
+        "category_label": "药店"
+      },
+      {
+        "uid": "c879fa019f5c5b53c909f04d",
+        "name": "华氏大药房(紫薇路店)",
+        "address": "上海市浦东新区紫薇路187弄38号",
+        "lat": 31.20882,
+        "lng": 121.621952,
+        "distance_m": 269,
+        "detail_tag": "医疗;药店",
+        "category": "pharmacy",
+        "category_label": "药店"
+      },
+      {
+        "uid": "4424f442ec219945afee7a81",
+        "name": "好药师大药房(建中药店)",
+        "address": "上海市浦东新区高斯路997号",
+        "lat": 31.206902,
+        "lng": 121.618425,
+        "distance_m": 517,
+        "detail_tag": "医疗;药店",
+        "category": "pharmacy",
+        "category_label": "药店"
+      },
+      {
+        "uid": "67f172dd19047438bd48425a",
+        "name": "上海紫薇大药房",
+        "address": "上海市浦东新区张江镇高斯路1104号",
+        "lat": 31.20496,
+        "lng": 121.619759,
+        "distance_m": 686,
+        "detail_tag": "医疗;药店",
+        "category": "pharmacy",
+        "category_label": "药店"
+      },
+      {
+        "uid": "6f1ddd3215a166be5bf6beee",
+        "name": "益丰大药房(香楠路店)",
+        "address": "上海市浦东新区中国(上海)自由贸易试验区张江镇香楠路160号一层02室",
+        "lat": 31.221949,
+        "lng": 121.620257,
+        "distance_m": 1212,
+        "detail_tag": "医疗;药店",
+        "category": "pharmacy",
+        "category_label": "药店"
+      },
+      {
+        "uid": "4e095e0b4df884703686f448",
+        "name": "大参林上海好邻居大药房(盛夏路二店)",
+        "address": "上海市浦东新区盛夏路686-692号、694-700号",
+        "lat": 31.209419,
+        "lng": 121.636038,
+        "distance_m": 1454,
+        "detail_tag": "医疗;药店",
+        "category": "pharmacy",
+        "category_label": "药店"
+      },
+      {
+        "uid": "38ae98f0ff148f0e3fe231fc",
+        "name": "益丰大药房(益江路店)",
+        "address": "上海市浦东新区益江路427-433号",
+        "lat": 31.203844,
+        "lng": 121.634333,
+        "distance_m": 1511,
+        "detail_tag": "医疗;药店",
+        "category": "pharmacy",
+        "category_label": "药店"
+      },
+      {
+        "uid": "ef09935b240a8d5ff5c59ce7",
+        "name": "百联第一医药(天之骄子生活新天地店)",
+        "address": "上海市浦东新区祖冲之路2305号天之骄子生活新天地F1",
+        "lat": 31.218023,
+        "lng": 121.634851,
+        "distance_m": 1538,
+        "detail_tag": "医疗;药店",
+        "category": "pharmacy",
+        "category_label": "药店"
+      },
+      {
+        "uid": "db1f39d49de05476f5c59c5a",
+        "name": "雷允上(青桐路药店)",
+        "address": "上海市浦东新区青桐路197号",
+        "lat": 31.224618,
+        "lng": 121.628193,
+        "distance_m": 1660,
+        "detail_tag": "医疗;药店",
+        "category": "pharmacy",
+        "category_label": "药店"
+      },
+      {
+        "uid": "3e5551fd1f14092f7f29bd4f",
+        "name": "上海慧云药房有限责任公司",
+        "address": "中国(上海)自由贸易试验区蔡伦路720弄7号301室",
+        "lat": 31.200662,
+        "lng": 121.612846,
+        "distance_m": 1385,
+        "detail_tag": "医疗;药店",
+        "category": "pharmacy",
+        "category_label": "药店"
+      },
+      {
+        "uid": "22135086447a5a8f8e7727d2",
+        "name": "上海好邻居医药连锁有限公司",
+        "address": "上海市浦东新区盛夏路912号1层",
+        "lat": 31.205897,
+        "lng": 121.637598,
+        "distance_m": 1691,
+        "detail_tag": "医疗;药店",
+        "category": "pharmacy",
+        "category_label": "药店"
+      },
+      {
+        "uid": "69fcd6df90c46d36cb2915f7",
+        "name": "联华超市(张江店)",
+        "address": "川北公路3076号（川北公路高斯路）",
+        "lat": 31.211958,
+        "lng": 121.620066,
+        "distance_m": 125,
+        "detail_tag": "购物;超市",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      },
+      {
+        "uid": "7f02844eeb02ecf54d55476a",
+        "name": "喜多多超市(川北公路店)",
+        "address": "上海市浦东新区川北路3046号",
+        "lat": 31.211022,
+        "lng": 121.619648,
+        "distance_m": 116,
+        "detail_tag": "购物;超市",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      },
+      {
+        "uid": "cd28232c7cde8081260bd025",
+        "name": "时代江英超市",
+        "address": "上海市浦东新区张江镇张江路江东路口17号汉庭酒店旁",
+        "lat": 31.211392,
+        "lng": 121.621976,
+        "distance_m": 111,
+        "detail_tag": "购物;超市",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      },
+      {
+        "uid": "0f66af0a7b65a03293114c62",
+        "name": "联华超市(建中店)",
+        "address": "建中路242弄258号",
+        "lat": 31.208826,
+        "lng": 121.619048,
+        "distance_m": 302,
+        "detail_tag": "购物;超市",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      },
+      {
+        "uid": "ddf6f561ff873143ca291582",
+        "name": "五饼一鱼超市(川北路2301弄小区店)",
+        "address": "川北公路2991-2993号",
+        "lat": 31.210722,
+        "lng": 121.618879,
+        "distance_m": 192,
+        "detail_tag": "购物;超市",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      },
+      {
+        "uid": "77e68061f2e006e48bfc0600",
+        "name": "时代华联超市(张江江东路店)",
+        "address": "上海市浦东新区江东路17号",
+        "lat": 31.211347,
+        "lng": 121.621953,
+        "distance_m": 108,
+        "detail_tag": "购物;超市",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      },
+      {
+        "uid": "0c747ed9754252682811d171",
+        "name": "盒马鲜生(长泰广场店)",
+        "address": "金科路2889弄长泰广场B1层",
+        "lat": 31.211618,
+        "lng": 121.609913,
+        "distance_m": 1043,
+        "detail_tag": "购物;超市",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      },
+      {
+        "uid": "9886d34c2e04f6ea85420eb4",
+        "name": "联华超市(广兰店)",
+        "address": "广兰路455号",
+        "lat": 31.218448,
+        "lng": 121.624592,
+        "distance_m": 894,
+        "detail_tag": "购物;超市",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      },
+      {
+        "uid": "3e60684f74e6eaa3c909f0d2",
+        "name": "时代辉扬超市(华彩百货店)",
+        "address": "上海市浦东新区广兰路1116号2楼204室",
+        "lat": 31.210266,
+        "lng": 121.6275,
+        "distance_m": 636,
+        "detail_tag": "购物;超市",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      },
+      {
+        "uid": "68250b52b3b0715b4e776eba",
+        "name": "宝岛台湾食品超市(香楠路店)",
+        "address": "香楠路399弄3号",
+        "lat": 31.21978,
+        "lng": 121.620908,
+        "distance_m": 969,
+        "detail_tag": "购物;超市",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      },
+      {
+        "uid": "f1969e4835f7af0690114c76",
+        "name": "世纪华彩超市(广兰名苑店)",
+        "address": "上海市浦东新区张江镇广兰路1134",
+        "lat": 31.209694,
+        "lng": 121.627842,
+        "distance_m": 680,
+        "detail_tag": "购物;超市",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      },
+      {
+        "uid": "78bd50f7dc7da74230870abd",
+        "name": "惠而多生活超市(香楠店)",
+        "address": "香楠路166号",
+        "lat": 31.22168,
+        "lng": 121.620355,
+        "distance_m": 1182,
+        "detail_tag": "购物;超市",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      },
+      {
+        "uid": "6af5c7b323c8b989e4e9659b",
+        "name": "联华(盛夏店)",
+        "address": "盛夏路752号一层",
+        "lat": 31.208765,
+        "lng": 121.636357,
+        "distance_m": 1494,
+        "detail_tag": "购物;超市",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      },
+      {
+        "uid": "3521d877b0feb5963617dc54",
+        "name": "联华超市(天之骄子生活新天地店)",
+        "address": "祖冲之路2305号天之骄子生活新天地1层",
+        "lat": 31.217785,
+        "lng": 121.634966,
+        "distance_m": 1535,
+        "detail_tag": "购物;超市",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      },
+      {
+        "uid": "49d9593886e15d5ac71e519d",
+        "name": "联华超市(玉兰香苑店)",
+        "address": "益江路513-523号",
+        "lat": 31.202111,
+        "lng": 121.634297,
+        "distance_m": 1618,
+        "detail_tag": "购物;超市",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      },
+      {
+        "uid": "5e16f03f59ad089c6849f37d",
+        "name": "可芯超市(广兰路店)",
+        "address": "广兰路236号-8",
+        "lat": 31.222056,
+        "lng": 121.623206,
+        "distance_m": 1242,
+        "detail_tag": "购物;超市",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      },
+      {
+        "uid": "a6808cace3133048a8f0cdcd",
+        "name": "大润发(汇智国际商业中心店)",
+        "address": "金科路3057号汇智国际商业中心B1层",
+        "lat": 31.209126,
+        "lng": 121.608374,
+        "distance_m": 1207,
+        "detail_tag": "购物;超市",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      },
+      {
+        "uid": "13acb78c8014871852e5c53d",
+        "name": "宏欢百货(广兰路店)",
+        "address": "广兰路236号",
+        "lat": 31.22218,
+        "lng": 121.623514,
+        "distance_m": 1261,
+        "detail_tag": "购物;超市",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      },
+      {
+        "uid": "961f7970c7981655f603b81f",
+        "name": "易好捷超市",
+        "address": "上海市浦东新区广兰路广兰名苑东南侧约30米",
+        "lat": 31.208587,
+        "lng": 121.62766,
+        "distance_m": 701,
+        "detail_tag": "购物;超市",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      },
+      {
+        "uid": "9f97b1c58df2b51fb74f549d",
+        "name": "联华超市(益江店)",
+        "address": "益江路238号",
+        "lat": 31.205287,
+        "lng": 121.637485,
+        "distance_m": 1705,
+        "detail_tag": "购物;超市",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      },
+      {
+        "uid": "e7d4b30ccf92380cf7b916e9",
+        "name": "如海生鲜超市(益江路店)",
+        "address": "上海市浦东新区益江路玉兰香苑二期C块",
+        "lat": 31.204065,
+        "lng": 121.633976,
+        "distance_m": 1469,
+        "detail_tag": "购物;超市",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      },
+      {
+        "uid": "c72929f7d1ecccd6c72ba18c",
+        "name": "世纪华联超市(张江店)",
+        "address": "上海市浦东新区张江镇益江路557号派送上门驿站拒收",
+        "lat": 31.20104,
+        "lng": 121.634978,
+        "distance_m": 1744,
+        "detail_tag": "购物;超市",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      },
+      {
+        "uid": "0340f23d317ddd3593114c36",
+        "name": "海禾购生活超市(张江店)",
+        "address": "上海市浦东新区益江路516弄",
+        "lat": 31.200914,
+        "lng": 121.634745,
+        "distance_m": 1736,
+        "detail_tag": "购物;超市",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      },
+      {
+        "uid": "69eb214aae58df0d9a00501b",
+        "name": "汇智国际商业中心停车场-停车位A-055",
+        "address": "上海市浦东新区金科路3057号汇智国际商业中心B2",
+        "lat": 31.209285,
+        "lng": 121.607991,
+        "distance_m": 1240,
+        "detail_tag": "购物;超市",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      },
+      {
+        "uid": "d711b4eeee73d67e85420e3c",
+        "name": "浦商农产品(紫薇店)",
+        "address": "广兰路1092弄之2-4号",
+        "lat": 31.210471,
+        "lng": 121.627024,
+        "distance_m": 589,
+        "detail_tag": "购物;超市",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      },
+      {
+        "uid": "fcb563095a2ecde18bf15d29",
+        "name": "海翔生鲜超市",
+        "address": "高斯路与紫薇路交叉口北40米",
+        "lat": 31.205995,
+        "lng": 121.620052,
+        "distance_m": 568,
+        "detail_tag": "购物;超市",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      },
+      {
+        "uid": "dc0cd38d8a50378a25e0a03a",
+        "name": "紫薇生鲜超市",
+        "address": "上海市浦东新区广兰路广兰名苑北侧约60米",
+        "lat": 31.210823,
+        "lng": 121.626838,
+        "distance_m": 568,
+        "detail_tag": "购物;超市",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      },
+      {
+        "uid": "679854935c11bbf9a4c75601",
+        "name": "广兰生鲜",
+        "address": "广兰路236号",
+        "lat": 31.222192,
+        "lng": 121.623512,
+        "distance_m": 1263,
+        "detail_tag": "购物;超市",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      },
+      {
+        "uid": "75ddfd9e7c54841e37b06cbc",
+        "name": "浦商生鲜(香楠店)",
+        "address": "丹桂路香楠路276弄16号楼香楠小区对面",
+        "lat": 31.222031,
+        "lng": 121.620261,
+        "distance_m": 1221,
+        "detail_tag": "购物;超市",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      },
+      {
+        "uid": "be44a84595df7cae4d776e50",
+        "name": "大橙子水果超市(益江路店)",
+        "address": "上海市浦东新区益江路392号",
+        "lat": 31.204048,
+        "lng": 121.633888,
+        "distance_m": 1463,
+        "detail_tag": "购物;商铺",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      },
+      {
+        "uid": "bb1d38e4af64094c0c0a704d",
+        "name": "上海光启养老院",
+        "address": "上海市浦东新区张江镇居里路469号",
+        "lat": 31.211376,
+        "lng": 121.604686,
+        "distance_m": 1539,
+        "detail_tag": "生活服务;其他",
+        "category": "elderly",
+        "category_label": "养老服务"
+      },
+      {
+        "uid": "172221ee94c86733715e8052",
+        "name": "上海光启养老院-西门",
+        "address": "上海市浦东新区居里路469号",
+        "lat": 31.211312,
+        "lng": 121.603945,
+        "distance_m": 1609,
+        "detail_tag": "出入口;门",
+        "category": "elderly",
+        "category_label": "养老服务"
+      }
+    ],
+    "coverage": {
+      "medical": {
+        "label": "基础医疗",
+        "count_total": 7,
+        "count_in_isochrone": 1,
+        "target": 2,
+        "weight": 20,
+        "score": 10.0,
+        "status": "known"
+      },
+      "primary_school": {
+        "label": "小学",
+        "count_total": 2,
+        "count_in_isochrone": 0,
+        "target": 1,
+        "weight": 20,
+        "score": 0.0,
+        "status": "known"
+      },
+      "market": {
+        "label": "菜市场",
+        "count_total": 2,
+        "count_in_isochrone": 1,
+        "target": 2,
+        "weight": 15,
+        "score": 7.5,
+        "status": "known"
+      },
+      "pharmacy": {
+        "label": "药店",
+        "count_total": 12,
+        "count_in_isochrone": 4,
+        "target": 3,
+        "weight": 15,
+        "score": 15.0,
+        "status": "known"
+      },
+      "supermarket": {
+        "label": "购物/超市",
+        "count_total": 30,
+        "count_in_isochrone": 10,
+        "target": 3,
+        "weight": 15,
+        "score": 15.0,
+        "status": "known"
+      },
+      "elderly": {
+        "label": "养老服务",
+        "count_total": 2,
+        "count_in_isochrone": 0,
+        "target": 1,
+        "weight": 15,
+        "score": 0.0,
+        "status": "known"
+      }
+    },
+    "coverage_score_before_blind_penalty": 47.5,
+    "health_score": 42.7,
+    "score_interpretation": "基于已成功获取的设施类别归一化计算；未知类别不按0分处理。",
+    "data_confidence_percent": 100.0,
+    "unavailable_categories": [],
+    "category_errors": {},
+    "blind_spots": [
+      {
+        "lat": 31.20566243648067,
+        "lng": 121.61771392915776,
+        "missing": [
+          "primary_school"
+        ],
+        "missing_labels": [
+          "小学"
+        ],
+        "severity": 1,
+        "nearest_m": {
+          "market": 517,
+          "pharmacy": 154,
+          "primary_school": 1226
+        },
+        "distance_from_center_m": 671
+      },
+      {
+        "lat": 31.211058243195136,
+        "lng": 121.61455921414064,
+        "missing": [
+          "primary_school"
+        ],
+        "missing_labels": [
+          "小学"
+        ],
+        "severity": 1,
+        "nearest_m": {
+          "market": 374,
+          "pharmacy": 428,
+          "primary_school": 1259
+        },
+        "distance_from_center_m": 600
+      },
+      {
+        "lat": 31.208360397567766,
+        "lng": 121.61771383917672,
+        "missing": [
+          "primary_school"
+        ],
+        "missing_labels": [
+          "小学"
+        ],
+        "severity": 1,
+        "nearest_m": {
+          "market": 223,
+          "pharmacy": 176,
+          "primary_school": 1100
+        },
+        "distance_from_center_m": 424
+      },
+      {
+        "lat": 31.211058358654846,
+        "lng": 121.61771374918354,
+        "missing": [
+          "primary_school"
+        ],
+        "missing_labels": [
+          "小学"
+        ],
+        "severity": 1,
+        "nearest_m": {
+          "market": 108,
+          "pharmacy": 128,
+          "primary_school": 1047
+        },
+        "distance_from_center_m": 300
+      }
+    ],
+    "blind_spots_status": "ok",
+    "blind_spot_definition": "采样点周边1公里内，菜市场/药店/小学任一关键类别缺失；关键类别数据未知时不输出缺失结论。仅用于规划筛查，需结合人口与实地条件复核。",
+    "recommendations": [
+      {
+        "priority": "中",
+        "title": "补齐基础医疗服务",
+        "reason": "15分钟等时圈内仅 1 个，建议目标不少于 2 个。",
+        "action": "优先在盲区侧新增/引入约 1 个基础医疗服务点，并用步行算路复核可达性。"
+      },
+      {
+        "priority": "高",
+        "title": "补齐小学服务",
+        "reason": "15分钟等时圈内仅 0 个，建议目标不少于 1 个。",
+        "action": "优先在盲区侧新增/引入约 1 个小学服务点，并用步行算路复核可达性。"
+      },
+      {
+        "priority": "中",
+        "title": "补齐菜市场服务",
+        "reason": "15分钟等时圈内仅 1 个，建议目标不少于 2 个。",
+        "action": "优先在盲区侧新增/引入约 1 个菜市场服务点，并用步行算路复核可达性。"
+      },
+      {
+        "priority": "高",
+        "title": "补齐养老服务服务",
+        "reason": "15分钟等时圈内仅 0 个，建议目标不少于 1 个。",
+        "action": "优先在盲区侧新增/引入约 1 个养老服务服务点，并用步行算路复核可达性。"
+      },
+      {
+        "priority": "中",
+        "title": "优先治理多设施叠加盲区",
+        "reason": "识别到 4 个采样盲区点，其中 0 个同时缺少两类及以上关键设施。",
+        "action": "将叠加盲区作为选址候选区域，结合道路穿越障碍、公共空间和人口数据进一步实地核验。"
+      }
+    ],
+    "representative_route": {
+      "to": "时代华联超市(张江江东路店)",
+      "category": "购物/超市",
+      "distance_m": 149,
+      "duration_s": 155,
+      "steps_count": 6
+    },
+    "api_stats": {
+      "request_count": 10,
+      "cache_hits": 0,
+      "success_count": 10,
+      "failed_count": 0,
+      "total_latency_ms": 3940,
+      "quota_units_estimated": 72,
+      "calls": [
+        {
+          "service": "route_matrix_walking",
+          "ok": true,
+          "latency_ms": 465,
+          "cache_hit": false,
+          "note": "attempt=1",
+          "quota_units": 50
+        },
+        {
+          "service": "route_matrix_walking",
+          "ok": true,
+          "latency_ms": 155,
+          "cache_hit": false,
+          "note": "attempt=1",
+          "quota_units": 14
+        },
+        {
+          "service": "place_search",
+          "ok": true,
+          "latency_ms": 217,
+          "cache_hit": false,
+          "note": "attempt=1",
+          "quota_units": 1
+        },
+        {
+          "service": "place_search",
+          "ok": true,
+          "latency_ms": 420,
+          "cache_hit": false,
+          "note": "attempt=1",
+          "quota_units": 1
+        },
+        {
+          "service": "place_search",
+          "ok": true,
+          "latency_ms": 521,
+          "cache_hit": false,
+          "note": "attempt=1",
+          "quota_units": 1
+        },
+        {
+          "service": "place_search",
+          "ok": true,
+          "latency_ms": 532,
+          "cache_hit": false,
+          "note": "attempt=1",
+          "quota_units": 1
+        },
+        {
+          "service": "place_search",
+          "ok": true,
+          "latency_ms": 676,
+          "cache_hit": false,
+          "note": "attempt=1",
+          "quota_units": 1
+        },
+        {
+          "service": "place_search",
+          "ok": true,
+          "latency_ms": 687,
+          "cache_hit": false,
+          "note": "attempt=1",
+          "quota_units": 1
+        },
+        {
+          "service": "place_search",
+          "ok": true,
+          "latency_ms": 184,
+          "cache_hit": false,
+          "note": "attempt=1",
+          "quota_units": 1
+        },
+        {
+          "service": "walking_route",
+          "ok": true,
+          "latency_ms": 83,
+          "cache_hit": false,
+          "note": "attempt=1",
+          "quota_units": 1
+        }
+      ]
+    },
+    "warnings": [
+      "检测到 1 个径向样本存在局部耗时逆序；已使用保守单调包络参与等时圈插值。"
+    ],
+    "algorithm": {
+      "isochrone": "16方向×4半径扇形采样；使用百度步行批量算路耗时，以保守单调包络+径向线性插值形成近似15分钟可达边界。",
+      "poi": "按设施类别调用百度 Place 圆形检索，每类最多翻页 3 页；去重后用点在多边形内判断统计等时圈覆盖。",
+      "blind_spots": "对1公里范围网格采样，检查菜市场/药店/小学的1公里邻近覆盖；关键类别检索失败时停止输出“无设施”结论。",
+      "caveat": "等时圈为API测时采样插值近似，不等同于底层路网全量洪泛；符合题目鼓励的无底层路网条件下空间插值/扇形采样思路。"
+    },
+    "elapsed_ms": 2217,
+    "benchmark_api_stats": {
+      "request_count": 10,
+      "cache_hits": 1,
+      "success_count": 11,
+      "failed_count": 0,
+      "total_latency_ms": 3940,
+      "quota_units_estimated": 72,
+      "calls": [
+        {
+          "service": "geocoding",
+          "ok": true,
+          "latency_ms": 0,
+          "cache_hit": true,
+          "note": "sqlite-cache",
+          "quota_units": 0
+        },
+        {
+          "service": "route_matrix_walking",
+          "ok": true,
+          "latency_ms": 465,
+          "cache_hit": false,
+          "note": "attempt=1",
+          "quota_units": 50
+        },
+        {
+          "service": "route_matrix_walking",
+          "ok": true,
+          "latency_ms": 155,
+          "cache_hit": false,
+          "note": "attempt=1",
+          "quota_units": 14
+        },
+        {
+          "service": "place_search",
+          "ok": true,
+          "latency_ms": 217,
+          "cache_hit": false,
+          "note": "attempt=1",
+          "quota_units": 1
+        },
+        {
+          "service": "place_search",
+          "ok": true,
+          "latency_ms": 420,
+          "cache_hit": false,
+          "note": "attempt=1",
+          "quota_units": 1
+        },
+        {
+          "service": "place_search",
+          "ok": true,
+          "latency_ms": 521,
+          "cache_hit": false,
+          "note": "attempt=1",
+          "quota_units": 1
+        },
+        {
+          "service": "place_search",
+          "ok": true,
+          "latency_ms": 532,
+          "cache_hit": false,
+          "note": "attempt=1",
+          "quota_units": 1
+        },
+        {
+          "service": "place_search",
+          "ok": true,
+          "latency_ms": 676,
+          "cache_hit": false,
+          "note": "attempt=1",
+          "quota_units": 1
+        },
+        {
+          "service": "place_search",
+          "ok": true,
+          "latency_ms": 687,
+          "cache_hit": false,
+          "note": "attempt=1",
+          "quota_units": 1
+        },
+        {
+          "service": "place_search",
+          "ok": true,
+          "latency_ms": 184,
+          "cache_hit": false,
+          "note": "attempt=1",
+          "quota_units": 1
+        },
+        {
+          "service": "walking_route",
+          "ok": true,
+          "latency_ms": 83,
+          "cache_hit": false,
+          "note": "attempt=1",
+          "quota_units": 1
+        }
+      ]
+    },
+    "benchmark_elapsed_ms": 2901
+  },
+  {
+    "mode": "real",
+    "data_notice": "LIVE_BAIDU_MAP_API",
+    "center_input": {
+      "lng": 121.49402476147561,
+      "lat": 31.212476999571937
+    },
+    "center_bd09": {
+      "lng": 121.49402476147561,
+      "lat": 31.212476999571937
+    },
+    "center_name": "徐家汇街道级样例",
+    "city": "上海市",
+    "coord_type_input": "bd09ll",
+    "threshold_minutes": 15,
+    "sample_bearings": 16,
+    "sample_radii_m": [
+      500,
+      900,
+      1300,
+      1700
+    ],
+    "poi_radius_meters": 1800,
+    "isochrone": [
+      {
+        "lat": 31.220401996392173,
+        "lng": 121.49402476147561,
+        "bearing": 0.0,
+        "radius_m": 881.2
+      },
+      {
+        "lat": 31.21932967664979,
+        "lng": 121.49734389671335,
+        "bearing": 22.5,
+        "radius_m": 824.8
+      },
+      {
+        "lat": 31.217828750316833,
+        "lng": 121.50028281021821,
+        "bearing": 45.0,
+        "radius_m": 841.6
+      },
+      {
+        "lat": 31.215532911118032,
+        "lng": 121.50265211512216,
+        "bearing": 67.5,
+        "radius_m": 888.0
+      },
+      {
+        "lat": 31.212476757192515,
+        "lng": 121.5019410755808,
+        "bearing": 90.0,
+        "radius_m": 752.8
+      },
+      {
+        "lat": 31.21011621535413,
+        "lng": 121.5006881591662,
+        "bearing": 112.5,
+        "radius_m": 685.9
+      },
+      {
+        "lat": 31.2068736486816,
+        "lng": 121.50057587931519,
+        "bearing": 135.0,
+        "radius_m": 881.1
+      },
+      {
+        "lat": 31.204163074545527,
+        "lng": 121.49805095971072,
+        "bearing": 157.5,
+        "radius_m": 1000.6
+      },
+      {
+        "lat": 31.205272903230718,
+        "lng": 121.49402476147561,
+        "bearing": 180.0,
+        "radius_m": 801.1
+      },
+      {
+        "lat": 31.205711353822483,
+        "lng": 121.49074829277377,
+        "bearing": 202.5,
+        "radius_m": 814.3
+      },
+      {
+        "lat": 31.207866499614532,
+        "lng": 121.48863434336451,
+        "bearing": 225.0,
+        "radius_m": 725.0
+      },
+      {
+        "lat": 31.209643600031303,
+        "lng": 121.4860275465817,
+        "bearing": 247.5,
+        "radius_m": 823.2
+      },
+      {
+        "lat": 31.212476717601874,
+        "lng": 121.48548635853724,
+        "bearing": 270.0,
+        "radius_m": 812.0
+      },
+      {
+        "lat": 31.215011033933372,
+        "lng": 121.48687090972257,
+        "bearing": 292.5,
+        "radius_m": 736.4
+      },
+      {
+        "lat": 31.217647759865557,
+        "lng": 121.48797837057052,
+        "bearing": 315.0,
+        "radius_m": 813.1
+      },
+      {
+        "lat": 31.220167501162816,
+        "lng": 121.49029978506714,
+        "bearing": 337.5,
+        "radius_m": 925.6
+      }
+    ],
+    "isochrone_diagnostics": {
+      "monotonic_corrections": 0,
+      "truncated_bearings": 0,
+      "extrapolated_bearings": 0,
+      "valid_bearings": 16
+    },
+    "route_samples": [
+      {
+        "lat": 31.21697360139056,
+        "lng": 121.49402476147561,
+        "distance_m": 817.0,
+        "duration_s": 697.0,
+        "_bearing": 0.0,
+        "_radius": 500,
+        "_origin_lat": 31.212476999571937,
+        "_origin_lng": 121.49402476147561,
+        "reachable": true
+      },
+      {
+        "lat": 31.220570882845454,
+        "lng": 121.49402476147561,
+        "distance_m": 1064.0,
+        "duration_s": 910.0,
+        "_bearing": 0.0,
+        "_radius": 900,
+        "_origin_lat": 31.212476999571937,
+        "_origin_lng": 121.49402476147561,
+        "reachable": false
+      },
+      {
+        "lat": 31.22416816430035,
+        "lng": 121.49402476147561,
+        "distance_m": 1582.0,
+        "duration_s": 1353.0,
+        "_bearing": 0.0,
+        "_radius": 1300,
+        "_origin_lat": 31.212476999571937,
+        "_origin_lng": 121.49402476147561,
+        "reachable": false
+      },
+      {
+        "lat": 31.227765445755256,
+        "lng": 121.49402476147561,
+        "distance_m": 2085.0,
+        "duration_s": 1782.0,
+        "_bearing": 0.0,
+        "_radius": 1700,
+        "_origin_lat": 31.212476999571937,
+        "_origin_lng": 121.49402476147561,
+        "reachable": false
+      },
+      {
+        "lat": 31.21663130229964,
+        "lng": 121.49603686056008,
+        "distance_m": 640.0,
+        "duration_s": 546.0,
+        "_bearing": 22.5,
+        "_radius": 500,
+        "_origin_lat": 31.212476999571937,
+        "_origin_lng": 121.49402476147561,
+        "reachable": true
+      },
+      {
+        "lat": 31.219954721930335,
+        "lng": 121.49764666714381,
+        "distance_m": 1150.0,
+        "duration_s": 982.0,
+        "_bearing": 22.5,
+        "_radius": 900,
+        "_origin_lat": 31.212476999571937,
+        "_origin_lng": 121.49402476147561,
+        "reachable": false
+      },
+      {
+        "lat": 31.22327812151093,
+        "lng": 121.49925658692138,
+        "distance_m": 1645.0,
+        "duration_s": 1405.0,
+        "_bearing": 22.5,
+        "_radius": 1300,
+        "_origin_lat": 31.212476999571937,
+        "_origin_lng": 121.49402476147561,
+        "reachable": false
+      },
+      {
+        "lat": 31.226601501037383,
+        "lng": 121.50086661991487,
+        "distance_m": 2160.0,
+        "duration_s": 1849.0,
+        "_bearing": 22.5,
+        "_radius": 1700,
+        "_origin_lat": 31.212476999571937,
+        "_origin_lng": 121.49402476147561,
+        "reachable": false
+      },
+      {
+        "lat": 31.215656523750194,
+        "lng": 121.49774259746924,
+        "distance_m": 641.0,
+        "duration_s": 549.0,
+        "_bearing": 45.0,
+        "_radius": 500,
+        "_origin_lat": 31.212476999571937,
+        "_origin_lng": 121.49402476147561,
+        "reachable": true
+      },
+      {
+        "lat": 31.218200066101545,
+        "lng": 121.50071704630207,
+        "distance_m": 1124.0,
+        "duration_s": 960.0,
+        "_bearing": 45.0,
+        "_radius": 900,
+        "_origin_lat": 31.212476999571937,
+        "_origin_lng": 121.49402476147561,
+        "reachable": false
+      },
+      {
+        "lat": 31.220743540004786,
+        "lng": 121.50369165519064,
+        "distance_m": 1649.0,
+        "duration_s": 1410.0,
+        "_bearing": 45.0,
+        "_radius": 1300,
+        "_origin_lat": 31.212476999571937,
+        "_origin_lng": 121.49402476147561,
+        "reachable": false
+      },
+      {
+        "lat": 31.223286945449402,
+        "lng": 121.50666642415531,
+        "distance_m": 2443.0,
+        "duration_s": 2089.0,
+        "_bearing": 45.0,
+        "_radius": 1700,
+        "_origin_lat": 31.212476999571937,
+        "_origin_lng": 121.49402476147561,
+        "reachable": false
+      },
+      {
+        "lat": 31.214197683330646,
+        "lng": 121.49888227334897,
+        "distance_m": 600.0,
+        "duration_s": 511.0,
+        "_bearing": 67.5,
+        "_radius": 500,
+        "_origin_lat": 31.212476999571937,
+        "_origin_lng": 121.49402476147561,
+        "reachable": true
+      },
+      {
+        "lat": 31.21557409891614,
+        "lng": 121.50276841013459,
+        "distance_m": 1065.0,
+        "duration_s": 912.0,
+        "_bearing": 67.5,
+        "_radius": 900,
+        "_origin_lat": 31.212476999571937,
+        "_origin_lng": 121.49402476147561,
+        "reachable": false
+      },
+      {
+        "lat": 31.216950397671997,
+        "lng": 121.50665466006394,
+        "distance_m": 1603.0,
+        "duration_s": 1372.0,
+        "_bearing": 67.5,
+        "_radius": 1300,
+        "_origin_lat": 31.212476999571937,
+        "_origin_lng": 121.49402476147561,
+        "reachable": false
+      },
+      {
+        "lat": 31.218326579588485,
+        "lng": 121.51054102313691,
+        "distance_m": 2081.0,
+        "duration_s": 1779.0,
+        "_bearing": 67.5,
+        "_radius": 1700,
+        "_origin_lat": 31.212476999571937,
+        "_origin_lng": 121.49402476147561,
+        "reachable": false
+      },
+      {
+        "lat": 31.212476892658827,
+        "lng": 121.4992823987594,
+        "distance_m": 754.0,
+        "duration_s": 644.0,
+        "_bearing": 90.0,
+        "_radius": 500,
+        "_origin_lat": 31.212476999571937,
+        "_origin_lng": 121.49402476147561,
+        "reachable": true
+      },
+      {
+        "lat": 31.212476653173468,
+        "lng": 121.50348850857047,
+        "distance_m": 1228.0,
+        "duration_s": 1049.0,
+        "_bearing": 90.0,
+        "_radius": 900,
+        "_origin_lat": 31.212476999571937,
+        "_origin_lng": 121.49402476147561,
+        "reachable": false
+      },
+      {
+        "lat": 31.212476276839332,
+        "lng": 121.50769461835415,
+        "distance_m": 1544.0,
+        "duration_s": 1320.0,
+        "_bearing": 90.0,
+        "_radius": 1300,
+        "_origin_lat": 31.212476999571937,
+        "_origin_lng": 121.49402476147561,
+        "reachable": false
+      },
+      {
+        "lat": 31.212475763656435,
+        "lng": 121.51190072809825,
+        "distance_m": 2034.0,
+        "duration_s": 1739.0,
+        "_bearing": 90.0,
+        "_radius": 1700,
+        "_origin_lat": 31.212476999571937,
+        "_origin_lng": 121.49402476147561,
+        "reachable": false
+      },
+      {
+        "lat": 31.210756133301135,
+        "lng": 121.49888209656122,
+        "distance_m": 782.0,
+        "duration_s": 669.0,
+        "_bearing": 112.5,
+        "_radius": 500,
+        "_origin_lat": 31.212476999571937,
+        "_origin_lng": 121.49402476147561,
+        "reachable": true
+      },
+      {
+        "lat": 31.209379308888554,
+        "lng": 121.50276783734232,
+        "distance_m": 1364.0,
+        "duration_s": 1166.0,
+        "_bearing": 112.5,
+        "_radius": 900,
+        "_origin_lat": 31.212476999571937,
+        "_origin_lng": 121.49402476147561,
+        "reachable": false
+      },
+      {
+        "lat": 31.208002367690142,
+        "lng": 121.50665346497887,
+        "distance_m": 1819.0,
+        "duration_s": 1556.0,
+        "_bearing": 112.5,
+        "_radius": 1300,
+        "_origin_lat": 31.212476999571937,
+        "_origin_lng": 121.49402476147561,
+        "reachable": false
+      },
+      {
+        "lat": 31.206625309715626,
+        "lng": 121.51053897947074,
+        "distance_m": 71174.0,
+        "duration_s": 60942.0,
+        "_bearing": 112.5,
+        "_radius": 1700,
+        "_origin_lat": 31.212476999571937,
+        "_origin_lng": 121.49402476147561,
+        "reachable": false
+      },
+      {
+        "lat": 31.209297368480566,
+        "lng": 121.49774234745362,
+        "distance_m": 675.0,
+        "duration_s": 577.0,
+        "_bearing": 135.0,
+        "_radius": 500,
+        "_origin_lat": 31.212476999571937,
+        "_origin_lng": 121.49402476147561,
+        "reachable": true
+      },
+      {
+        "lat": 31.206753586643863,
+        "lng": 121.50071623625145,
+        "distance_m": 1071.0,
+        "duration_s": 916.0,
+        "_bearing": 135.0,
+        "_radius": 900,
+        "_origin_lat": 31.212476999571937,
+        "_origin_lng": 121.49402476147561,
+        "reachable": false
+      },
+      {
+        "lat": 31.204209736406465,
+        "lng": 121.50368996508504,
+        "distance_m": 1541.0,
+        "duration_s": 1319.0,
+        "_bearing": 135.0,
+        "_radius": 1300,
+        "_origin_lat": 31.212476999571937,
+        "_origin_lng": 121.49402476147561,
+        "reachable": false
+      },
+      {
+        "lat": 31.20166581777892,
+        "lng": 121.50666353397473,
+        "distance_m": 70438.0,
+        "duration_s": 60312.0,
+        "_bearing": 135.0,
+        "_radius": 1700,
+        "_origin_lat": 31.212476999571937,
+        "_origin_lng": 121.49402476147561,
+        "reachable": false
+      },
+      {
+        "lat": 31.208322665530112,
+        "lng": 121.49603668377233,
+        "distance_m": 521.0,
+        "duration_s": 445.0,
+        "_bearing": 157.5,
+        "_radius": 500,
+        "_origin_lat": 31.212476999571937,
+        "_origin_lng": 121.49402476147561,
+        "reachable": true
+      },
+      {
+        "lat": 31.204999175755766,
+        "lng": 121.49764609435154,
+        "distance_m": 911.0,
+        "duration_s": 780.0,
+        "_bearing": 157.5,
+        "_radius": 900,
+        "_origin_lat": 31.212476999571937,
+        "_origin_lng": 121.49402476147561,
+        "reachable": true
+      },
+      {
+        "lat": 31.201675665949455,
+        "lng": 121.49925539183623,
+        "distance_m": 1470.0,
+        "duration_s": 1257.0,
+        "_bearing": 157.5,
+        "_radius": 1300,
+        "_origin_lat": 31.212476999571937,
+        "_origin_lng": 121.49402476147561,
+        "reachable": false
+      },
+      {
+        "lat": 31.1983521361152,
+        "lng": 121.50086457624853,
+        "distance_m": 70040.0,
+        "duration_s": 59971.0,
+        "_bearing": 157.5,
+        "_radius": 1700,
+        "_origin_lat": 31.212476999571937,
+        "_origin_lng": 121.49402476147561,
+        "reachable": false
+      },
+      {
+        "lat": 31.207980397753314,
+        "lng": 121.49402476147561,
+        "distance_m": 554.0,
+        "duration_s": 474.0,
+        "_bearing": 180.0,
+        "_radius": 500,
+        "_origin_lat": 31.212476999571937,
+        "_origin_lng": 121.49402476147561,
+        "reachable": true
+      },
+      {
+        "lat": 31.204383116298416,
+        "lng": 121.49402476147561,
+        "distance_m": 1217.0,
+        "duration_s": 1040.0,
+        "_bearing": 180.0,
+        "_radius": 900,
+        "_origin_lat": 31.212476999571937,
+        "_origin_lng": 121.49402476147561,
+        "reachable": false
+      },
+      {
+        "lat": 31.20078583484352,
+        "lng": 121.49402476147561,
+        "distance_m": 1661.0,
+        "duration_s": 1419.0,
+        "_bearing": 180.0,
+        "_radius": 1300,
+        "_origin_lat": 31.212476999571937,
+        "_origin_lng": 121.49402476147561,
+        "reachable": false
+      },
+      {
+        "lat": 31.19718855338862,
+        "lng": 121.49402476147561,
+        "distance_m": 1944.0,
+        "duration_s": 1661.0,
+        "_bearing": 180.0,
+        "_radius": 1700,
+        "_origin_lat": 31.212476999571937,
+        "_origin_lng": 121.49402476147561,
+        "reachable": false
+      },
+      {
+        "lat": 31.208322665530112,
+        "lng": 121.49201283917888,
+        "distance_m": 705.0,
+        "duration_s": 603.0,
+        "_bearing": 202.5,
+        "_radius": 500,
+        "_origin_lat": 31.212476999571937,
+        "_origin_lng": 121.49402476147561,
+        "reachable": true
+      },
+      {
+        "lat": 31.204999175755766,
+        "lng": 121.49040342859968,
+        "distance_m": 1149.0,
+        "duration_s": 981.0,
+        "_bearing": 202.5,
+        "_radius": 900,
+        "_origin_lat": 31.212476999571937,
+        "_origin_lng": 121.49402476147561,
+        "reachable": false
+      },
+      {
+        "lat": 31.201675665949455,
+        "lng": 121.488794131115,
+        "distance_m": 1708.0,
+        "duration_s": 1460.0,
+        "_bearing": 202.5,
+        "_radius": 1300,
+        "_origin_lat": 31.212476999571937,
+        "_origin_lng": 121.49402476147561,
+        "reachable": false
+      },
+      {
+        "lat": 31.1983521361152,
+        "lng": 121.4871849467027,
+        "distance_m": 2273.0,
+        "duration_s": 1942.0,
+        "_bearing": 202.5,
+        "_radius": 1700,
+        "_origin_lat": 31.212476999571937,
+        "_origin_lng": 121.49402476147561,
+        "reachable": false
+      },
+      {
+        "lat": 31.209297368480566,
+        "lng": 121.4903071754976,
+        "distance_m": 896.0,
+        "duration_s": 765.0,
+        "_bearing": 225.0,
+        "_radius": 500,
+        "_origin_lat": 31.212476999571937,
+        "_origin_lng": 121.49402476147561,
+        "reachable": true
+      },
+      {
+        "lat": 31.206753586643863,
+        "lng": 121.48733328669977,
+        "distance_m": 1176.0,
+        "duration_s": 1005.0,
+        "_bearing": 225.0,
+        "_radius": 900,
+        "_origin_lat": 31.212476999571937,
+        "_origin_lng": 121.49402476147561,
+        "reachable": false
+      },
+      {
+        "lat": 31.204209736406465,
+        "lng": 121.48435955786617,
+        "distance_m": 1657.0,
+        "duration_s": 1415.0,
+        "_bearing": 225.0,
+        "_radius": 1300,
+        "_origin_lat": 31.212476999571937,
+        "_origin_lng": 121.49402476147561,
+        "reachable": false
+      },
+      {
+        "lat": 31.20166581777892,
+        "lng": 121.48138598897648,
+        "distance_m": 2156.0,
+        "duration_s": 1843.0,
+        "_bearing": 225.0,
+        "_radius": 1700,
+        "_origin_lat": 31.212476999571937,
+        "_origin_lng": 121.49402476147561,
+        "reachable": false
+      },
+      {
+        "lat": 31.210756133301135,
+        "lng": 121.48916742639001,
+        "distance_m": 747.0,
+        "duration_s": 639.0,
+        "_bearing": 247.5,
+        "_radius": 500,
+        "_origin_lat": 31.212476999571937,
+        "_origin_lng": 121.49402476147561,
+        "reachable": true
+      },
+      {
+        "lat": 31.209379308888554,
+        "lng": 121.48528168560891,
+        "distance_m": 1124.0,
+        "duration_s": 962.0,
+        "_bearing": 247.5,
+        "_radius": 900,
+        "_origin_lat": 31.212476999571937,
+        "_origin_lng": 121.49402476147561,
+        "reachable": false
+      },
+      {
+        "lat": 31.208002367690142,
+        "lng": 121.48139605797235,
+        "distance_m": 1720.0,
+        "duration_s": 1472.0,
+        "_bearing": 247.5,
+        "_radius": 1300,
+        "_origin_lat": 31.212476999571937,
+        "_origin_lng": 121.49402476147561,
+        "reachable": false
+      },
+      {
+        "lat": 31.206625309715626,
+        "lng": 121.47751054348049,
+        "distance_m": 1934.0,
+        "duration_s": 1655.0,
+        "_bearing": 247.5,
+        "_radius": 1700,
+        "_origin_lat": 31.212476999571937,
+        "_origin_lng": 121.49402476147561,
+        "reachable": false
+      },
+      {
+        "lat": 31.212476892658827,
+        "lng": 121.48876712419181,
+        "distance_m": 688.0,
+        "duration_s": 588.0,
+        "_bearing": 270.0,
+        "_radius": 500,
+        "_origin_lat": 31.212476999571937,
+        "_origin_lng": 121.49402476147561,
+        "reachable": true
+      },
+      {
+        "lat": 31.212476653173468,
+        "lng": 121.48456101438076,
+        "distance_m": 1154.0,
+        "duration_s": 988.0,
+        "_bearing": 270.0,
+        "_radius": 900,
+        "_origin_lat": 31.212476999571937,
+        "_origin_lng": 121.49402476147561,
+        "reachable": false
+      },
+      {
+        "lat": 31.212476276839332,
+        "lng": 121.48035490459708,
+        "distance_m": 1583.0,
+        "duration_s": 1355.0,
+        "_bearing": 270.0,
+        "_radius": 1300,
+        "_origin_lat": 31.212476999571937,
+        "_origin_lng": 121.49402476147561,
+        "reachable": false
+      },
+      {
+        "lat": 31.212475763656435,
+        "lng": 121.47614879485296,
+        "distance_m": 2082.0,
+        "duration_s": 1781.0,
+        "_bearing": 270.0,
+        "_radius": 1700,
+        "_origin_lat": 31.212476999571937,
+        "_origin_lng": 121.49402476147561,
+        "reachable": false
+      },
+      {
+        "lat": 31.214197683330646,
+        "lng": 121.48916724960226,
+        "distance_m": 721.0,
+        "duration_s": 614.0,
+        "_bearing": 292.5,
+        "_radius": 500,
+        "_origin_lat": 31.212476999571937,
+        "_origin_lng": 121.49402476147561,
+        "reachable": true
+      },
+      {
+        "lat": 31.21557409891614,
+        "lng": 121.48528111281664,
+        "distance_m": 1283.0,
+        "duration_s": 1098.0,
+        "_bearing": 292.5,
+        "_radius": 900,
+        "_origin_lat": 31.212476999571937,
+        "_origin_lng": 121.49402476147561,
+        "reachable": false
+      },
+      {
+        "lat": 31.216950397671997,
+        "lng": 121.48139486288727,
+        "distance_m": 1746.0,
+        "duration_s": 1493.0,
+        "_bearing": 292.5,
+        "_radius": 1300,
+        "_origin_lat": 31.212476999571937,
+        "_origin_lng": 121.49402476147561,
+        "reachable": false
+      },
+      {
+        "lat": 31.218326579588485,
+        "lng": 121.47750849981432,
+        "distance_m": 2283.0,
+        "duration_s": 1952.0,
+        "_bearing": 292.5,
+        "_radius": 1700,
+        "_origin_lat": 31.212476999571937,
+        "_origin_lng": 121.49402476147561,
+        "reachable": false
+      },
+      {
+        "lat": 31.215656523750194,
+        "lng": 121.49030692548199,
+        "distance_m": 735.0,
+        "duration_s": 626.0,
+        "_bearing": 315.0,
+        "_radius": 500,
+        "_origin_lat": 31.212476999571937,
+        "_origin_lng": 121.49402476147561,
+        "reachable": true
+      },
+      {
+        "lat": 31.218200066101545,
+        "lng": 121.48733247664916,
+        "distance_m": 1141.0,
+        "duration_s": 976.0,
+        "_bearing": 315.0,
+        "_radius": 900,
+        "_origin_lat": 31.212476999571937,
+        "_origin_lng": 121.49402476147561,
+        "reachable": false
+      },
+      {
+        "lat": 31.220743540004786,
+        "lng": 121.48435786776058,
+        "distance_m": 1747.0,
+        "duration_s": 1495.0,
+        "_bearing": 315.0,
+        "_radius": 1300,
+        "_origin_lat": 31.212476999571937,
+        "_origin_lng": 121.49402476147561,
+        "reachable": false
+      },
+      {
+        "lat": 31.223286945449402,
+        "lng": 121.48138309879592,
+        "distance_m": 2349.0,
+        "duration_s": 2011.0,
+        "_bearing": 315.0,
+        "_radius": 1700,
+        "_origin_lat": 31.212476999571937,
+        "_origin_lng": 121.49402476147561,
+        "reachable": false
+      },
+      {
+        "lat": 31.21663130229964,
+        "lng": 121.49201266239113,
+        "distance_m": 578.0,
+        "duration_s": 494.0,
+        "_bearing": 337.5,
+        "_radius": 500,
+        "_origin_lat": 31.212476999571937,
+        "_origin_lng": 121.49402476147561,
+        "reachable": true
+      },
+      {
+        "lat": 31.219954721930335,
+        "lng": 121.4904028558074,
+        "distance_m": 1030.0,
+        "duration_s": 879.0,
+        "_bearing": 337.5,
+        "_radius": 900,
+        "_origin_lat": 31.212476999571937,
+        "_origin_lng": 121.49402476147561,
+        "reachable": true
+      },
+      {
+        "lat": 31.22327812151093,
+        "lng": 121.48879293602984,
+        "distance_m": 1410.0,
+        "duration_s": 1207.0,
+        "_bearing": 337.5,
+        "_radius": 1300,
+        "_origin_lat": 31.212476999571937,
+        "_origin_lng": 121.49402476147561,
+        "reachable": false
+      },
+      {
+        "lat": 31.226601501037383,
+        "lng": 121.48718290303634,
+        "distance_m": 1901.0,
+        "duration_s": 1626.0,
+        "_bearing": 337.5,
+        "_radius": 1700,
+        "_origin_lat": 31.212476999571937,
+        "_origin_lng": 121.49402476147561,
+        "reachable": false
+      }
+    ],
+    "route_sample_success_ratio": 1.0,
+    "area_m2": 2088267,
+    "area_km2": 2.088,
+    "reachability_comparison": {
+      "baseline_walk_speed_mps": 1.2,
+      "naive_radius_m": 1080,
+      "naive_circle_area_km2": 3.664,
+      "isochrone_to_naive_area_ratio": 0.57,
+      "median_route_detour_ratio": 1.277,
+      "median_time_penalty_ratio": 1.309,
+      "note": "直线基线仅用于说明“直线半径”与真实路网测时的差异，不属于官方公共服务评价标准。"
+    },
+    "pois": [
+      {
+        "uid": "a74481d61b55415ff503b85c",
+        "name": "上海市黄浦区半淞园路街道社区卫生服务中心",
+        "address": "上海市黄浦区西藏南路1350号",
+        "lat": 31.212623,
+        "lng": 121.493627,
+        "distance_m": 41,
+        "detail_tag": "医疗;其他",
+        "category": "medical",
+        "category_label": "基础医疗"
+      },
+      {
+        "uid": "0dc3d82ddef34f7575e5b654",
+        "name": "上海交通大学医学院附属第九人民医院",
+        "address": "上海市黄浦区制造局路639号",
+        "lat": 31.207323,
+        "lng": 121.493877,
+        "distance_m": 573,
+        "detail_tag": "医疗;综合医院",
+        "category": "medical",
+        "category_label": "基础医疗"
+      },
+      {
+        "uid": "33346d779d99b542a80dd8fa",
+        "name": "上海市黄浦区顺昌医院",
+        "address": "上海市黄浦区丽园路490号",
+        "lat": 31.213465,
+        "lng": 121.488522,
+        "distance_m": 534,
+        "detail_tag": "医疗;综合医院",
+        "category": "medical",
+        "category_label": "基础医疗"
+      },
+      {
+        "uid": "6e70ab76e8a6f1a52a02e1f6",
+        "name": "上海第九人民医院南部",
+        "address": "上海市黄浦区瞿溪路538号",
+        "lat": 31.207403,
+        "lng": 121.493925,
+        "distance_m": 564,
+        "detail_tag": "医疗;综合医院",
+        "category": "medical",
+        "category_label": "基础医疗"
+      },
+      {
+        "uid": "cdb87835ae10570bf7e73b56",
+        "name": "上海第二人民医院",
+        "address": "上海市黄浦区普育东路58号",
+        "lat": 31.215147,
+        "lng": 121.501522,
+        "distance_m": 772,
+        "detail_tag": "医疗;综合医院",
+        "category": "medical",
+        "category_label": "基础医疗"
+      },
+      {
+        "uid": "0dc3d82dc88e317574e5b6e3",
+        "name": "上海医博肛泰肛肠胃肠医院",
+        "address": "上海市黄浦区斜土路105号",
+        "lat": 31.212198,
+        "lng": 121.489315,
+        "distance_m": 448,
+        "detail_tag": "医疗;专科医院",
+        "category": "medical",
+        "category_label": "基础医疗"
+      },
+      {
+        "uid": "6113ef77ecff30698e7727ef",
+        "name": "黄浦丽园社区卫生服务站",
+        "address": "上海市黄浦区西藏南路1200弄1号10号楼",
+        "lat": 31.215088,
+        "lng": 121.493169,
+        "distance_m": 301,
+        "detail_tag": "医疗;其他",
+        "category": "medical",
+        "category_label": "基础医疗"
+      },
+      {
+        "uid": "2c0bd6c545cddbb343ab9a5c",
+        "name": "上海市黄浦区香山中医医院(黄家路院区)",
+        "address": "上海市黄浦区老西门街道黄家路",
+        "lat": 31.222,
+        "lng": 121.500973,
+        "distance_m": 1248,
+        "detail_tag": "医疗;综合医院",
+        "category": "medical",
+        "category_label": "基础医疗"
+      },
+      {
+        "uid": "8ccae0a077381a1b5e17c302",
+        "name": "上海交通大学医学院附属第九人民医院-口腔整复门诊",
+        "address": "上海市黄浦区制造局路639号1号楼6层",
+        "lat": 31.208031,
+        "lng": 121.492471,
+        "distance_m": 515,
+        "detail_tag": "医疗;其他",
+        "category": "medical",
+        "category_label": "基础医疗"
+      },
+      {
+        "uid": "92132896708a4359eb12e412",
+        "name": "上海香杏中医医院",
+        "address": "上海市黄浦区制造局路584号龙之苑F栋",
+        "lat": 31.208978,
+        "lng": 121.491113,
+        "distance_m": 477,
+        "detail_tag": "医疗",
+        "category": "medical",
+        "category_label": "基础医疗"
+      },
+      {
+        "uid": "8b042586fbf2a03741024579",
+        "name": "上海市红房子妇产科医院",
+        "address": "上海市黄浦区方斜路419号",
+        "lat": 31.219739,
+        "lng": 121.489826,
+        "distance_m": 900,
+        "detail_tag": "医疗;专科医院",
+        "category": "medical",
+        "category_label": "基础医疗"
+      },
+      {
+        "uid": "f633606a2598544f0b69d958",
+        "name": "复旦大学附属妇产科医院(黄浦院区)",
+        "address": "上海市黄浦区方斜路566号",
+        "lat": 31.21881,
+        "lng": 121.488994,
+        "distance_m": 851,
+        "detail_tag": "医疗;专科医院",
+        "category": "medical",
+        "category_label": "基础医疗"
+      },
+      {
+        "uid": "7d5fb1c95b76ad001b11d52b",
+        "name": "上海交通大学医学院附属第九人民医院骨科基因治疗研究室",
+        "address": "上海市黄浦区瞿溪路上海交通大学医学院附属第九人民医院",
+        "lat": 31.208337,
+        "lng": 121.49326,
+        "distance_m": 466,
+        "detail_tag": "医疗",
+        "category": "medical",
+        "category_label": "基础医疗"
+      },
+      {
+        "uid": "fa835ce2c068f7b7e912e48f",
+        "name": "上海市黄浦区打浦桥街道社区卫生服务中心",
+        "address": "上海市黄浦区丽园路712号1楼",
+        "lat": 31.212553,
+        "lng": 121.485385,
+        "distance_m": 821,
+        "detail_tag": "医疗;其他",
+        "category": "medical",
+        "category_label": "基础医疗"
+      },
+      {
+        "uid": "a9a6bcd5094ef796d3ff2336",
+        "name": "上海第九人民医院-挂号处",
+        "address": "上海市黄浦区内环高架路上海交通大学医学院附属第九人民医院",
+        "lat": 31.207357,
+        "lng": 121.49408,
+        "distance_m": 569,
+        "detail_tag": "医疗",
+        "category": "medical",
+        "category_label": "基础医疗"
+      },
+      {
+        "uid": "e5150a4a648d09e99cec2bbf",
+        "name": "复旦大学附属妇产科医院-南区",
+        "address": "上海市黄浦区方斜路566号一楼",
+        "lat": 31.21778,
+        "lng": 121.489631,
+        "distance_m": 722,
+        "detail_tag": "医疗;专科医院",
+        "category": "medical",
+        "category_label": "基础医疗"
+      },
+      {
+        "uid": "0523a1410be1b504b33c81a7",
+        "name": "上海泰坤堂中医医院互联网医院",
+        "address": "上海市黄浦区斜徐路553号",
+        "lat": 31.213345,
+        "lng": 121.47873,
+        "distance_m": 1457,
+        "detail_tag": "医疗;综合医院",
+        "category": "medical",
+        "category_label": "基础医疗"
+      },
+      {
+        "uid": "2f20bea745d27154c26c1496",
+        "name": "上海希玛瑞视眼科医院",
+        "address": "上海市黄浦区西藏南路758号前社Nexxus2~3楼",
+        "lat": 31.220858,
+        "lng": 121.491087,
+        "distance_m": 972,
+        "detail_tag": "医疗;专科医院",
+        "category": "medical",
+        "category_label": "基础医疗"
+      },
+      {
+        "uid": "926bcafc3378fa34f6c59c23",
+        "name": "上海集爱遗传与不育诊疗中心",
+        "address": "上海市黄浦区大林路352号一、二、六楼",
+        "lat": 31.217864,
+        "lng": 121.490077,
+        "distance_m": 706,
+        "detail_tag": "医疗;专科医院",
+        "category": "medical",
+        "category_label": "基础医疗"
+      },
+      {
+        "uid": "e889a7444f9d8ecb8605bf50",
+        "name": "上海市黄浦区老西门街道社区卫生服务中心",
+        "address": "上海市黄浦区学前街81号",
+        "lat": 31.222408,
+        "lng": 121.496132,
+        "distance_m": 1122,
+        "detail_tag": "医疗;其他",
+        "category": "medical",
+        "category_label": "基础医疗"
+      },
+      {
+        "uid": "5e9fb543b8fa9d6f25e0a057",
+        "name": "广慈纪念医院",
+        "address": "上海市黄浦区思南路111号",
+        "lat": 31.215126,
+        "lng": 121.477622,
+        "distance_m": 1587,
+        "detail_tag": "医疗;综合医院",
+        "category": "medical",
+        "category_label": "基础医疗"
+      },
+      {
+        "uid": "4d3e83708f0d6e831fe99947",
+        "name": "红房子妇产科医院(黄浦院区)",
+        "address": "上海市黄浦区肇周路413号214室",
+        "lat": 31.218912,
+        "lng": 121.489099,
+        "distance_m": 855,
+        "detail_tag": "医疗;专科医院",
+        "category": "medical",
+        "category_label": "基础医疗"
+      },
+      {
+        "uid": "2527be1e34b152aa4afc8d5e",
+        "name": "上海市黄浦区五里桥街道社区卫生服务中心",
+        "address": "上海市黄浦区瞿溪路987号",
+        "lat": 31.205541,
+        "lng": 121.484088,
+        "distance_m": 1219,
+        "detail_tag": "医疗;其他",
+        "category": "medical",
+        "category_label": "基础医疗"
+      },
+      {
+        "uid": "6c68ecede496b4ebb1077d9c",
+        "name": "小东门街道社区卫生服务中心",
+        "address": "上海市黄浦区陆家浜路525号",
+        "lat": 31.218086,
+        "lng": 121.504448,
+        "distance_m": 1171,
+        "detail_tag": "医疗;其他",
+        "category": "medical",
+        "category_label": "基础医疗"
+      },
+      {
+        "uid": "7f78d01fe60e7b46e311038a",
+        "name": "上海市黄浦区半淞园路街道社区卫生服务中心",
+        "address": "上海市黄浦区普育西路金日世家",
+        "lat": 31.217724,
+        "lng": 121.500712,
+        "distance_m": 863,
+        "detail_tag": "医疗;其他",
+        "category": "medical",
+        "category_label": "基础医疗"
+      },
+      {
+        "uid": "5c2dc21df894fb7a6fc02c6e",
+        "name": "开元坊社区卫生服务站",
+        "address": "上海市黄浦区大吉路188号",
+        "lat": 31.219991,
+        "lng": 121.491527,
+        "distance_m": 868,
+        "detail_tag": "医疗;其他",
+        "category": "medical",
+        "category_label": "基础医疗"
+      },
+      {
+        "uid": "0b3fd187d241ad5efe0eb049",
+        "name": "黄浦区老年护理医院",
+        "address": "上海市中华路1525号",
+        "lat": 31.225511,
+        "lng": 121.491455,
+        "distance_m": 1469,
+        "detail_tag": "医疗",
+        "category": "medical",
+        "category_label": "基础医疗"
+      },
+      {
+        "uid": "8c63f6e71e68b3926c3e1b5a",
+        "name": "上海市黄浦区豫园街道社区卫生服务中心",
+        "address": "上海市黄浦区中华路黄浦区老年护理医院",
+        "lat": 31.225471,
+        "lng": 121.491401,
+        "distance_m": 1466,
+        "detail_tag": "医疗;其他",
+        "category": "medical",
+        "category_label": "基础医疗"
+      },
+      {
+        "uid": "8d3f3c27dbe736a1cd04ef2e",
+        "name": "黄浦区精神卫生中心(瞿溪路院区)",
+        "address": "上海市黄浦区瞿溪路上海市黄浦区精神卫生中心瞿溪路院区",
+        "lat": 31.204487,
+        "lng": 121.479836,
+        "distance_m": 1615,
+        "detail_tag": "医疗;专科医院",
+        "category": "medical",
+        "category_label": "基础医疗"
+      },
+      {
+        "uid": "75d0881a9d833a543a04b154",
+        "name": "老西门街道社区卫生服务中心肇周路分中心",
+        "address": "上海市黄浦区肇周路183号",
+        "lat": 31.222064,
+        "lng": 121.487453,
+        "distance_m": 1235,
+        "detail_tag": "医疗;其他",
+        "category": "medical",
+        "category_label": "基础医疗"
+      },
+      {
+        "uid": "20de3ef5a7f865df04fef542",
+        "name": "上海市黄浦区打浦桥街道社区卫生服务中心中海社区卫生服务站",
+        "address": "上海市黄浦区打浦桥街道南塘浜路93弄10号103-104室",
+        "lat": 31.209962,
+        "lng": 121.480798,
+        "distance_m": 1288,
+        "detail_tag": "医疗;其他",
+        "category": "medical",
+        "category_label": "基础医疗"
+      },
+      {
+        "uid": "abc06046ce7cba4f32870a4c",
+        "name": "上海市黄浦区精神卫生中心(瞿溪路院区)",
+        "address": "上海市黄浦区瞿溪路1162号",
+        "lat": 31.204422,
+        "lng": 121.479723,
+        "distance_m": 1628,
+        "detail_tag": "医疗;专科医院",
+        "category": "medical",
+        "category_label": "基础医疗"
+      },
+      {
+        "uid": "0eac81adacff9c7e01294f40",
+        "name": "上海泰坤堂西馆中西医结合门诊部",
+        "address": "上海市黄浦区徐家汇路帝庭(斜徐路)",
+        "lat": 31.21334,
+        "lng": 121.47883,
+        "distance_m": 1448,
+        "detail_tag": "医疗",
+        "category": "medical",
+        "category_label": "基础医疗"
+      },
+      {
+        "uid": "277ed575773a18aa081cc727",
+        "name": "上海江南造船集团职工医院",
+        "address": "上海市黄浦区鲁班路412号",
+        "lat": 31.206076,
+        "lng": 121.481479,
+        "distance_m": 1389,
+        "detail_tag": "医疗",
+        "category": "medical",
+        "category_label": "基础医疗"
+      },
+      {
+        "uid": "881a28e7b492fd5ef942b255",
+        "name": "普益社区卫生服务站",
+        "address": "上海市黄浦区普育西路47-49号",
+        "lat": 31.217676,
+        "lng": 121.500692,
+        "distance_m": 858,
+        "detail_tag": "医疗;其他",
+        "category": "medical",
+        "category_label": "基础医疗"
+      },
+      {
+        "uid": "e48c35cdde01a81331870afa",
+        "name": "士林华苑社区卫生服务站",
+        "address": "上海市黄浦区复兴东路740号",
+        "lat": 31.227272,
+        "lng": 121.497435,
+        "distance_m": 1676,
+        "detail_tag": "医疗;其他",
+        "category": "medical",
+        "category_label": "基础医疗"
+      },
+      {
+        "uid": "feb544a61badd73bf72310eb",
+        "name": "上海市黄浦区卫生健康委员会社区卫生服务管理中心",
+        "address": "上海市黄浦区淡水路285号",
+        "lat": 31.220703,
+        "lng": 121.480222,
+        "distance_m": 1599,
+        "detail_tag": "医疗;其他",
+        "category": "medical",
+        "category_label": "基础医疗"
+      },
+      {
+        "uid": "5bad4be671af5a90d72ce2b6",
+        "name": "南园社区卫生服务站",
+        "address": "上海市黄浦区鲁班路紫荆新苑",
+        "lat": 31.198293,
+        "lng": 121.485432,
+        "distance_m": 1776,
+        "detail_tag": "医疗;其他",
+        "category": "medical",
+        "category_label": "基础医疗"
+      },
+      {
+        "uid": "db2b1ddc01d852ee2cb90894",
+        "name": "上海医博肛泰医院-肛肠诊室",
+        "address": "上海市黄浦区打浦桥街道斜土路105号2F01-08号",
+        "lat": 31.212232,
+        "lng": 121.489289,
+        "distance_m": 451,
+        "detail_tag": "医疗",
+        "category": "medical",
+        "category_label": "基础医疗"
+      },
+      {
+        "uid": "ddeb8a9e09d8e71e210262d7",
+        "name": "上海针鼎善医学",
+        "address": "上海市黄浦区西藏南路831弄2号交通大厦8楼",
+        "lat": 31.216821,
+        "lng": 121.489698,
+        "distance_m": 634,
+        "detail_tag": "医疗;诊所",
+        "category": "medical",
+        "category_label": "基础医疗"
+      },
+      {
+        "uid": "c0cd92538afbcea2c4f025ff",
+        "name": "复旦大学附属妇产科医院(门诊部)",
+        "address": "上海市黄浦区方斜路566号",
+        "lat": 31.21783,
+        "lng": 121.489393,
+        "distance_m": 740,
+        "detail_tag": "医疗;其他",
+        "category": "medical",
+        "category_label": "基础医疗"
+      },
+      {
+        "uid": "b9e6b310a81ff8dabbbd63ff",
+        "name": "爱康齿科(健之维分店)",
+        "address": "上海市黄浦区老西门街道西藏南路770号",
+        "lat": 31.220414,
+        "lng": 121.491445,
+        "distance_m": 916,
+        "detail_tag": "医疗;诊所",
+        "category": "medical",
+        "category_label": "基础医疗"
+      },
+      {
+        "uid": "1128c58d1a54bac4d1f49ee8",
+        "name": "上海松宇护理站",
+        "address": "上海市黄浦区中华路914号",
+        "lat": 31.220728,
+        "lng": 121.500254,
+        "distance_m": 1092,
+        "detail_tag": "医疗;诊所",
+        "category": "medical",
+        "category_label": "基础医疗"
+      },
+      {
+        "uid": "c4fca60893c4772f2a02e1f4",
+        "name": "黄氏六代祖传",
+        "address": "上海市黄浦区桑园街阳光翠竹苑",
+        "lat": 31.219318,
+        "lng": 121.504594,
+        "distance_m": 1260,
+        "detail_tag": "医疗;诊所",
+        "category": "medical",
+        "category_label": "基础医疗"
+      },
+      {
+        "uid": "e7ef11e43685103a0ab93a14",
+        "name": "婧宇中医诊所",
+        "address": "上海市黄浦区打浦路1号金玉兰广场西座1801室",
+        "lat": 31.210607,
+        "lng": 121.476912,
+        "distance_m": 1640,
+        "detail_tag": "医疗;诊所",
+        "category": "medical",
+        "category_label": "基础医疗"
+      },
+      {
+        "uid": "3c609d123fba203bee74f8dd",
+        "name": "上海徐钟道中医诊所",
+        "address": "上海市黄浦区瞿溪路东晖花苑西北侧",
+        "lat": 31.204017,
+        "lng": 121.478007,
+        "distance_m": 1790,
+        "detail_tag": "医疗;诊所",
+        "category": "medical",
+        "category_label": "基础医疗"
+      },
+      {
+        "uid": "eddbc36e44c636b3f8f0cb67",
+        "name": "维林诺健康灸琢中医诊所(无限极荟店)",
+        "address": "上海市黄浦区湖滨路168号无限极荟购物中心F2",
+        "lat": 31.22627,
+        "lng": 121.484198,
+        "distance_m": 1795,
+        "detail_tag": "医疗;诊所",
+        "category": "medical",
+        "category_label": "基础医疗"
+      },
+      {
+        "uid": "b168ef1995d6e5f18bf15db2",
+        "name": "上海华厦柠盟眼科",
+        "address": "上海市黄浦区徐家汇路555号裙楼泰丰大厦",
+        "lat": 31.213791,
+        "lng": 121.479253,
+        "distance_m": 1412,
+        "detail_tag": "医疗;诊所",
+        "category": "medical",
+        "category_label": "基础医疗"
+      },
+      {
+        "uid": "58f86f6b93470528c17da2fb",
+        "name": "安基大厦-the Tcm Clinic",
+        "address": "西藏南路760安基大厦1405-06号",
+        "lat": 31.220466,
+        "lng": 121.491418,
+        "distance_m": 922,
+        "detail_tag": "医疗;诊所",
+        "category": "medical",
+        "category_label": "基础医疗"
+      },
+      {
+        "uid": "8fda0bd3a256730c57bfffed",
+        "name": "半淞园路街道社区卫生服务中心艾滋病自愿检测资询门诊",
+        "address": "上海市黄浦区西藏南路1360号",
+        "lat": 31.212632,
+        "lng": 121.493806,
+        "distance_m": 26,
+        "detail_tag": "医疗;其他",
+        "category": "medical",
+        "category_label": "基础医疗"
+      },
+      {
+        "uid": "6b6035e1e334d11bc7f025f5",
+        "name": "铂悦佳门诊部",
+        "address": "上海市黄浦区斜土路东路291号",
+        "lat": 31.213277,
+        "lng": 121.492707,
+        "distance_m": 153,
+        "detail_tag": "医疗;其他",
+        "category": "medical",
+        "category_label": "基础医疗"
+      },
+      {
+        "uid": "47108cc1ac12e6d76fa3ccd6",
+        "name": "康复医学科咨询服务台(第九人民医院新门诊楼)",
+        "address": "上海市黄浦区瞿溪路500号",
+        "lat": 31.207315,
+        "lng": 121.493723,
+        "distance_m": 574,
+        "detail_tag": "医疗",
+        "category": "medical",
+        "category_label": "基础医疗"
+      },
+      {
+        "uid": "5211d2198b593a597dc8765c",
+        "name": "上海交通大学医学院附属第九人民医院-发热门诊",
+        "address": "上海市黄浦区制造局路639号",
+        "lat": 31.208703,
+        "lng": 121.491716,
+        "distance_m": 473,
+        "detail_tag": "医疗;发热门诊",
+        "category": "medical",
+        "category_label": "基础医疗"
+      },
+      {
+        "uid": "ca763afd48e483342b11d18a",
+        "name": "黄浦区半淞园街道社区卫生服务中心-发热门诊",
+        "address": "西藏南路1350号",
+        "lat": 31.212556,
+        "lng": 121.493667,
+        "distance_m": 35,
+        "detail_tag": "医疗;发热门诊",
+        "category": "medical",
+        "category_label": "基础医疗"
+      },
+      {
+        "uid": "ad2cad7dc53c5af4a2046429",
+        "name": "上海交通大学医学院附属第九人民医院(门诊楼)",
+        "address": "上海市黄浦区瞿溪路500号",
+        "lat": 31.207379,
+        "lng": 121.493922,
+        "distance_m": 566,
+        "detail_tag": "医疗;其他",
+        "category": "medical",
+        "category_label": "基础医疗"
+      },
+      {
+        "uid": "0e10993f42134044b020a88a",
+        "name": "上海九院24小时门诊自助服务",
+        "address": "上海市黄浦区瞿溪路500号",
+        "lat": 31.207849,
+        "lng": 121.493644,
+        "distance_m": 515,
+        "detail_tag": "医疗",
+        "category": "medical",
+        "category_label": "基础医疗"
+      },
+      {
+        "uid": "a5b079b0fb6a3da29fec2b33",
+        "name": "上海交通大学医学院附属第九人民医院-疼痛门诊",
+        "address": "上海市黄浦区制造局路639号3楼",
+        "lat": 31.208497,
+        "lng": 121.492135,
+        "distance_m": 477,
+        "detail_tag": "医疗;其他",
+        "category": "medical",
+        "category_label": "基础医疗"
+      },
+      {
+        "uid": "dcae2d32b3d846ecc6effb42",
+        "name": "上海交通大学医学院附属第九人民医院-胸外科门诊",
+        "address": "上海市黄浦区瞿溪路500号",
+        "lat": 31.207337,
+        "lng": 121.493869,
+        "distance_m": 571,
+        "detail_tag": "医疗;其他",
+        "category": "medical",
+        "category_label": "基础医疗"
+      },
+      {
+        "uid": "853916b767101b0183a00cf8",
+        "name": "上海榕馨堂中医门诊部",
+        "address": "上海市黄浦区陆家浜路700号",
+        "lat": 31.218002,
+        "lng": 121.500693,
+        "distance_m": 882,
+        "detail_tag": "医疗;其他",
+        "category": "medical",
+        "category_label": "基础医疗"
+      },
+      {
+        "uid": "6dd709ad2e8581bb0bf5ebd4",
+        "name": "上海市红房子妇科医院-专家预约门诊",
+        "address": "上海市黄浦区方斜路锦江之星(上海陆家浜路店)西北侧约40米",
+        "lat": 31.217869,
+        "lng": 121.48945,
+        "distance_m": 740,
+        "detail_tag": "医疗;其他",
+        "category": "medical",
+        "category_label": "基础医疗"
+      },
+      {
+        "uid": "cdef4edf554cf54d28d7abef",
+        "name": "黄浦区新凌小学",
+        "address": "上海市黄浦区西凌家宅路90弄33号",
+        "lat": 31.209107,
+        "lng": 121.493679,
+        "distance_m": 376,
+        "detail_tag": "教育培训;小学",
+        "category": "primary_school",
+        "category_label": "小学"
+      },
+      {
+        "uid": "e85432ceb3452fdcf8f0cb55",
+        "name": "上海师范大学附属卢湾实验小学",
+        "address": "上海市黄浦区丽园路433号(近局门路)",
+        "lat": 31.214524,
+        "lng": 121.488632,
+        "distance_m": 561,
+        "detail_tag": "教育培训;小学",
+        "category": "primary_school",
+        "category_label": "小学"
+      },
+      {
+        "uid": "d4036df6d85df555f60e777f",
+        "name": "上海市黄浦区徽宁路第三小学",
+        "address": "上海市黄浦区徽宁路216号（徽宁路迎勋路）",
+        "lat": 31.21701,
+        "lng": 121.499142,
+        "distance_m": 700,
+        "detail_tag": "教育培训;小学",
+        "category": "primary_school",
+        "category_label": "小学"
+      },
+      {
+        "uid": "08f1f1f5e6ddfdcb89db7388",
+        "name": "上海师范专科学校附属小学",
+        "address": "上海市黄浦区五里桥街道局门路478号(局门路与瞿溪路交叉口西北角)",
+        "lat": 31.207937,
+        "lng": 121.488598,
+        "distance_m": 721,
+        "detail_tag": "教育培训;小学",
+        "category": "primary_school",
+        "category_label": "小学"
+      },
+      {
+        "uid": "6fa35c3342396d5e60180943",
+        "name": "上外黄浦外国语小学",
+        "address": "上海市黄浦区半淞园路街道半淞园路609号",
+        "lat": 31.205888,
+        "lng": 121.500121,
+        "distance_m": 934,
+        "detail_tag": "教育培训;小学",
+        "category": "primary_school",
+        "category_label": "小学"
+      },
+      {
+        "uid": "606289fd6cebf04ca2046458",
+        "name": "上海师范大学附属黄浦梅溪小学",
+        "address": "上海市黄浦区永宁街20号",
+        "lat": 31.221166,
+        "lng": 121.495702,
+        "distance_m": 979,
+        "detail_tag": "教育培训;小学",
+        "category": "primary_school",
+        "category_label": "小学"
+      },
+      {
+        "uid": "df00803adb759485047ce852",
+        "name": "上外·黄浦外国语小学(小海豚校区)",
+        "address": "上海市黄浦区中山南一路689号",
+        "lat": 31.204707,
+        "lng": 121.487008,
+        "distance_m": 1091,
+        "detail_tag": "教育培训;小学",
+        "category": "primary_school",
+        "category_label": "小学"
+      },
+      {
+        "uid": "f1e1ab5a983a1b542fb90867",
+        "name": "上海市黄浦区卢湾一中心小学",
+        "address": "上海市黄浦区淡水路450号",
+        "lat": 31.217766,
+        "lng": 121.480191,
+        "distance_m": 1440,
+        "detail_tag": "教育培训;小学",
+        "category": "primary_school",
+        "category_label": "小学"
+      },
+      {
+        "uid": "cac5fc765c6cc9f22cb96d58",
+        "name": "中华路第三小学",
+        "address": "上海市黄浦区乔家路7号18号栋6单元",
+        "lat": 31.222881,
+        "lng": 121.504576,
+        "distance_m": 1531,
+        "detail_tag": "教育培训;小学",
+        "category": "primary_school",
+        "category_label": "小学"
+      },
+      {
+        "uid": "d146b388dfe561df75026988",
+        "name": "上海市黄浦区瞿溪路小学",
+        "address": "上海市黄浦区瞿溪路1117号",
+        "lat": 31.204909,
+        "lng": 121.480054,
+        "distance_m": 1572,
+        "detail_tag": "教育培训;小学",
+        "category": "primary_school",
+        "category_label": "小学"
+      },
+      {
+        "uid": "2311691375dcf0e4734b87f9",
+        "name": "万有全长江菜市场",
+        "address": "西凌家宅路135号(西藏南路地铁站5号口步行490米)",
+        "lat": 31.209927,
+        "lng": 121.492132,
+        "distance_m": 335,
+        "detail_tag": "购物;市场",
+        "category": "market",
+        "category_label": "菜市场"
+      },
+      {
+        "uid": "8eb48fa1cb982fbff32d835d",
+        "name": "万有全半淞园菜市场",
+        "address": "瞿溪路19号(南浦大桥地铁站2号口步行230米)",
+        "lat": 31.212719,
+        "lng": 121.503565,
+        "distance_m": 907,
+        "detail_tag": "购物;市场",
+        "category": "market",
+        "category_label": "菜市场"
+      },
+      {
+        "uid": "7bfa08fc3814476625d2bb2d",
+        "name": "海上梦苑菜场(瞿溪路店)",
+        "address": "瞿溪路860号",
+        "lat": 31.206088,
+        "lng": 121.48625,
+        "distance_m": 1025,
+        "detail_tag": "购物;市场",
+        "category": "market",
+        "category_label": "菜市场"
+      },
+      {
+        "uid": "b023fd42f59891e66c3e1bfb",
+        "name": "团志甄选水果(长江菜场店)",
+        "address": "上海市黄浦区西凌家宅路123号万有全长江菜市场",
+        "lat": 31.209969,
+        "lng": 121.49245,
+        "distance_m": 316,
+        "detail_tag": "购物;商铺",
+        "category": "market",
+        "category_label": "菜市场"
+      },
+      {
+        "uid": "98572861981ac13e902ca301",
+        "name": "杨梅市场·打工人小酒馆(新天地店)",
+        "address": "黄陂南路700号",
+        "lat": 31.220335,
+        "lng": 121.483447,
+        "distance_m": 1332,
+        "detail_tag": "美食;中餐厅",
+        "category": "market",
+        "category_label": "菜市场"
+      },
+      {
+        "uid": "8d96925c058eec5cc1f1cf7b",
+        "name": "马当菜场(马当路店)",
+        "address": "马当路349-2号临附近",
+        "lat": 31.22009,
+        "lng": 121.482535,
+        "distance_m": 1382,
+        "detail_tag": "购物;市场",
+        "category": "market",
+        "category_label": "菜市场"
+      },
+      {
+        "uid": "6fcdabd7c900b60c02294f0c",
+        "name": "姚记水产(马当菜场店)",
+        "address": "合肥路马当菜场",
+        "lat": 31.220146,
+        "lng": 121.48231,
+        "distance_m": 1402,
+        "detail_tag": "购物;商铺",
+        "category": "market",
+        "category_label": "菜市场"
+      },
+      {
+        "uid": "68ce2d55ea0c233fab0dd8be",
+        "name": "曹家街生鲜菜场",
+        "address": "庄家街与西仓桥街交叉口西北100米",
+        "lat": 31.226674,
+        "lng": 121.494833,
+        "distance_m": 1580,
+        "detail_tag": "购物;商铺",
+        "category": "market",
+        "category_label": "菜市场"
+      },
+      {
+        "uid": "15a93810a1bbb3a414c8f63a",
+        "name": "新瞿溪菜市场(黄浦店)",
+        "address": "瞿溪路1160号",
+        "lat": 31.204626,
+        "lng": 121.478926,
+        "distance_m": 1680,
+        "detail_tag": "购物;市场",
+        "category": "market",
+        "category_label": "菜市场"
+      },
+      {
+        "uid": "a0a696e003c022d7b220a88c",
+        "name": "国大药房(伴嵩益生店)",
+        "address": "上海市黄浦区半淞园路街道八号桥六期东北约6米",
+        "lat": 31.212888,
+        "lng": 121.492904,
+        "distance_m": 115,
+        "detail_tag": "医疗;药店",
+        "category": "pharmacy",
+        "category_label": "药店"
+      },
+      {
+        "uid": "f6f81a1be1861fda9f09f79d",
+        "name": "益丰大药房(斜土东路店)",
+        "address": "上海市黄浦区半淞园路街道斜土东路196号",
+        "lat": 31.213378,
+        "lng": 121.494907,
+        "distance_m": 130,
+        "detail_tag": "医疗;药店",
+        "category": "pharmacy",
+        "category_label": "药店"
+      },
+      {
+        "uid": "e9e8a5f169448c690869d9fa",
+        "name": "康之源",
+        "address": "上海市黄浦区斜土东路华浩苑南侧约30米",
+        "lat": 31.212572,
+        "lng": 121.491762,
+        "distance_m": 215,
+        "detail_tag": "医疗;药店",
+        "category": "pharmacy",
+        "category_label": "药店"
+      },
+      {
+        "uid": "14076dee2c5712ed02294f58",
+        "name": "上海药房(长乐店)",
+        "address": "上海市黄浦区制造局路340号",
+        "lat": 31.212355,
+        "lng": 121.491241,
+        "distance_m": 265,
+        "detail_tag": "医疗;药店",
+        "category": "pharmacy",
+        "category_label": "药店"
+      },
+      {
+        "uid": "1cea15a9414cf2dc07fef55c",
+        "name": "国大药房(保屯路店)",
+        "address": "上海市黄浦区保屯路133号",
+        "lat": 31.210487,
+        "lng": 121.497168,
+        "distance_m": 371,
+        "detail_tag": "医疗;药店",
+        "category": "pharmacy",
+        "category_label": "药店"
+      },
+      {
+        "uid": "0ae908e0e03399abd13ce3d8",
+        "name": "益丰大药房(西凌家宅路店)",
+        "address": "上海市黄浦区半淞园路街道西凌家宅路159号小区",
+        "lat": 31.209695,
+        "lng": 121.491693,
+        "distance_m": 380,
+        "detail_tag": "医疗;药店",
+        "category": "pharmacy",
+        "category_label": "药店"
+      },
+      {
+        "uid": "94eb3a7630ce320c9de321a6",
+        "name": "海王星辰健康药房(黄浦新苑东区店)",
+        "address": "上海市黄浦区丽园路黄浦新苑-东区",
+        "lat": 31.215789,
+        "lng": 121.492712,
+        "distance_m": 388,
+        "detail_tag": "医疗;药店",
+        "category": "pharmacy",
+        "category_label": "药店"
+      },
+      {
+        "uid": "846fec99b34e2f1596f08c67",
+        "name": "灸颜堂大药房",
+        "address": "上海市黄浦区制造局路584号C栋102室",
+        "lat": 31.209214,
+        "lng": 121.491387,
+        "distance_m": 441,
+        "detail_tag": "医疗;药店",
+        "category": "pharmacy",
+        "category_label": "药店"
+      },
+      {
+        "uid": "9edcd1b25cfa669ae81e9706",
+        "name": "上海宏由药房",
+        "address": "上海市黄浦区汝南街龙之苑",
+        "lat": 31.208769,
+        "lng": 121.491328,
+        "distance_m": 485,
+        "detail_tag": "医疗;药店",
+        "category": "pharmacy",
+        "category_label": "药店"
+      },
+      {
+        "uid": "5c246670cf818acef03cba1b",
+        "name": "华氏大药房(中山南路店)",
+        "address": "黄浦区西藏南路1519号",
+        "lat": 31.20837,
+        "lng": 121.495987,
+        "distance_m": 493,
+        "detail_tag": "医疗;药店",
+        "category": "pharmacy",
+        "category_label": "药店"
+      },
+      {
+        "uid": "ee0dfe9d497390c1eb1e97c3",
+        "name": "上海同乐康玖缘大药房",
+        "address": "上海市黄浦区制造局路594号-临",
+        "lat": 31.208454,
+        "lng": 121.491593,
+        "distance_m": 503,
+        "detail_tag": "医疗;药店",
+        "category": "pharmacy",
+        "category_label": "药店"
+      },
+      {
+        "uid": "3be122e1c558574b1ef74d58",
+        "name": "华氏大药房(汝南分店)",
+        "address": "上海市黄浦区制造局路600-602号",
+        "lat": 31.208326,
+        "lng": 121.491628,
+        "distance_m": 514,
+        "detail_tag": "医疗;药店",
+        "category": "pharmacy",
+        "category_label": "药店"
+      },
+      {
+        "uid": "49d9593885a45e5ac61e5158",
+        "name": "益丰大药房(制造局路店)",
+        "address": "上海市黄浦区制造局路87-2号",
+        "lat": 31.215652,
+        "lng": 121.489282,
+        "distance_m": 572,
+        "detail_tag": "医疗;药店",
+        "category": "pharmacy",
+        "category_label": "药店"
+      },
+      {
+        "uid": "37d3bf9bd725365e6f3e1b21",
+        "name": "国大药房(制造局路店)",
+        "address": "上海市黄浦区制造局路648-1号",
+        "lat": 31.20757,
+        "lng": 121.491869,
+        "distance_m": 582,
+        "detail_tag": "医疗;药店",
+        "category": "pharmacy",
+        "category_label": "药店"
+      },
+      {
+        "uid": "9fbfeef27c430b5cede4a54d",
+        "name": "国大药房(西藏南路店)",
+        "address": "上海市黄浦区南车站路470号",
+        "lat": 31.210663,
+        "lng": 121.50022,
+        "distance_m": 622,
+        "detail_tag": "医疗;药店",
+        "category": "pharmacy",
+        "category_label": "药店"
+      },
+      {
+        "uid": "9ee392b8e58ce558bbbd6359",
+        "name": "上海药房(丽园路店)",
+        "address": "上海市黄浦区丽园路566号",
+        "lat": 31.212994,
+        "lng": 121.487482,
+        "distance_m": 624,
+        "detail_tag": "医疗;药店",
+        "category": "pharmacy",
+        "category_label": "药店"
+      },
+      {
+        "uid": "3b0be88f613114c7b6f42f72",
+        "name": "童涵春堂(南车站路店)",
+        "address": "上海市黄浦区南车站路206号",
+        "lat": 31.214705,
+        "lng": 121.497855,
+        "distance_m": 440,
+        "detail_tag": "医疗;药店",
+        "category": "pharmacy",
+        "category_label": "药店"
+      },
+      {
+        "uid": "06afd48316ca5aa2b74f54e7",
+        "name": "益丰大药房(局门路店)",
+        "address": "上海市黄浦区局门路541号3号楼-4一层",
+        "lat": 31.207053,
+        "lng": 121.489409,
+        "distance_m": 745,
+        "detail_tag": "医疗;药店",
+        "category": "pharmacy",
+        "category_label": "药店"
+      },
+      {
+        "uid": "fc172354d84bd06ecb213d72",
+        "name": "集爱药房",
+        "address": "上海市黄浦区大林路352号",
+        "lat": 31.218011,
+        "lng": 121.490414,
+        "distance_m": 704,
+        "detail_tag": "医疗;药店",
+        "category": "pharmacy",
+        "category_label": "药店"
+      },
+      {
+        "uid": "34e4850880bfd2fbd8d8915e",
+        "name": "上海药房(青峰店)",
+        "address": "上海市黄浦区瞿溪路933号",
+        "lat": 31.205721,
+        "lng": 121.484638,
+        "distance_m": 1166,
+        "detail_tag": "医疗;药店",
+        "category": "pharmacy",
+        "category_label": "药店"
+      },
+      {
+        "uid": "337c3d24baaf4077bfa82263",
+        "name": "百联第一医药(国货路店)",
+        "address": "上海市黄浦区国货路128号",
+        "lat": 31.214096,
+        "lng": 121.503476,
+        "distance_m": 916,
+        "detail_tag": "医疗;药店",
+        "category": "pharmacy",
+        "category_label": "药店"
+      },
+      {
+        "uid": "8cbf2f8c1ae0213d63180927",
+        "name": "红瑞医药",
+        "address": "上海市黄浦区大林路360号",
+        "lat": 31.217887,
+        "lng": 121.489859,
+        "distance_m": 720,
+        "detail_tag": "医疗;药店",
+        "category": "pharmacy",
+        "category_label": "药店"
+      },
+      {
+        "uid": "6d92511f952cbd963a13fd85",
+        "name": "沪丰大药房(普育东路店)",
+        "address": "上海市黄浦区普育东路190号",
+        "lat": 31.213866,
+        "lng": 121.502272,
+        "distance_m": 799,
+        "detail_tag": "医疗;药店",
+        "category": "pharmacy",
+        "category_label": "药店"
+      },
+      {
+        "uid": "04bdeb31967e31c2ede4a50b",
+        "name": "眉州大药房(方斜路店)",
+        "address": "方斜路448号",
+        "lat": 31.219598,
+        "lng": 121.489084,
+        "distance_m": 920,
+        "detail_tag": "医疗;药店",
+        "category": "pharmacy",
+        "category_label": "药店"
+      },
+      {
+        "uid": "72e57fd7aa4b53b6f9dc85a2",
+        "name": "华氏大药房(北区国货店)",
+        "address": "上海市黄浦区国货路158号",
+        "lat": 31.214199,
+        "lng": 121.5032,
+        "distance_m": 893,
+        "detail_tag": "医疗;药店",
+        "category": "pharmacy",
+        "category_label": "药店"
+      },
+      {
+        "uid": "39d43f82cf8c329fa8059d59",
+        "name": "第一医药(蒙自店)",
+        "address": "上海市黄浦区蒙自路482号",
+        "lat": 31.207095,
+        "lng": 121.48603,
+        "distance_m": 967,
+        "detail_tag": "医疗;药店",
+        "category": "pharmacy",
+        "category_label": "药店"
+      },
+      {
+        "uid": "4f4d9f35e2e7da68d3f49e7b",
+        "name": "中康妇产科药房(黄浦店)",
+        "address": "上海市黄浦区大林路259号",
+        "lat": 31.218184,
+        "lng": 121.489532,
+        "distance_m": 765,
+        "detail_tag": "医疗;药店",
+        "category": "pharmacy",
+        "category_label": "药店"
+      },
+      {
+        "uid": "7813ccc8e684b55e30169b96",
+        "name": "上海药房(鲁班路店)",
+        "address": "上海市黄浦区鲁班路355号",
+        "lat": 31.208638,
+        "lng": 121.482195,
+        "distance_m": 1203,
+        "detail_tag": "医疗;药店",
+        "category": "pharmacy",
+        "category_label": "药店"
+      },
+      {
+        "uid": "c4af9417383304d73c9a5ea6",
+        "name": "中心小药房",
+        "address": "上海市黄浦区方斜路564号",
+        "lat": 31.217795,
+        "lng": 121.489406,
+        "distance_m": 736,
+        "detail_tag": "医疗;药店",
+        "category": "pharmacy",
+        "category_label": "药店"
+      },
+      {
+        "uid": "3da907f357ed844ab220a8a0",
+        "name": "华氏大药房(打浦路店)",
+        "address": "上海市黄浦区打浦路250号",
+        "lat": 31.20661,
+        "lng": 121.477568,
+        "distance_m": 1695,
+        "detail_tag": "医疗;药店",
+        "category": "pharmacy",
+        "category_label": "药店"
+      },
+      {
+        "uid": "7894c8bb6d67a98a3fe2319b",
+        "name": "益丰大药房(陆家浜路店)",
+        "address": "上海市黄浦区陆家浜路428号中福菜市场6号门A41室",
+        "lat": 31.215764,
+        "lng": 121.505257,
+        "distance_m": 1128,
+        "detail_tag": "医疗;药店",
+        "category": "pharmacy",
+        "category_label": "药店"
+      },
+      {
+        "uid": "435d7aea81e8d22c5abbbc59",
+        "name": "国大药房(泰康路店)",
+        "address": "上海市黄浦区泰康路166号",
+        "lat": 31.214138,
+        "lng": 121.476901,
+        "distance_m": 1638,
+        "detail_tag": "医疗;药店",
+        "category": "pharmacy",
+        "category_label": "药店"
+      },
+      {
+        "uid": "0a15c7ecdf7490e5ed74f859",
+        "name": "上海药房(荣科大厦店)",
+        "address": "上海市黄浦区五里桥街道打浦路449号",
+        "lat": 31.203375,
+        "lng": 121.479609,
+        "distance_m": 1704,
+        "detail_tag": "医疗;药店",
+        "category": "pharmacy",
+        "category_label": "药店"
+      },
+      {
+        "uid": "7a63394c9b88517a774ff1b4",
+        "name": "南宋老号中草药香囊(田子坊店)",
+        "address": "泰康路二四八弄23-3号",
+        "lat": 31.214246,
+        "lng": 121.475228,
+        "distance_m": 1798,
+        "detail_tag": "医疗;药店",
+        "category": "pharmacy",
+        "category_label": "药店"
+      },
+      {
+        "uid": "480b24d0790169e89dec2bf3",
+        "name": "世纪联华(黄浦新苑店)",
+        "address": "上海市黄浦区西藏南路1130号(陆家浜路地铁站3号口步行110米)",
+        "lat": 31.216269,
+        "lng": 121.492896,
+        "distance_m": 435,
+        "detail_tag": "购物;超市",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      },
+      {
+        "uid": "b871962a70da7090740269ae",
+        "name": "联华超市(西凌店)",
+        "address": "西凌家宅路70号",
+        "lat": 31.209957,
+        "lng": 121.493479,
+        "distance_m": 284,
+        "detail_tag": "购物;超市",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      },
+      {
+        "uid": "8826b85b5dad9e7615c9054e",
+        "name": "阳光生活超市(斜土路店)",
+        "address": "制造局路370弄1-7号制造局路370弄小区",
+        "lat": 31.212371,
+        "lng": 121.491068,
+        "distance_m": 281,
+        "detail_tag": "购物;超市",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      },
+      {
+        "uid": "e3cd8eae0d64c2aa3fe23129",
+        "name": "ALDI奥乐齐超市(黄浦漫圈邻里店)",
+        "address": "西藏南路1699号弄漫圈邻里1楼",
+        "lat": 31.206995,
+        "lng": 121.497519,
+        "distance_m": 694,
+        "detail_tag": "购物;超市",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      },
+      {
+        "uid": "2fd2beab8ecdef4b7bdbd283",
+        "name": "华联超市(新凌店)",
+        "address": "上海市黄浦区西藏南路1558弄2号(西藏南路地铁站5号口步行190米)",
+        "lat": 31.208823,
+        "lng": 121.49489,
+        "distance_m": 414,
+        "detail_tag": "购物;超市",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      },
+      {
+        "uid": "74e1365aff4985226f4760f8",
+        "name": "叮咚买菜(华浩苑店)",
+        "address": "斜土东路333弄1-11号华浩苑后门",
+        "lat": 31.213064,
+        "lng": 121.492256,
+        "distance_m": 180,
+        "detail_tag": "购物;超市",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      },
+      {
+        "uid": "3a0a78bd5ea3e8e3621809a4",
+        "name": "联华超市(保屯店)",
+        "address": "保屯路100号",
+        "lat": 31.210588,
+        "lng": 121.496835,
+        "distance_m": 339,
+        "detail_tag": "购物;超市",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      },
+      {
+        "uid": "db7fb9e5b45f9347c7f50dec",
+        "name": "半淞园路街道慈善超市(西凌新邨店)",
+        "address": "上海市黄浦区西凌新邨西南门北50米",
+        "lat": 31.211093,
+        "lng": 121.491095,
+        "distance_m": 318,
+        "detail_tag": "购物;超市",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      },
+      {
+        "uid": "6024b41cc78713b597ec840d",
+        "name": "盒马鲜生(老西门南六店)",
+        "address": "西藏南路686号南六F1层(老西门地铁站3号出口步行160米)",
+        "lat": 31.222772,
+        "lng": 121.490005,
+        "distance_m": 1206,
+        "detail_tag": "购物;超市",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      },
+      {
+        "uid": "38d76ede20fcc7c8c62ba13f",
+        "name": "西凌商场",
+        "address": "上海市黄浦区制造局路龙之苑东侧",
+        "lat": 31.209376,
+        "lng": 121.491545,
+        "distance_m": 417,
+        "detail_tag": "购物;超市",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      },
+      {
+        "uid": "3f9337d62f2ff7cdf7231076",
+        "name": "上海美妈百货(海洲丽园店)",
+        "address": "上海市黄浦区徽宁路407号(陆家浜路地铁站2号口步行450米)",
+        "lat": 31.215683,
+        "lng": 121.495512,
+        "distance_m": 383,
+        "detail_tag": "购物;超市",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      },
+      {
+        "uid": "017f05738f6dde83f03cbab0",
+        "name": "阳光生活超市(制造局路店)",
+        "address": "制造局路370号4弄",
+        "lat": 31.212407,
+        "lng": 121.491071,
+        "distance_m": 281,
+        "detail_tag": "购物;超市",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      },
+      {
+        "uid": "b4572861873c1f06db131850",
+        "name": "大林好又多超市(大林路店)",
+        "address": "上海市黄浦区大林路348号(陆家浜路地铁站4号口步行150米)",
+        "lat": 31.217943,
+        "lng": 121.490207,
+        "distance_m": 708,
+        "detail_tag": "购物;超市",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      },
+      {
+        "uid": "662355e8784e806dd92f2821",
+        "name": "联华超市(普育东路店)",
+        "address": "普育东路182号",
+        "lat": 31.213908,
+        "lng": 121.502287,
+        "distance_m": 801,
+        "detail_tag": "购物;超市",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      },
+      {
+        "uid": "db1f39d49cfd5776f5c59c79",
+        "name": "农工商超市(蒙自店)",
+        "address": "上海市黄浦区蒙自路477号(瞿溪路口)",
+        "lat": 31.20788,
+        "lng": 121.4859,
+        "distance_m": 926,
+        "detail_tag": "购物;超市",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      },
+      {
+        "uid": "a6a18090c39f4fb4b6147fd5",
+        "name": "盒马鲜生(博荟广场店)",
+        "address": "上海市黄浦区中山南一路788号博荟广场1层",
+        "lat": 31.202691,
+        "lng": 121.48655,
+        "distance_m": 1299,
+        "detail_tag": "购物;超市",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      },
+      {
+        "uid": "a934644aea66512bfb2d61e7",
+        "name": "联华超市(学前店)",
+        "address": "中华路1009号",
+        "lat": 31.220407,
+        "lng": 121.496931,
+        "distance_m": 924,
+        "detail_tag": "购物;超市",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      },
+      {
+        "uid": "59944ef4031e3fce9222e075",
+        "name": "新信超市",
+        "address": "上海市黄浦区中山南路1784号",
+        "lat": 31.208316,
+        "lng": 121.497793,
+        "distance_m": 585,
+        "detail_tag": "购物;超市",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      },
+      {
+        "uid": "cd10a1182c6d89eac03644e3",
+        "name": "联华超市(蒙自西路店)",
+        "address": "蒙自西路2号底层B1",
+        "lat": 31.21346,
+        "lng": 121.482772,
+        "distance_m": 1075,
+        "detail_tag": "购物;超市",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      },
+      {
+        "uid": "ddd431c6f43902a33913fdc8",
+        "name": "裕盛超市(瞿溪路店)",
+        "address": "上海市黄浦区五里桥街道蒙自路501弄1-10号德福苑",
+        "lat": 31.206631,
+        "lng": 121.486987,
+        "distance_m": 933,
+        "detail_tag": "购物;超市",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      },
+      {
+        "uid": "93ba4acd98158e377ec87601",
+        "name": "老西门街道慈善超市(大林路店)",
+        "address": "上海市黄浦区大林路75号",
+        "lat": 31.219205,
+        "lng": 121.493672,
+        "distance_m": 748,
+        "detail_tag": "购物;超市",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      },
+      {
+        "uid": "a7b1bd1bf9cbb246acee7a8e",
+        "name": "盒马鲜生(打浦桥日月光店)",
+        "address": "上海市黄浦区徐家汇路618号日月光中心B1层",
+        "lat": 31.212211,
+        "lng": 121.475294,
+        "distance_m": 1781,
+        "detail_tag": "购物;超市",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      },
+      {
+        "uid": "f49a2d95921b0823a8059d1a",
+        "name": "家得利超市(制造局店)",
+        "address": "制造局路855号101室甲",
+        "lat": 31.204784,
+        "lng": 121.492784,
+        "distance_m": 863,
+        "detail_tag": "购物;超市",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      },
+      {
+        "uid": "c5cb3346fd4778c07369d3fc",
+        "name": "惠民生活超市",
+        "address": "上海市黄浦区内环高架路市民新村社区",
+        "lat": 31.209204,
+        "lng": 121.49907,
+        "distance_m": 602,
+        "detail_tag": "购物;超市",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      },
+      {
+        "uid": "e116be5457d3db62c81b9582",
+        "name": "华联超市(开城店)",
+        "address": "丽园路830号",
+        "lat": 31.212437,
+        "lng": 121.482545,
+        "distance_m": 1091,
+        "detail_tag": "购物;超市",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      },
+      {
+        "uid": "6305a27c49cfe013047ce850",
+        "name": "荟选生活超市(丽园店)",
+        "address": "丽园路1016弄1号",
+        "lat": 31.211755,
+        "lng": 121.478769,
+        "distance_m": 1453,
+        "detail_tag": "购物;超市",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      },
+      {
+        "uid": "befdb29240a24fe38615419a",
+        "name": "良友超市(肈周路店)",
+        "address": "上海市黄浦区济南路321号",
+        "lat": 31.222229,
+        "lng": 121.487201,
+        "distance_m": 1263,
+        "detail_tag": "购物;超市",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      },
+      {
+        "uid": "7dbdd3382d24ef08901fc937",
+        "name": "联华超市(打浦路店)",
+        "address": "上海市黄浦区打浦桥街道打浦路8号海华商厦F1层(打浦桥地铁站2号口步行150米)",
+        "lat": 31.211098,
+        "lng": 121.475388,
+        "distance_m": 1778,
+        "detail_tag": "购物;超市",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      },
+      {
+        "uid": "9bf68572a032d3ac3310af56",
+        "name": "左右艺术超市(新天地时尚二期店)",
+        "address": "上海市黄浦区马当路245号新天地时尚F2-L204室",
+        "lat": 31.224173,
+        "lng": 121.481802,
+        "distance_m": 1744,
+        "detail_tag": "购物;超市",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      },
+      {
+        "uid": "44eb1d1fee2f386ee5073876",
+        "name": "便民超市",
+        "address": "上海市黄浦区庄家街1号",
+        "lat": 31.226323,
+        "lng": 121.494816,
+        "distance_m": 1541,
+        "detail_tag": "购物;超市",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      },
+      {
+        "uid": "709f0d12be2db5f426d2bb21",
+        "name": "星杨生鲜(同济·蓬莱家园店)",
+        "address": "瞿溪路301弄5-8号同济·蓬莱家园",
+        "lat": 31.210582,
+        "lng": 121.497157,
+        "distance_m": 364,
+        "detail_tag": "购物;超市",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      },
+      {
+        "uid": "ab4269765e21715ce7e96551",
+        "name": "老五超市(鲁班路店)",
+        "address": "上海市黄浦区打浦桥街道鲁班路181号",
+        "lat": 31.212368,
+        "lng": 121.480998,
+        "distance_m": 1238,
+        "detail_tag": "购物;超市",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      },
+      {
+        "uid": "740d46dd375e98b188fc06ce",
+        "name": "佳铭生鲜超市(海洲丽园店)",
+        "address": "上海市黄浦区半淞园路街道徽宁路415号",
+        "lat": 31.215847,
+        "lng": 121.495831,
+        "distance_m": 412,
+        "detail_tag": "购物;超市",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      },
+      {
+        "uid": "e0c5bc5f178fc4607c29bd1e",
+        "name": "蔬之轩生鲜集市(西凌家宅店)",
+        "address": "上海市黄浦区西凌家宅路159号小区南侧",
+        "lat": 31.209491,
+        "lng": 121.491626,
+        "distance_m": 402,
+        "detail_tag": "购物;超市",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      },
+      {
+        "uid": "d00c634fb3d6dfd41894c69c",
+        "name": "润潭参茸超市(大同花园北区店)",
+        "address": "上海市黄浦区大同花园北区东北门南60米(打浦桥地铁站2号口步行480米)",
+        "lat": 31.212703,
+        "lng": 121.479947,
+        "distance_m": 1339,
+        "detail_tag": "购物;超市",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      },
+      {
+        "uid": "1c7debce9955e3e6ab059d04",
+        "name": "海华超市(徐家汇路店)",
+        "address": "上海市黄浦区打浦路38弄海华花园3号",
+        "lat": 31.210658,
+        "lng": 121.475591,
+        "distance_m": 1764,
+        "detail_tag": "购物;超市",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      },
+      {
+        "uid": "24a13f87086b8f8e077ce8ea",
+        "name": "宅可送生活超市(中辉新苑店)",
+        "address": "上海市黄浦区鲁班路立交中辉新苑",
+        "lat": 31.202099,
+        "lng": 121.481519,
+        "distance_m": 1657,
+        "detail_tag": "购物;超市",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      },
+      {
+        "uid": "018157f21bee61807adbd26b",
+        "name": "品果恋生鲜超市(制造局路店)",
+        "address": "汝南街70弄1-5号汝南街小区",
+        "lat": 31.208089,
+        "lng": 121.491722,
+        "distance_m": 534,
+        "detail_tag": "购物;超市",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      },
+      {
+        "uid": "ff40e049d59089962afc4854",
+        "name": "水果蔬菜店(五里桥路店)",
+        "address": "上海市黄浦区五里桥街道五里桥路55-1号-临",
+        "lat": 31.209882,
+        "lng": 121.489325,
+        "distance_m": 531,
+        "detail_tag": "购物;超市",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      },
+      {
+        "uid": "7ec17e0f6a911a7c7adbd2ed",
+        "name": "中鲜生鲜(中山南路1726弄小区店)",
+        "address": "南车站路486号",
+        "lat": 31.21061,
+        "lng": 121.500263,
+        "distance_m": 628,
+        "detail_tag": "购物;超市",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      },
+      {
+        "uid": "c0a1807660d347db40afe6f1",
+        "name": "胖子生鲜(局门路店)",
+        "address": "局门路215号",
+        "lat": 31.212456,
+        "lng": 121.487353,
+        "distance_m": 634,
+        "detail_tag": "购物;超市",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      },
+      {
+        "uid": "c007c1a6fc317ae0ae080f30",
+        "name": "阿雷蔬果店(海洲丽园店)",
+        "address": "徽宁路419-1号海洲丽园",
+        "lat": 31.215976,
+        "lng": 121.496215,
+        "distance_m": 441,
+        "detail_tag": "购物;商铺",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      },
+      {
+        "uid": "fda445d971fbeafed72ce213",
+        "name": "小黄水果蔬菜",
+        "address": "黄家阙路36号(陆家浜路地铁站1号口步行440米)",
+        "lat": 31.22106,
+        "lng": 121.493649,
+        "distance_m": 955,
+        "detail_tag": "购物;超市",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      },
+      {
+        "uid": "b2064cb724faf0bf6168583d",
+        "name": "甜得来生鲜(蒙自店)",
+        "address": "五里桥街道蒙自路386-3号(近五里桥路)",
+        "lat": 31.20864,
+        "lng": 121.485501,
+        "distance_m": 915,
+        "detail_tag": "购物;超市",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      },
+      {
+        "uid": "acfbb987fe0a4a606f3e1bfe",
+        "name": "驻选生鲜(五里桥路188弄小区店)",
+        "address": "五里桥路188弄2-6号五里桥路188弄小区",
+        "lat": 31.209801,
+        "lng": 121.488217,
+        "distance_m": 627,
+        "detail_tag": "购物;超市",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      },
+      {
+        "uid": "655be1aa502ee12d4d2fdf62",
+        "name": "海中龙生鲜(惠德公寓店)",
+        "address": "黄家阙路99号惠德公寓",
+        "lat": 31.221006,
+        "lng": 121.494525,
+        "distance_m": 949,
+        "detail_tag": "购物;超市",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      },
+      {
+        "uid": "4b4ba024937d31263310afc5",
+        "name": "涂宏生鲜店",
+        "address": "普育东路125号(南浦大桥地铁站2号口步行290米)",
+        "lat": 31.214767,
+        "lng": 121.502771,
+        "distance_m": 869,
+        "detail_tag": "购物;超市",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      },
+      {
+        "uid": "d5641345ba02c906246e98b7",
+        "name": "沫沫生鲜超市",
+        "address": "合肥路347号",
+        "lat": 31.219894,
+        "lng": 121.479928,
+        "distance_m": 1573,
+        "detail_tag": "购物;超市",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      },
+      {
+        "uid": "cd045c510ed07d6cbb17e778",
+        "name": "崇明蔬果超市(蒙自路店)",
+        "address": "蒙自路430弄32-34号蒙自路430弄小区",
+        "lat": 31.208717,
+        "lng": 121.485488,
+        "distance_m": 913,
+        "detail_tag": "购物;超市",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      },
+      {
+        "uid": "a6d3af81e9f0cd5428d7abcd",
+        "name": "崇明生态生鲜(打浦路339弄小区店)",
+        "address": "打浦路319号",
+        "lat": 31.205792,
+        "lng": 121.47828,
+        "distance_m": 1671,
+        "detail_tag": "购物;超市",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      },
+      {
+        "uid": "682357c2ded56e555e17c3de",
+        "name": "华德生鲜",
+        "address": "瞿溪路与蒙自路交叉口西南100米",
+        "lat": 31.205921,
+        "lng": 121.485637,
+        "distance_m": 1080,
+        "detail_tag": "购物;超市",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      },
+      {
+        "uid": "d6da38ff29bf366cd4851fdf",
+        "name": "南汇瓜果蔬菜批发零售(龙门村店)",
+        "address": "上海市黄浦区尚文路151号",
+        "lat": 31.221305,
+        "lng": 121.497876,
+        "distance_m": 1047,
+        "detail_tag": "购物;超市",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      },
+      {
+        "uid": "ff23cfe97c93cea8b75f1e10",
+        "name": "便民生鲜超市(上海滩花园店)",
+        "address": "中华路上海滩花园",
+        "lat": 31.224907,
+        "lng": 121.505396,
+        "distance_m": 1754,
+        "detail_tag": "购物;超市",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      },
+      {
+        "uid": "2699b56dbc3aa62015c90538",
+        "name": "海章生鲜超市(瞿中小区店)",
+        "address": "五里桥街道瞿中小区东南门旁(鲁班路地铁站3号口步行120米)",
+        "lat": 31.204663,
+        "lng": 121.479641,
+        "distance_m": 1620,
+        "detail_tag": "购物;超市",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      },
+      {
+        "uid": "d5514ce84a02d197badf8ffe",
+        "name": "黄毛生鲜超市",
+        "address": "上海市黄浦区瞿溪路1032弄小区",
+        "lat": 31.204928,
+        "lng": 121.481954,
+        "distance_m": 1422,
+        "detail_tag": "购物;超市",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      },
+      {
+        "uid": "f1c9f2eba4f1e94fbe4842b2",
+        "name": "拾生鲜",
+        "address": "上海市黄浦区鲁班路立交汇暻生活广场",
+        "lat": 31.204568,
+        "lng": 121.48415,
+        "distance_m": 1286,
+        "detail_tag": "购物;超市",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      },
+      {
+        "uid": "e5ef2a447a3dd0894d776e66",
+        "name": "蔬果生鲜进口食品店",
+        "address": "上海市淡水路322弄1-50号淡水小区",
+        "lat": 31.220027,
+        "lng": 121.479662,
+        "distance_m": 1603,
+        "detail_tag": "购物;超市",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      },
+      {
+        "uid": "fe24dfcb1edb25d4cac3dbcf",
+        "name": "唐家湾崇明平价生鲜店",
+        "address": "上海市黄浦区五里桥街道打浦路321号",
+        "lat": 31.204913,
+        "lng": 121.478283,
+        "distance_m": 1717,
+        "detail_tag": "购物;超市",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      },
+      {
+        "uid": "b2757c3b132a8afde6e9655e",
+        "name": "全程玖玖健康馨逸养护院",
+        "address": "上海市黄浦区徽宁路666号",
+        "lat": 31.214104,
+        "lng": 121.493358,
+        "distance_m": 191,
+        "detail_tag": "生活服务;其他",
+        "category": "elderly",
+        "category_label": "养老服务"
+      },
+      {
+        "uid": "fe8a6fe65f1e4becf02d8304",
+        "name": "五里桥街道蒙自路敬老院",
+        "address": "上海市黄浦区五里桥街道蒙自路654号",
+        "lat": 31.204704,
+        "lng": 121.487317,
+        "distance_m": 1074,
+        "detail_tag": "政府机构;福利机构",
+        "category": "elderly",
+        "category_label": "养老服务"
+      },
+      {
+        "uid": "65a92659f7e2bfe8b34c498f",
+        "name": "五里桥街道顾卞裘莉敬老院",
+        "address": "瞿溪路1111弄之1-28号五岭小区附近",
+        "lat": 31.20602,
+        "lng": 121.479854,
+        "distance_m": 1527,
+        "detail_tag": "政府机构;福利机构",
+        "category": "elderly",
+        "category_label": "养老服务"
+      },
+      {
+        "uid": "5c12b1ff86e2bc54c17da2dc",
+        "name": "黄浦区民政局黄浦区一级敬老院",
+        "address": "上海市黄浦区光启南路210弄西南侧",
+        "lat": 31.224404,
+        "lng": 121.500778,
+        "distance_m": 1473,
+        "detail_tag": "政府机构;福利机构",
+        "category": "elderly",
+        "category_label": "养老服务"
+      },
+      {
+        "uid": "862390fce0084649b21e3615",
+        "name": "山海苑敬老院",
+        "address": "乔家栅35号",
+        "lat": 31.224173,
+        "lng": 121.500767,
+        "distance_m": 1449,
+        "detail_tag": "政府机构;福利机构",
+        "category": "elderly",
+        "category_label": "养老服务"
+      },
+      {
+        "uid": "5d7803c6c3700273e215f9f7",
+        "name": "福寿康上海康海护理站(大吉路店)",
+        "address": "大吉路297号一层",
+        "lat": 31.218951,
+        "lng": 121.488149,
+        "distance_m": 911,
+        "detail_tag": "医疗;疗养院",
+        "category": "elderly",
+        "category_label": "养老服务"
+      },
+      {
+        "uid": "590e9c77e407ac045c17c362",
+        "name": "乐荟苑",
+        "address": "上海市黄浦区西凌家宅路68号",
+        "lat": 31.209971,
+        "lng": 121.493336,
+        "distance_m": 286,
+        "detail_tag": "生活服务;其他",
+        "category": "elderly",
+        "category_label": "养老服务"
+      },
+      {
+        "uid": "324e6f857cc2c46582288a92",
+        "name": "上海莳花斋养老服务有限公司(快乐颐养老)",
+        "address": "上海市黄浦区蓬莱路288号二楼",
+        "lat": 31.222847,
+        "lng": 121.495981,
+        "distance_m": 1168,
+        "detail_tag": "生活服务;其他",
+        "category": "elderly",
+        "category_label": "养老服务"
+      },
+      {
+        "uid": "2101c3c6136664261df74d6c",
+        "name": "打浦桥街道综合为老服务中心",
+        "address": "上海市黄浦区蒙自路255-1号",
+        "lat": 31.210615,
+        "lng": 121.484988,
+        "distance_m": 883,
+        "detail_tag": "生活服务;其他",
+        "category": "elderly",
+        "category_label": "养老服务"
+      },
+      {
+        "uid": "dc0cd78c05dc7709d12dd6af",
+        "name": "半淞园兰公馆老年公寓",
+        "address": "上海市黄浦区中山南路1418号(南浦大桥地铁站2号口步行90米)",
+        "lat": 31.213276,
+        "lng": 121.504655,
+        "distance_m": 1014,
+        "detail_tag": "生活服务;其他",
+        "category": "elderly",
+        "category_label": "养老服务"
+      },
+      {
+        "uid": "d2fc5551d93f22536f476056",
+        "name": "半淞园路街道迎勋日间照料中心",
+        "address": "上海市黄浦区国货路371号半淞园路街道迎勋居委会2楼",
+        "lat": 31.214968,
+        "lng": 121.498872,
+        "distance_m": 537,
+        "detail_tag": "生活服务;其他",
+        "category": "elderly",
+        "category_label": "养老服务"
+      },
+      {
+        "uid": "8ac34a4e7af2db60da2f283f",
+        "name": "快乐之家老年公寓",
+        "address": "上海市黄浦区黄家路195号",
+        "lat": 31.221766,
+        "lng": 121.500799,
+        "distance_m": 1217,
+        "detail_tag": "生活服务;其他",
+        "category": "elderly",
+        "category_label": "养老服务"
+      },
+      {
+        "uid": "0e1e33f01870c47f9ff77935",
+        "name": "百家乐养老院",
+        "address": "上海市黄浦区五里桥街道鲁班路499号(鲁班路地铁站1号口步行330米)",
+        "lat": 31.207403,
+        "lng": 121.482715,
+        "distance_m": 1214,
+        "detail_tag": "生活服务;其他",
+        "category": "elderly",
+        "category_label": "养老服务"
+      },
+      {
+        "uid": "cd9d05dd528321b585420ec6",
+        "name": "上海黄浦区蓬莱老年公寓",
+        "address": "学前街66-68号(近中华路)",
+        "lat": 31.22182,
+        "lng": 121.495861,
+        "distance_m": 1053,
+        "detail_tag": "生活服务;其他",
+        "category": "elderly",
+        "category_label": "养老服务"
+      },
+      {
+        "uid": "43c229efc75971f742d63e6b",
+        "name": "慧享福·福荟颐养院(淡水路店)",
+        "address": "上海市黄浦区淡水路325号",
+        "lat": 31.219685,
+        "lng": 121.480431,
+        "distance_m": 1521,
+        "detail_tag": "生活服务;其他",
+        "category": "elderly",
+        "category_label": "养老服务"
+      },
+      {
+        "uid": "dc1197348a697f086d20b9d1",
+        "name": "上海黄浦区小东门街道长者照护之家",
+        "address": "上海市黄浦区中华路727-1号",
+        "lat": 31.220818,
+        "lng": 121.502653,
+        "distance_m": 1238,
+        "detail_tag": "生活服务;其他",
+        "category": "elderly",
+        "category_label": "养老服务"
+      },
+      {
+        "uid": "e817515faeacf29a0f0e6bef",
+        "name": "快乐颐养老家庭照护床位服务中心",
+        "address": "上海市黄浦区老西门街道黄家路195号",
+        "lat": 31.221732,
+        "lng": 121.500885,
+        "distance_m": 1218,
+        "detail_tag": "生活服务;其他",
+        "category": "elderly",
+        "category_label": "养老服务"
+      },
+      {
+        "uid": "fb5637de95ff45fa4207c12e",
+        "name": "居家养老服务中心",
+        "address": "上海市黄浦区鲁班路卢湾都市花园-西区西北侧",
+        "lat": 31.2072,
+        "lng": 121.482756,
+        "distance_m": 1221,
+        "detail_tag": "生活服务;其他",
+        "category": "elderly",
+        "category_label": "养老服务"
+      },
+      {
+        "uid": "abcffcb9ae132f28c2f1cf70",
+        "name": "打浦桥街道居家养老体验馆",
+        "address": "上海市黄浦区泰康路23号",
+        "lat": 31.213951,
+        "lng": 121.477098,
+        "distance_m": 1618,
+        "detail_tag": "生活服务;其他",
+        "category": "elderly",
+        "category_label": "养老服务"
+      }
+    ],
+    "coverage": {
+      "medical": {
+        "label": "基础医疗",
+        "count_total": 60,
+        "count_in_isochrone": 27,
+        "target": 2,
+        "weight": 20,
+        "score": 20.0,
+        "status": "known"
+      },
+      "primary_school": {
+        "label": "小学",
+        "count_total": 10,
+        "count_in_isochrone": 4,
+        "target": 1,
+        "weight": 20,
+        "score": 20.0,
+        "status": "known"
+      },
+      "market": {
+        "label": "菜市场",
+        "count_total": 9,
+        "count_in_isochrone": 2,
+        "target": 2,
+        "weight": 15,
+        "score": 15.0,
+        "status": "known"
+      },
+      "pharmacy": {
+        "label": "药店",
+        "count_total": 34,
+        "count_in_isochrone": 21,
+        "target": 3,
+        "weight": 15,
+        "score": 15.0,
+        "status": "known"
+      },
+      "supermarket": {
+        "label": "购物/超市",
+        "count_total": 58,
+        "count_in_isochrone": 24,
+        "target": 3,
+        "weight": 15,
+        "score": 15.0,
+        "status": "known"
+      },
+      "elderly": {
+        "label": "养老服务",
+        "count_total": 19,
+        "count_in_isochrone": 3,
+        "target": 1,
+        "weight": 15,
+        "score": 15.0,
+        "status": "known"
+      }
+    },
+    "coverage_score_before_blind_penalty": 100.0,
+    "health_score": 100.0,
+    "score_interpretation": "基于已成功获取的设施类别归一化计算；未知类别不按0分处理。",
+    "data_confidence_percent": 100.0,
+    "unavailable_categories": [],
+    "category_errors": {},
+    "blind_spots": [],
+    "blind_spots_status": "ok",
+    "blind_spot_definition": "采样点周边1公里内，菜市场/药店/小学任一关键类别缺失；关键类别数据未知时不输出缺失结论。仅用于规划筛查，需结合人口与实地条件复核。",
+    "recommendations": [
+      {
+        "priority": "低",
+        "title": "保持覆盖并做动态监测",
+        "reason": "当前样例的已知基础服务覆盖达到设定目标。",
+        "action": "按季度复算等时圈与POI变化，关注施工和道路改造造成的可达性变化。"
+      }
+    ],
+    "representative_route": {
+      "to": "半淞园路街道社区卫生服务中心艾滋病自愿检测资询门诊",
+      "category": "基础医疗",
+      "distance_m": 64,
+      "duration_s": 54,
+      "steps_count": 2
+    },
+    "api_stats": {
+      "request_count": 14,
+      "cache_hits": 0,
+      "success_count": 14,
+      "failed_count": 0,
+      "total_latency_ms": 4794,
+      "quota_units_estimated": 76,
+      "calls": [
+        {
+          "service": "route_matrix_walking",
+          "ok": true,
+          "latency_ms": 336,
+          "cache_hit": false,
+          "note": "attempt=1",
+          "quota_units": 50
+        },
+        {
+          "service": "route_matrix_walking",
+          "ok": true,
+          "latency_ms": 96,
+          "cache_hit": false,
+          "note": "attempt=1",
+          "quota_units": 14
+        },
+        {
+          "service": "place_search",
+          "ok": true,
+          "latency_ms": 269,
+          "cache_hit": false,
+          "note": "attempt=1",
+          "quota_units": 1
+        },
+        {
+          "service": "place_search",
+          "ok": true,
+          "latency_ms": 346,
+          "cache_hit": false,
+          "note": "attempt=1",
+          "quota_units": 1
+        },
+        {
+          "service": "place_search",
+          "ok": true,
+          "latency_ms": 435,
+          "cache_hit": false,
+          "note": "attempt=1",
+          "quota_units": 1
+        },
+        {
+          "service": "place_search",
+          "ok": true,
+          "latency_ms": 483,
+          "cache_hit": false,
+          "note": "attempt=1",
+          "quota_units": 1
+        },
+        {
+          "service": "place_search",
+          "ok": true,
+          "latency_ms": 575,
+          "cache_hit": false,
+          "note": "attempt=1",
+          "quota_units": 1
+        },
+        {
+          "service": "place_search",
+          "ok": true,
+          "latency_ms": 666,
+          "cache_hit": false,
+          "note": "attempt=1",
+          "quota_units": 1
+        },
+        {
+          "service": "place_search",
+          "ok": true,
+          "latency_ms": 459,
+          "cache_hit": false,
+          "note": "attempt=1",
+          "quota_units": 1
+        },
+        {
+          "service": "place_search",
+          "ok": true,
+          "latency_ms": 279,
+          "cache_hit": false,
+          "note": "attempt=1",
+          "quota_units": 1
+        },
+        {
+          "service": "place_search",
+          "ok": true,
+          "latency_ms": 325,
+          "cache_hit": false,
+          "note": "attempt=1",
+          "quota_units": 1
+        },
+        {
+          "service": "place_search",
+          "ok": true,
+          "latency_ms": 219,
+          "cache_hit": false,
+          "note": "attempt=1",
+          "quota_units": 1
+        },
+        {
+          "service": "place_search",
+          "ok": true,
+          "latency_ms": 213,
+          "cache_hit": false,
+          "note": "attempt=1",
+          "quota_units": 1
+        },
+        {
+          "service": "walking_route",
+          "ok": true,
+          "latency_ms": 93,
+          "cache_hit": false,
+          "note": "attempt=1",
+          "quota_units": 1
+        }
+      ]
+    },
+    "warnings": [],
+    "algorithm": {
+      "isochrone": "16方向×4半径扇形采样；使用百度步行批量算路耗时，以保守单调包络+径向线性插值形成近似15分钟可达边界。",
+      "poi": "按设施类别调用百度 Place 圆形检索，每类最多翻页 3 页；去重后用点在多边形内判断统计等时圈覆盖。",
+      "blind_spots": "对1公里范围网格采样，检查菜市场/药店/小学的1公里邻近覆盖；关键类别检索失败时停止输出“无设施”结论。",
+      "caveat": "等时圈为API测时采样插值近似，不等同于底层路网全量洪泛；符合题目鼓励的无底层路网条件下空间插值/扇形采样思路。"
+    },
+    "elapsed_ms": 2303,
+    "benchmark_api_stats": {
+      "request_count": 15,
+      "cache_hits": 0,
+      "success_count": 15,
+      "failed_count": 0,
+      "total_latency_ms": 5172,
+      "quota_units_estimated": 77,
+      "calls": [
+        {
+          "service": "geocoding",
+          "ok": true,
+          "latency_ms": 378,
+          "cache_hit": false,
+          "note": "attempt=1",
+          "quota_units": 1
+        },
+        {
+          "service": "route_matrix_walking",
+          "ok": true,
+          "latency_ms": 336,
+          "cache_hit": false,
+          "note": "attempt=1",
+          "quota_units": 50
+        },
+        {
+          "service": "route_matrix_walking",
+          "ok": true,
+          "latency_ms": 96,
+          "cache_hit": false,
+          "note": "attempt=1",
+          "quota_units": 14
+        },
+        {
+          "service": "place_search",
+          "ok": true,
+          "latency_ms": 269,
+          "cache_hit": false,
+          "note": "attempt=1",
+          "quota_units": 1
+        },
+        {
+          "service": "place_search",
+          "ok": true,
+          "latency_ms": 346,
+          "cache_hit": false,
+          "note": "attempt=1",
+          "quota_units": 1
+        },
+        {
+          "service": "place_search",
+          "ok": true,
+          "latency_ms": 435,
+          "cache_hit": false,
+          "note": "attempt=1",
+          "quota_units": 1
+        },
+        {
+          "service": "place_search",
+          "ok": true,
+          "latency_ms": 483,
+          "cache_hit": false,
+          "note": "attempt=1",
+          "quota_units": 1
+        },
+        {
+          "service": "place_search",
+          "ok": true,
+          "latency_ms": 575,
+          "cache_hit": false,
+          "note": "attempt=1",
+          "quota_units": 1
+        },
+        {
+          "service": "place_search",
+          "ok": true,
+          "latency_ms": 666,
+          "cache_hit": false,
+          "note": "attempt=1",
+          "quota_units": 1
+        },
+        {
+          "service": "place_search",
+          "ok": true,
+          "latency_ms": 459,
+          "cache_hit": false,
+          "note": "attempt=1",
+          "quota_units": 1
+        },
+        {
+          "service": "place_search",
+          "ok": true,
+          "latency_ms": 279,
+          "cache_hit": false,
+          "note": "attempt=1",
+          "quota_units": 1
+        },
+        {
+          "service": "place_search",
+          "ok": true,
+          "latency_ms": 325,
+          "cache_hit": false,
+          "note": "attempt=1",
+          "quota_units": 1
+        },
+        {
+          "service": "place_search",
+          "ok": true,
+          "latency_ms": 219,
+          "cache_hit": false,
+          "note": "attempt=1",
+          "quota_units": 1
+        },
+        {
+          "service": "place_search",
+          "ok": true,
+          "latency_ms": 213,
+          "cache_hit": false,
+          "note": "attempt=1",
+          "quota_units": 1
+        },
+        {
+          "service": "walking_route",
+          "ok": true,
+          "latency_ms": 93,
+          "cache_hit": false,
+          "note": "attempt=1",
+          "quota_units": 1
+        }
+      ]
+    },
+    "benchmark_elapsed_ms": 3301
+  }
+]

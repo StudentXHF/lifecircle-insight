@@ -1,0 +1,31 @@
+name: Bug report
+description: 报告可复现的功能或 API 问题
+title: "[Bug] "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: "请勿粘贴百度 AK、Authorization 或其他密钥。"
+  - type: textarea
+    id: env
+    attributes:
+      label: 环境
+      description: Windows/Linux、Python 版本、离线/真实模式
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期望行为
+  - type: textarea
+    id: actual
+    attributes:
+      label: 实际行为 / 脱敏错误
+    validations:
+      required: true

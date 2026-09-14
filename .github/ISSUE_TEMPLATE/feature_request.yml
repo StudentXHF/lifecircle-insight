@@ -1,0 +1,20 @@
+name: Feature request
+description: 提议新的地图能力、算法或可视化
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: 场景问题
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 建议方案
+    validations:
+      required: true
+  - type: textarea
+    id: license
+    attributes:
+      label: 新依赖/数据许可证影响（如有）

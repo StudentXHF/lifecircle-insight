@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use LifeCircle Insight, please cite this repository."
+title: "LifeCircle Insight / 圈析智图"
+type: software
+version: 2.0.0
+date-released: 2026-09-13
+license: MIT
+abstract: "A reproducible 15-minute-life-circle diagnosis and planning assistant built on Baidu Maps open APIs."

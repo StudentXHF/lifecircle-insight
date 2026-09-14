@@ -1,0 +1,11 @@
+services:
+  lifecircle:
+    build: .
+    ports:
+      - "8015:8015"
+    env_file:
+      - .env
+    volumes:
+      - ./data:/app/data
+      - ./exports:/app/exports
+    restart: unless-stopped

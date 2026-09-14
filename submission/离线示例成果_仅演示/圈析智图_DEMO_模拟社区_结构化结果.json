@@ -1,0 +1,1362 @@
+{
+  "id": "DEMO",
+  "request": {
+    "mode": "demo",
+    "center": {
+      "lng": 121.601,
+      "lat": 31.201
+    },
+    "center_name": "模拟社区",
+    "city": "上海市",
+    "coord_type": "bd09ll",
+    "threshold_minutes": 15,
+    "sample_bearings": 16,
+    "poi_radius_meters": 1800
+  },
+  "result": {
+    "mode": "demo",
+    "data_notice": "SIMULATED_OFFLINE_DATA",
+    "center_input": {
+      "lng": 121.601,
+      "lat": 31.201
+    },
+    "center_bd09": {
+      "lng": 121.601,
+      "lat": 31.201
+    },
+    "center_name": "模拟社区",
+    "city": "上海市",
+    "coord_type_input": "bd09ll",
+    "threshold_minutes": 15,
+    "sample_bearings": 16,
+    "sample_radii_m": [
+      500,
+      900,
+      1300,
+      1700
+    ],
+    "poi_radius_meters": 1800,
+    "isochrone": [
+      {
+        "lat": 31.2084027120585,
+        "lng": 121.601,
+        "bearing": 0.0,
+        "radius_m": 823.1
+      },
+      {
+        "lat": 31.207617290333165,
+        "lng": 121.60420472658006,
+        "bearing": 22.5,
+        "radius_m": 796.4
+      },
+      {
+        "lat": 31.206029154042486,
+        "lng": 121.60688007767948,
+        "bearing": 45.0,
+        "radius_m": 790.9
+      },
+      {
+        "lat": 31.203505794842464,
+        "lng": 121.60807326159032,
+        "bearing": 67.5,
+        "radius_m": 728.2
+      },
+      {
+        "lat": 31.200999785233837,
+        "lng": 121.60845252669075,
+        "bearing": 90.0,
+        "radius_m": 708.8
+      },
+      {
+        "lat": 31.19849379093932,
+        "lng": 121.60807296393753,
+        "bearing": 112.5,
+        "radius_m": 728.2
+      },
+      {
+        "lat": 31.195970460162677,
+        "lng": 121.60687959094977,
+        "bearing": 135.0,
+        "radius_m": 790.9
+      },
+      {
+        "lat": 31.19438263292278,
+        "lng": 121.6042042769857,
+        "bearing": 157.5,
+        "radius_m": 796.4
+      },
+      {
+        "lat": 31.193597287941497,
+        "lng": 121.601,
+        "bearing": 180.0,
+        "radius_m": 823.1
+      },
+      {
+        "lat": 31.193899725165906,
+        "lng": 121.59756190734069,
+        "bearing": 202.5,
+        "radius_m": 854.6
+      },
+      {
+        "lat": 31.195299086729754,
+        "lng": 121.59433563657534,
+        "bearing": 225.0,
+        "radius_m": 896.5
+      },
+      {
+        "lat": 31.1981043321377,
+        "lng": 121.59282804628725,
+        "bearing": 247.5,
+        "radius_m": 841.3
+      },
+      {
+        "lat": 31.20099971036737,
+        "lng": 121.59234545287987,
+        "bearing": 270.0,
+        "radius_m": 823.1
+      },
+      {
+        "lat": 31.203895123404866,
+        "lng": 121.59282762498968,
+        "bearing": 292.5,
+        "radius_m": 841.3
+      },
+      {
+        "lat": 31.20670046356163,
+        "lng": 121.59433495750368,
+        "bearing": 315.0,
+        "radius_m": 896.4
+      },
+      {
+        "lat": 31.20810025654259,
+        "lng": 121.59756135579971,
+        "bearing": 337.5,
+        "radius_m": 854.6
+      }
+    ],
+    "isochrone_diagnostics": {
+      "monotonic_corrections": 0,
+      "truncated_bearings": 0,
+      "extrapolated_bearings": 0,
+      "valid_bearings": 16
+    },
+    "route_samples": [
+      {
+        "lat": 31.205496601818624,
+        "lng": 121.601,
+        "distance_m": 620.0000000000417,
+        "duration_s": 560.4237288135947,
+        "_bearing": 0.0,
+        "_radius": 500,
+        "_origin_lat": 31.201,
+        "_origin_lng": 121.601,
+        "reachable": true
+      },
+      {
+        "lat": 31.209093883273525,
+        "lng": 121.601,
+        "distance_m": 1116.000000000467,
+        "duration_s": 980.7627118648027,
+        "_bearing": 0.0,
+        "_radius": 900,
+        "_origin_lat": 31.201,
+        "_origin_lng": 121.601,
+        "reachable": false
+      },
+      {
+        "lat": 31.21269116472842,
+        "lng": 121.601,
+        "distance_m": 1611.9999999999122,
+        "duration_s": 1401.10169491518,
+        "_bearing": 0.0,
+        "_radius": 1300,
+        "_origin_lat": 31.201,
+        "_origin_lng": 121.601,
+        "reachable": false
+      },
+      {
+        "lat": 31.21628844618332,
+        "lng": 121.601,
+        "distance_m": 2108.000000000338,
+        "duration_s": 1821.4406779663882,
+        "_bearing": 0.0,
+        "_radius": 1700,
+        "_origin_lat": 31.201,
+        "_origin_lng": 121.601,
+        "reachable": false
+      },
+      {
+        "lat": 31.205154302734783,
+        "lng": 121.60301185490096,
+        "distance_m": 640.7891235231593,
+        "duration_s": 578.0416301043723,
+        "_bearing": 22.5,
+        "_radius": 500,
+        "_origin_lat": 31.201,
+        "_origin_lng": 121.601,
+        "reachable": true
+      },
+      {
+        "lat": 31.20847772238134,
+        "lng": 121.60462146606487,
+        "distance_m": 1153.420310613031,
+        "duration_s": 1012.4748395025687,
+        "_bearing": 22.5,
+        "_radius": 900,
+        "_origin_lat": 31.201,
+        "_origin_lng": 121.601,
+        "reachable": false
+      },
+      {
+        "lat": 31.211801121986845,
+        "lng": 121.60623119035775,
+        "distance_m": 1666.0513982583936,
+        "duration_s": 1446.9079646257574,
+        "_bearing": 22.5,
+        "_radius": 1300,
+        "_origin_lat": 31.201,
+        "_origin_lng": 121.601,
+        "reachable": false
+      },
+      {
+        "lat": 31.21512450154726,
+        "lng": 121.6078410278017,
+        "distance_m": 2178.682386337713,
+        "duration_s": 1881.3410053709433,
+        "_bearing": 22.5,
+        "_radius": 1700,
+        "_origin_lat": 31.201,
+        "_origin_lng": 121.601,
+        "reachable": false
+      },
+      {
+        "lat": 31.204179524202424,
+        "lng": 121.60471738482327,
+        "distance_m": 645.296082247671,
+        "duration_s": 581.8610866505687,
+        "_bearing": 45.0,
+        "_radius": 500,
+        "_origin_lat": 31.201,
+        "_origin_lng": 121.601,
+        "reachable": true
+      },
+      {
+        "lat": 31.206723066607893,
+        "lng": 121.60769147261661,
+        "distance_m": 1161.5395308470536,
+        "duration_s": 1019.3555346161471,
+        "_bearing": 45.0,
+        "_radius": 900,
+        "_origin_lat": 31.201,
+        "_origin_lng": 121.601,
+        "reachable": false
+      },
+      {
+        "lat": 31.209266540596193,
+        "lng": 121.61066572037399,
+        "distance_m": 1677.7888313896144,
+        "duration_s": 1456.8549418556056,
+        "_bearing": 45.0,
+        "_radius": 1300,
+        "_origin_lat": 31.201,
+        "_origin_lng": 121.601,
+        "reachable": false
+      },
+      {
+        "lat": 31.21180994615679,
+        "lng": 121.61364012811565,
+        "distance_m": 2194.043984380637,
+        "duration_s": 1894.35930879715,
+        "_bearing": 45.0,
+        "_radius": 1700,
+        "_origin_lat": 31.201,
+        "_origin_lng": 121.601,
+        "reachable": false
+      },
+      {
+        "lat": 31.20272068379996,
+        "lng": 121.60585692243383,
+        "distance_m": 700.8778158877049,
+        "duration_s": 628.9642507522923,
+        "_bearing": 67.5,
+        "_radius": 500,
+        "_origin_lat": 31.201,
+        "_origin_lng": 121.601,
+        "reachable": true
+      },
+      {
+        "lat": 31.20409709947784,
+        "lng": 121.60974258759487,
+        "distance_m": 1261.5835844392343,
+        "duration_s": 1104.138630880707,
+        "_bearing": 67.5,
+        "_radius": 900,
+        "_origin_lat": 31.201,
+        "_origin_lng": 121.601,
+        "reachable": false
+      },
+      {
+        "lat": 31.205473398378874,
+        "lng": 121.61362836583484,
+        "distance_m": 1822.29247807912,
+        "duration_s": 1579.3156593890849,
+        "_bearing": 67.5,
+        "_radius": 1300,
+        "_origin_lat": 31.201,
+        "_origin_lng": 121.601,
+        "reachable": false
+      },
+      {
+        "lat": 31.20684958049334,
+        "lng": 121.61751425715353,
+        "distance_m": 2383.0044966996707,
+        "duration_s": 2054.4953361861617,
+        "_bearing": 67.5,
+        "_radius": 1700,
+        "_origin_lat": 31.201,
+        "_origin_lng": 121.601,
+        "reachable": false
+      },
+      {
+        "lat": 31.20099989313521,
+        "lng": 121.60625699933392,
+        "distance_m": 719.999999932557,
+        "duration_s": 645.1694914682687,
+        "_bearing": 90.0,
+        "_radius": 500,
+        "_origin_lat": 31.201,
+        "_origin_lng": 121.601,
+        "reachable": true
+      },
+      {
+        "lat": 31.200999653758085,
+        "lng": 121.61046259878505,
+        "distance_m": 1295.9999995884527,
+        "duration_s": 1133.3050843969938,
+        "_bearing": 90.0,
+        "_radius": 900,
+        "_origin_lat": 31.201,
+        "_origin_lng": 121.601,
+        "reachable": false
+      },
+      {
+        "lat": 31.200999277594015,
+        "lng": 121.61466819820886,
+        "distance_m": 1871.9999987657447,
+        "duration_s": 1621.4406769201228,
+        "_bearing": 90.0,
+        "_radius": 1300,
+        "_origin_lat": 31.201,
+        "_origin_lng": 121.601,
+        "reachable": false
+      },
+      {
+        "lat": 31.200998764643025,
+        "lng": 121.61887379759312,
+        "distance_m": 2447.999997238527,
+        "duration_s": 2109.5762688462096,
+        "_bearing": 90.0,
+        "_radius": 1700,
+        "_origin_lat": 31.201,
+        "_origin_lng": 121.601,
+        "reachable": false
+      },
+      {
+        "lat": 31.199279133770432,
+        "lng": 121.60585674574742,
+        "distance_m": 700.8729325865983,
+        "duration_s": 628.960112361524,
+        "_bearing": 112.5,
+        "_radius": 500,
+        "_origin_lat": 31.201,
+        "_origin_lng": 121.601,
+        "reachable": true
+      },
+      {
+        "lat": 31.197902309450235,
+        "lng": 121.60974201513093,
+        "distance_m": 1261.5677625490011,
+        "duration_s": 1104.1252224991536,
+        "_bearing": 112.5,
+        "_radius": 900,
+        "_origin_lat": 31.201,
+        "_origin_lng": 121.601,
+        "reachable": false
+      },
+      {
+        "lat": 31.196525368396955,
+        "lng": 121.61362717143476,
+        "distance_m": 1822.2594669708906,
+        "duration_s": 1579.287683873636,
+        "_bearing": 112.5,
+        "_radius": 1300,
+        "_origin_lat": 31.201,
+        "_origin_lng": 121.601,
+        "reachable": false
+      },
+      {
+        "lat": 31.19514831062036,
+        "lng": 121.61751221465876,
+        "distance_m": 2382.948045754383,
+        "duration_s": 2054.44749640202,
+        "_bearing": 112.5,
+        "_radius": 1700,
+        "_origin_lat": 31.201,
+        "_origin_lng": 121.601,
+        "reachable": false
+      },
+      {
+        "lat": 31.197820368932792,
+        "lng": 121.60471713495096,
+        "distance_m": 645.2869404030721,
+        "duration_s": 581.8533393246374,
+        "_bearing": 135.0,
+        "_radius": 500,
+        "_origin_lat": 31.201,
+        "_origin_lng": 121.601,
+        "reachable": true
+      },
+      {
+        "lat": 31.195276587150193,
+        "lng": 121.60769066303033,
+        "distance_m": 1161.5099112733653,
+        "duration_s": 1019.330433282513,
+        "_bearing": 135.0,
+        "_radius": 900,
+        "_origin_lat": 31.201,
+        "_origin_lng": 121.601,
+        "reachable": false
+      },
+      {
+        "lat": 31.192732736997815,
+        "lng": 121.61066403123714,
+        "distance_m": 1677.7270325234604,
+        "duration_s": 1456.802569935136,
+        "_bearing": 135.0,
+        "_radius": 1300,
+        "_origin_lat": 31.201,
+        "_origin_lng": 121.601,
+        "reachable": false
+      },
+      {
+        "lat": 31.190188818486185,
+        "lng": 121.61363723959171,
+        "distance_m": 2193.938304669037,
+        "duration_s": 1894.269749719523,
+        "_bearing": 135.0,
+        "_radius": 1700,
+        "_origin_lat": 31.201,
+        "_origin_lng": 121.601,
+        "reachable": false
+      },
+      {
+        "lat": 31.19684566596525,
+        "lng": 121.60301167821456,
+        "distance_m": 640.7892784781909,
+        "duration_s": 578.0417614221957,
+        "_bearing": 157.5,
+        "_radius": 500,
+        "_origin_lat": 31.201,
+        "_origin_lng": 121.601,
+        "reachable": true
+      },
+      {
+        "lat": 31.19352217620676,
+        "lng": 121.6046208936009,
+        "distance_m": 1153.4208126660835,
+        "duration_s": 1012.4752649712573,
+        "_bearing": 157.5,
+        "_radius": 900,
+        "_origin_lat": 31.201,
+        "_origin_lng": 121.601,
+        "reachable": false
+      },
+      {
+        "lat": 31.190198666425346,
+        "lng": 121.60622999595762,
+        "distance_m": 1666.0524457549902,
+        "duration_s": 1446.9088523347375,
+        "_bearing": 157.5,
+        "_radius": 1300,
+        "_origin_lat": 31.201,
+        "_origin_lng": 121.601,
+        "reachable": false
+      },
+      {
+        "lat": 31.186875136625044,
+        "lng": 121.60783898530673,
+        "distance_m": 2178.684177619842,
+        "duration_s": 1881.342523406646,
+        "_bearing": 157.5,
+        "_radius": 1700,
+        "_origin_lat": 31.201,
+        "_origin_lng": 121.601,
+        "reachable": false
+      },
+      {
+        "lat": 31.196503398181385,
+        "lng": 121.601,
+        "distance_m": 619.999999999062,
+        "duration_s": 560.4237288127644,
+        "_bearing": 180.0,
+        "_radius": 500,
+        "_origin_lat": 31.201,
+        "_origin_lng": 121.601,
+        "reachable": true
+      },
+      {
+        "lat": 31.192906116726487,
+        "lng": 121.601,
+        "distance_m": 1115.9999999989975,
+        "duration_s": 980.7627118635572,
+        "_bearing": 180.0,
+        "_radius": 900,
+        "_origin_lat": 31.201,
+        "_origin_lng": 121.601,
+        "reachable": false
+      },
+      {
+        "lat": 31.18930883527159,
+        "lng": 121.601,
+        "distance_m": 1611.999999998933,
+        "duration_s": 1401.10169491435,
+        "_bearing": 180.0,
+        "_radius": 1300,
+        "_origin_lat": 31.201,
+        "_origin_lng": 121.601,
+        "reachable": false
+      },
+      {
+        "lat": 31.18571155381669,
+        "lng": 121.601,
+        "distance_m": 2107.999999998868,
+        "duration_s": 1821.4406779651426,
+        "_bearing": 180.0,
+        "_radius": 1700,
+        "_origin_lat": 31.201,
+        "_origin_lng": 121.601,
+        "reachable": false
+      },
+      {
+        "lat": 31.19684566596525,
+        "lng": 121.59898832178546,
+        "distance_m": 597.20656431633,
+        "duration_s": 541.1072578951948,
+        "_bearing": 202.5,
+        "_radius": 500,
+        "_origin_lat": 31.201,
+        "_origin_lng": 121.601,
+        "reachable": true
+      },
+      {
+        "lat": 31.19352217620676,
+        "lng": 121.5973791063991,
+        "distance_m": 1074.9743507311368,
+        "duration_s": 945.9952124840144,
+        "_bearing": 202.5,
+        "_radius": 900,
+        "_origin_lat": 31.201,
+        "_origin_lng": 121.601,
+        "reachable": false
+      },
+      {
+        "lat": 31.190198666425346,
+        "lng": 121.5957700040424,
+        "distance_m": 1552.7443899145317,
+        "duration_s": 1350.8850761987558,
+        "_bearing": 202.5,
+        "_radius": 1300,
+        "_origin_lat": 31.201,
+        "_origin_lng": 121.601,
+        "reachable": false
+      },
+      {
+        "lat": 31.186875136625044,
+        "lng": 121.59416101469328,
+        "distance_m": 2030.5166813731144,
+        "duration_s": 1755.7768486212835,
+        "_bearing": 202.5,
+        "_radius": 1700,
+        "_origin_lat": 31.201,
+        "_origin_lng": 121.601,
+        "reachable": false
+      },
+      {
+        "lat": 31.197820368932792,
+        "lng": 121.59728286504905,
+        "distance_m": 569.2958145313561,
+        "duration_s": 517.4540801113187,
+        "_bearing": 225.0,
+        "_radius": 500,
+        "_origin_lat": 31.201,
+        "_origin_lng": 121.601,
+        "reachable": true
+      },
+      {
+        "lat": 31.195276587150193,
+        "lng": 121.59430933696967,
+        "distance_m": 1024.7282154375987,
+        "duration_s": 903.4137418962702,
+        "_bearing": 225.0,
+        "_radius": 900,
+        "_origin_lat": 31.201,
+        "_origin_lng": 121.601,
+        "reachable": false
+      },
+      {
+        "lat": 31.192732736997815,
+        "lng": 121.59133596876286,
+        "distance_m": 1480.1568383223207,
+        "duration_s": 1289.3702019680684,
+        "_bearing": 225.0,
+        "_radius": 1300,
+        "_origin_lat": 31.201,
+        "_origin_lng": 121.601,
+        "reachable": false
+      },
+      {
+        "lat": 31.190188818486185,
+        "lng": 121.58836276040829,
+        "distance_m": 1935.5816835541377,
+        "duration_s": 1675.3234606391,
+        "_bearing": 225.0,
+        "_radius": 1700,
+        "_origin_lat": 31.201,
+        "_origin_lng": 121.601,
+        "reachable": false
+      },
+      {
+        "lat": 31.199279133770432,
+        "lng": 121.59614325425258,
+        "distance_m": 606.6149062795441,
+        "duration_s": 549.0804290504611,
+        "_bearing": 247.5,
+        "_radius": 500,
+        "_origin_lat": 31.201,
+        "_origin_lng": 121.601,
+        "reachable": true
+      },
+      {
+        "lat": 31.197902309450235,
+        "lng": 121.59225798486908,
+        "distance_m": 1091.904393032714,
+        "duration_s": 960.3427059599272,
+        "_bearing": 247.5,
+        "_radius": 900,
+        "_origin_lat": 31.201,
+        "_origin_lng": 121.601,
+        "reachable": false
+      },
+      {
+        "lat": 31.196525368396955,
+        "lng": 121.58837282856526,
+        "distance_m": 1577.1917123660314,
+        "duration_s": 1371.603146072908,
+        "_bearing": 247.5,
+        "_radius": 1300,
+        "_origin_lat": 31.201,
+        "_origin_lng": 121.601,
+        "reachable": false
+      },
+      {
+        "lat": 31.19514831062036,
+        "lng": 121.58448778534124,
+        "distance_m": 2062.476864218239,
+        "duration_s": 1782.8617493374907,
+        "_bearing": 247.5,
+        "_radius": 1700,
+        "_origin_lat": 31.201,
+        "_origin_lng": 121.601,
+        "reachable": false
+      },
+      {
+        "lat": 31.20099989313521,
+        "lng": 121.59574300066609,
+        "distance_m": 619.9999999511529,
+        "duration_s": 560.4237287721635,
+        "_bearing": 270.0,
+        "_radius": 500,
+        "_origin_lat": 31.201,
+        "_origin_lng": 121.601,
+        "reachable": true
+      },
+      {
+        "lat": 31.200999653758085,
+        "lng": 121.59153740121495,
+        "distance_m": 1115.9999997092084,
+        "duration_s": 980.7627116179733,
+        "_bearing": 270.0,
+        "_radius": 900,
+        "_origin_lat": 31.201,
+        "_origin_lng": 121.601,
+        "reachable": false
+      },
+      {
+        "lat": 31.200999277594015,
+        "lng": 121.58733180179114,
+        "distance_m": 1611.9999991288303,
+        "duration_s": 1401.101694176975,
+        "_bearing": 270.0,
+        "_radius": 1300,
+        "_origin_lat": 31.201,
+        "_origin_lng": 121.601,
+        "reachable": false
+      },
+      {
+        "lat": 31.200998764643025,
+        "lng": 121.58312620240687,
+        "distance_m": 2107.999998050664,
+        "duration_s": 1821.4406763141221,
+        "_bearing": 270.0,
+        "_radius": 1700,
+        "_origin_lat": 31.201,
+        "_origin_lng": 121.601,
+        "reachable": false
+      },
+      {
+        "lat": 31.20272068379996,
+        "lng": 121.59614307756618,
+        "distance_m": 606.6182926492115,
+        "duration_s": 549.083298855264,
+        "_bearing": 292.5,
+        "_radius": 500,
+        "_origin_lat": 31.201,
+        "_origin_lng": 121.601,
+        "reachable": true
+      },
+      {
+        "lat": 31.20409709947784,
+        "lng": 121.59225741240513,
+        "distance_m": 1091.9153648726078,
+        "duration_s": 960.3520041293287,
+        "_bearing": 292.5,
+        "_radius": 900,
+        "_origin_lat": 31.201,
+        "_origin_lng": 121.601,
+        "reachable": false
+      },
+      {
+        "lat": 31.205473398378874,
+        "lng": 121.58837163416517,
+        "distance_m": 1577.2146042294912,
+        "duration_s": 1371.622545957196,
+        "_bearing": 292.5,
+        "_radius": 1300,
+        "_origin_lat": 31.201,
+        "_origin_lng": 121.601,
+        "reachable": false
+      },
+      {
+        "lat": 31.20684958049334,
+        "lng": 121.58448574284648,
+        "distance_m": 2062.516010655162,
+        "duration_s": 1782.8949242840358,
+        "_bearing": 292.5,
+        "_radius": 1700,
+        "_origin_lat": 31.201,
+        "_origin_lng": 121.601,
+        "reachable": false
+      },
+      {
+        "lat": 31.204179524202424,
+        "lng": 121.59728261517674,
+        "distance_m": 569.3017189795,
+        "duration_s": 517.4590838809322,
+        "_bearing": 315.0,
+        "_radius": 500,
+        "_origin_lat": 31.201,
+        "_origin_lng": 121.601,
+        "reachable": true
+      },
+      {
+        "lat": 31.206723066607893,
+        "lng": 121.5943085273834,
+        "distance_m": 1024.7473458458705,
+        "duration_s": 903.42995410667,
+        "_bearing": 315.0,
+        "_radius": 900,
+        "_origin_lat": 31.201,
+        "_origin_lng": 121.601,
+        "reachable": false
+      },
+      {
+        "lat": 31.209266540596193,
+        "lng": 121.59133427962603,
+        "distance_m": 1480.1967523874557,
+        "duration_s": 1289.4040274469965,
+        "_bearing": 315.0,
+        "_radius": 1300,
+        "_origin_lat": 31.201,
+        "_origin_lng": 121.601,
+        "reachable": false
+      },
+      {
+        "lat": 31.21180994615679,
+        "lng": 121.58835987188435,
+        "distance_m": 1935.6499389643147,
+        "duration_s": 1675.3813042070465,
+        "_bearing": 315.0,
+        "_radius": 1700,
+        "_origin_lat": 31.201,
+        "_origin_lng": 121.601,
+        "reachable": false
+      },
+      {
+        "lat": 31.205154302734783,
+        "lng": 121.59898814509906,
+        "distance_m": 597.2030426376151,
+        "duration_s": 541.1042734217078,
+        "_bearing": 337.5,
+        "_radius": 500,
+        "_origin_lat": 31.201,
+        "_origin_lng": 121.601,
+        "reachable": true
+      },
+      {
+        "lat": 31.20847772238134,
+        "lng": 121.59737853393514,
+        "distance_m": 1074.9629404921616,
+        "duration_s": 945.9855427899674,
+        "_bearing": 337.5,
+        "_radius": 900,
+        "_origin_lat": 31.201,
+        "_origin_lng": 121.601,
+        "reachable": false
+      },
+      {
+        "lat": 31.211801121986845,
+        "lng": 121.59576880964225,
+        "distance_m": 1552.7205833649982,
+        "duration_s": 1350.8649011567782,
+        "_bearing": 337.5,
+        "_radius": 1300,
+        "_origin_lat": 31.201,
+        "_origin_lng": 121.601,
+        "reachable": false
+      },
+      {
+        "lat": 31.21512450154726,
+        "lng": 121.59415897219831,
+        "distance_m": 2030.475970761952,
+        "duration_s": 1755.7423481033493,
+        "_bearing": 337.5,
+        "_radius": 1700,
+        "_origin_lat": 31.201,
+        "_origin_lng": 121.601,
+        "reachable": false
+      }
+    ],
+    "route_sample_success_ratio": 1.0,
+    "area_m2": 2025818,
+    "area_km2": 2.026,
+    "reachability_comparison": {
+      "baseline_walk_speed_mps": 1.2,
+      "naive_radius_m": 1080,
+      "naive_circle_area_km2": 3.664,
+      "isochrone_to_naive_area_ratio": 0.553,
+      "median_route_detour_ratio": 1.24,
+      "median_time_penalty_ratio": 1.318,
+      "note": "直线基线仅用于说明“直线半径”与真实路网测时的差异，不属于官方公共服务评价标准。"
+    },
+    "pois": [
+      {
+        "uid": "demo-medical-1",
+        "name": "【模拟】社区卫生服务站A",
+        "address": "模拟地址，仅用于离线演示",
+        "lat": 31.20409403167191,
+        "lng": 121.603532927238,
+        "distance_m": 420,
+        "detail_tag": "SIMULATED",
+        "category": "medical",
+        "category_label": "基础医疗"
+      },
+      {
+        "uid": "demo-medical-2",
+        "name": "【模拟】综合门诊B",
+        "address": "模拟地址，仅用于离线演示",
+        "lat": 31.195695830281537,
+        "lng": 121.59665822445771,
+        "distance_m": 720,
+        "detail_tag": "SIMULATED",
+        "category": "medical",
+        "category_label": "基础医疗"
+      },
+      {
+        "uid": "demo-primary_school-1",
+        "name": "【模拟】社区小学A",
+        "address": "模拟地址，仅用于离线演示",
+        "lat": 31.19948688345608,
+        "lng": 121.60760112728234,
+        "distance_m": 650,
+        "detail_tag": "SIMULATED",
+        "category": "primary_school",
+        "category_label": "小学"
+      },
+      {
+        "uid": "demo-market-1",
+        "name": "【模拟】便民菜市场A",
+        "address": "模拟地址，仅用于离线演示",
+        "lat": 31.202210250591587,
+        "lng": 121.5957189461505,
+        "distance_m": 520,
+        "detail_tag": "SIMULATED",
+        "category": "market",
+        "category_label": "菜市场"
+      },
+      {
+        "uid": "demo-pharmacy-1",
+        "name": "【模拟】便民药房A",
+        "address": "模拟地址，仅用于离线演示",
+        "lat": 31.19819618273906,
+        "lng": 121.60289246367482,
+        "distance_m": 360,
+        "detail_tag": "SIMULATED",
+        "category": "pharmacy",
+        "category_label": "药店"
+      },
+      {
+        "uid": "demo-pharmacy-2",
+        "name": "【模拟】社区药房B",
+        "address": "模拟地址，仅用于离线演示",
+        "lat": 31.20606237767234,
+        "lng": 121.59758276755838,
+        "distance_m": 650,
+        "detail_tag": "SIMULATED",
+        "category": "pharmacy",
+        "category_label": "药店"
+      },
+      {
+        "uid": "demo-pharmacy-3",
+        "name": "【模拟】社区药房C",
+        "address": "模拟地址，仅用于离线演示",
+        "lat": 31.206214363599823,
+        "lng": 121.60709664226148,
+        "distance_m": 820,
+        "detail_tag": "SIMULATED",
+        "category": "pharmacy",
+        "category_label": "药店"
+      },
+      {
+        "uid": "demo-supermarket-1",
+        "name": "【模拟】生活超市A",
+        "address": "模拟地址，仅用于离线演示",
+        "lat": 31.202348951691313,
+        "lng": 121.60373165593631,
+        "distance_m": 300,
+        "detail_tag": "SIMULATED",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      },
+      {
+        "uid": "demo-supermarket-2",
+        "name": "【模拟】生鲜超市B",
+        "address": "模拟地址，仅用于离线演示",
+        "lat": 31.198643435943882,
+        "lng": 121.5950922174561,
+        "distance_m": 620,
+        "detail_tag": "SIMULATED",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      },
+      {
+        "uid": "demo-supermarket-3",
+        "name": "【模拟】生活超市C",
+        "address": "模拟地址，仅用于离线演示",
+        "lat": 31.208528080852364,
+        "lng": 121.59944800028615,
+        "distance_m": 850,
+        "detail_tag": "SIMULATED",
+        "category": "supermarket",
+        "category_label": "购物/超市"
+      }
+    ],
+    "coverage": {
+      "medical": {
+        "label": "基础医疗",
+        "count_total": 2,
+        "count_in_isochrone": 2,
+        "target": 2,
+        "weight": 20,
+        "score": 20.0,
+        "status": "known"
+      },
+      "primary_school": {
+        "label": "小学",
+        "count_total": 1,
+        "count_in_isochrone": 1,
+        "target": 1,
+        "weight": 20,
+        "score": 20.0,
+        "status": "known"
+      },
+      "market": {
+        "label": "菜市场",
+        "count_total": 1,
+        "count_in_isochrone": 1,
+        "target": 2,
+        "weight": 15,
+        "score": 7.5,
+        "status": "known"
+      },
+      "pharmacy": {
+        "label": "药店",
+        "count_total": 3,
+        "count_in_isochrone": 2,
+        "target": 3,
+        "weight": 15,
+        "score": 10.0,
+        "status": "known"
+      },
+      "supermarket": {
+        "label": "购物/超市",
+        "count_total": 3,
+        "count_in_isochrone": 2,
+        "target": 3,
+        "weight": 15,
+        "score": 10.0,
+        "status": "known"
+      },
+      "elderly": {
+        "label": "养老服务",
+        "count_total": 0,
+        "count_in_isochrone": 0,
+        "target": 1,
+        "weight": 15,
+        "score": 0.0,
+        "status": "known"
+      }
+    },
+    "coverage_score_before_blind_penalty": 67.5,
+    "health_score": 53.1,
+    "score_interpretation": "基于已成功获取的设施类别归一化计算；未知类别不按0分处理。",
+    "data_confidence_percent": 100.0,
+    "unavailable_categories": [],
+    "category_errors": {},
+    "blind_spots": [
+      {
+        "lat": 31.19560392396506,
+        "lng": 121.59469196056904,
+        "missing": [
+          "primary_school"
+        ],
+        "missing_labels": [
+          "小学"
+        ],
+        "severity": 1,
+        "nearest_m": {
+          "market": 741,
+          "pharmacy": 832,
+          "primary_school": 1302
+        },
+        "distance_from_center_m": 849
+      },
+      {
+        "lat": 31.206395768264343,
+        "lng": 121.59469124093678,
+        "missing": [
+          "primary_school"
+        ],
+        "missing_labels": [
+          "小学"
+        ],
+        "severity": 1,
+        "nearest_m": {
+          "market": 476,
+          "pharmacy": 277,
+          "primary_school": 1448
+        },
+        "distance_from_center_m": 849
+      },
+      {
+        "lat": 31.195604039354507,
+        "lng": 121.59784598028196,
+        "missing": [
+          "primary_school"
+        ],
+        "missing_labels": [
+          "小学"
+        ],
+        "severity": 1,
+        "nearest_m": {
+          "market": 762,
+          "pharmacy": 560,
+          "primary_school": 1023
+        },
+        "distance_from_center_m": 671
+      },
+      {
+        "lat": 31.195604039354507,
+        "lng": 121.60415401971805,
+        "missing": [
+          "market"
+        ],
+        "missing_labels": [
+          "菜市场"
+        ],
+        "severity": 1,
+        "nearest_m": {
+          "market": 1088,
+          "pharmacy": 312,
+          "primary_school": 542
+        },
+        "distance_from_center_m": 671
+      },
+      {
+        "lat": 31.198301885039886,
+        "lng": 121.59469178069735,
+        "missing": [
+          "primary_school"
+        ],
+        "missing_labels": [
+          "小学"
+        ],
+        "severity": 1,
+        "nearest_m": {
+          "market": 445,
+          "pharmacy": 780,
+          "primary_school": 1235
+        },
+        "distance_from_center_m": 671
+      },
+      {
+        "lat": 31.198301885039886,
+        "lng": 121.60730821930267,
+        "missing": [
+          "market"
+        ],
+        "missing_labels": [
+          "菜市场"
+        ],
+        "severity": 1,
+        "nearest_m": {
+          "market": 1185,
+          "pharmacy": 420,
+          "primary_school": 135
+        },
+        "distance_from_center_m": 671
+      },
+      {
+        "lat": 31.20369780718953,
+        "lng": 121.59469142088122,
+        "missing": [
+          "primary_school"
+        ],
+        "missing_labels": [
+          "小学"
+        ],
+        "severity": 1,
+        "nearest_m": {
+          "market": 192,
+          "pharmacy": 380,
+          "primary_school": 1314
+        },
+        "distance_from_center_m": 671
+      },
+      {
+        "lat": 31.20369780718953,
+        "lng": 121.6073085791188,
+        "missing": [
+          "market"
+        ],
+        "missing_labels": [
+          "菜市场"
+        ],
+        "severity": 1,
+        "nearest_m": {
+          "market": 1115,
+          "pharmacy": 281,
+          "primary_school": 469
+        },
+        "distance_from_center_m": 671
+      },
+      {
+        "lat": 31.206395883702857,
+        "lng": 121.59784562046583,
+        "missing": [
+          "primary_school"
+        ],
+        "missing_labels": [
+          "小学"
+        ],
+        "severity": 1,
+        "nearest_m": {
+          "market": 507,
+          "pharmacy": 45,
+          "primary_school": 1205
+        },
+        "distance_from_center_m": 671
+      },
+      {
+        "lat": 31.200999846114705,
+        "lng": 121.5946916008014,
+        "missing": [
+          "primary_school"
+        ],
+        "missing_labels": [
+          "小学"
+        ],
+        "severity": 1,
+        "nearest_m": {
+          "market": 166,
+          "pharmacy": 626,
+          "primary_school": 1239
+        },
+        "distance_from_center_m": 600
+      },
+      {
+        "lat": 31.200999846114705,
+        "lng": 121.6073083991986,
+        "missing": [
+          "market"
+        ],
+        "missing_labels": [
+          "菜市场"
+        ],
+        "severity": 1,
+        "nearest_m": {
+          "market": 1110,
+          "pharmacy": 523,
+          "primary_school": 171
+        },
+        "distance_from_center_m": 600
+      },
+      {
+        "lat": 31.203697922615774,
+        "lng": 121.59784571043805,
+        "missing": [
+          "primary_school"
+        ],
+        "missing_labels": [
+          "小学"
+        ],
+        "severity": 1,
+        "nearest_m": {
+          "market": 261,
+          "pharmacy": 264,
+          "primary_school": 1039
+        },
+        "distance_from_center_m": 424
+      }
+    ],
+    "blind_spots_status": "ok",
+    "blind_spot_definition": "采样点周边1公里内，菜市场/药店/小学任一关键类别缺失；关键类别数据未知时不输出缺失结论。仅用于规划筛查，需结合人口与实地条件复核。",
+    "recommendations": [
+      {
+        "priority": "中",
+        "title": "补齐菜市场服务",
+        "reason": "15分钟等时圈内仅 1 个，建议目标不少于 2 个。",
+        "action": "优先在盲区侧新增/引入约 1 个菜市场服务点，并用步行算路复核可达性。"
+      },
+      {
+        "priority": "中",
+        "title": "补齐药店服务",
+        "reason": "15分钟等时圈内仅 2 个，建议目标不少于 3 个。",
+        "action": "优先在盲区侧新增/引入约 1 个药店服务点，并用步行算路复核可达性。"
+      },
+      {
+        "priority": "中",
+        "title": "补齐购物/超市服务",
+        "reason": "15分钟等时圈内仅 2 个，建议目标不少于 3 个。",
+        "action": "优先在盲区侧新增/引入约 1 个购物/超市服务点，并用步行算路复核可达性。"
+      },
+      {
+        "priority": "高",
+        "title": "补齐养老服务服务",
+        "reason": "15分钟等时圈内仅 0 个，建议目标不少于 1 个。",
+        "action": "优先在盲区侧新增/引入约 1 个养老服务服务点，并用步行算路复核可达性。"
+      },
+      {
+        "priority": "中",
+        "title": "优先治理多设施叠加盲区",
+        "reason": "识别到 12 个采样盲区点，其中 0 个同时缺少两类及以上关键设施。",
+        "action": "将叠加盲区作为选址候选区域，结合道路穿越障碍、公共空间和人口数据进一步实地核验。"
+      }
+    ],
+    "representative_route": {
+      "to": "【模拟】生活超市A",
+      "category": "购物/超市",
+      "distance_m": 375,
+      "duration_s": 353,
+      "steps_count": 6,
+      "simulated": true
+    },
+    "api_stats": {
+      "request_count": 0,
+      "cache_hits": 0,
+      "success_count": 8,
+      "failed_count": 0,
+      "total_latency_ms": 0,
+      "quota_units_estimated": 0,
+      "calls": [
+        {
+          "service": "route_matrix_walking",
+          "ok": true,
+          "latency_ms": 0,
+          "cache_hit": false,
+          "note": "SIMULATED"
+        },
+        {
+          "service": "place_search",
+          "ok": true,
+          "latency_ms": 0,
+          "cache_hit": false,
+          "note": "SIMULATED"
+        },
+        {
+          "service": "place_search",
+          "ok": true,
+          "latency_ms": 0,
+          "cache_hit": false,
+          "note": "SIMULATED"
+        },
+        {
+          "service": "place_search",
+          "ok": true,
+          "latency_ms": 0,
+          "cache_hit": false,
+          "note": "SIMULATED"
+        },
+        {
+          "service": "place_search",
+          "ok": true,
+          "latency_ms": 0,
+          "cache_hit": false,
+          "note": "SIMULATED"
+        },
+        {
+          "service": "place_search",
+          "ok": true,
+          "latency_ms": 0,
+          "cache_hit": false,
+          "note": "SIMULATED"
+        },
+        {
+          "service": "place_search",
+          "ok": true,
+          "latency_ms": 0,
+          "cache_hit": false,
+          "note": "SIMULATED"
+        },
+        {
+          "service": "walking_route",
+          "ok": true,
+          "latency_ms": 0,
+          "cache_hit": false,
+          "note": "SIMULATED"
+        }
+      ],
+      "simulated": true
+    },
+    "warnings": [
+      "当前为离线模拟模式：POI、路网耗时和诊断结果均为明确标注的模拟数据，不代表真实城市情况。"
+    ],
+    "algorithm": {
+      "isochrone": "16方向×4半径扇形采样；使用百度步行批量算路耗时，以保守单调包络+径向线性插值形成近似15分钟可达边界。",
+      "poi": "按设施类别调用百度 Place 圆形检索，每类最多翻页 3 页；去重后用点在多边形内判断统计等时圈覆盖。",
+      "blind_spots": "对1公里范围网格采样，检查菜市场/药店/小学的1公里邻近覆盖；关键类别检索失败时停止输出“无设施”结论。",
+      "caveat": "等时圈为API测时采样插值近似，不等同于底层路网全量洪泛；符合题目鼓励的无底层路网条件下空间插值/扇形采样思路。"
+    },
+    "elapsed_ms": 0
+  },
+  "created_at": "2026-09-13T00:00:00"
+}

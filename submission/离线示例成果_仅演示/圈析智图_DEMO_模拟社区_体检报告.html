@@ -1,0 +1,25 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>圈析智图体检报告</title><style>body{font-family:"Microsoft YaHei",sans-serif;max-width:980px;margin:36px auto;
+padding:0 20px;color:#152238;line-height:1.7}
+h1{color:#123b7a}.kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.k{padding:14px;border:1px solid #dce5f1;border-radius:12px}.k b{font-size:25px}
+table{border-collapse:collapse;width:100%}th,td{border:1px solid #dce5f1;
+padding:8px;text-align:left}th{background:#f4f7fb}.note{background:#fff7db;padding:12px;
+border-radius:10px}@media(max-width:700px){.kpis{grid-template-columns:1fr 1fr}}</style></head><body><h1>圈析智图｜15分钟生活圈体检报告</h1>
+<p>中心点：模拟社区｜城市：上海市｜模式：离线模拟</p>
+<div class="kpis">
+  <div class="k">体检分<br><b>53.1 / 100</b></div>
+  <div class="k">数据置信度<br><b>100.0%</b></div>
+  <div class="k">等时圈面积<br><b>2.026</b> km²</div>
+  <div class="k">盲区采样点<br><b>12</b></div>
+</div>
+<h2>设施覆盖</h2>
+<table>
+  <thead><tr><th>类别</th><th>数据状态</th><th>圈内</th><th>检索总数</th><th>目标</th></tr></thead>
+  <tbody><tr><td>基础医疗</td><td>已核验</td><td>2</td><td>2</td><td>2</td></tr><tr><td>小学</td><td>已核验</td><td>1</td><td>1</td><td>1</td></tr><tr><td>菜市场</td><td>已核验</td><td>1</td><td>1</td><td>2</td></tr><tr><td>药店</td><td>已核验</td><td>2</td><td>3</td><td>3</td></tr><tr><td>购物/超市</td><td>已核验</td><td>2</td><td>3</td><td>3</td></tr><tr><td>养老服务</td><td>已核验</td><td>0</td><td>0</td><td>1</td></tr></tbody>
+</table>
+<h2>规划建议</h2><ul><li><b>[中] 补齐菜市场服务</b>：15分钟等时圈内仅 1 个，建议目标不少于 2 个。 优先在盲区侧新增/引入约 1 个菜市场服务点，并用步行算路复核可达性。</li><li><b>[中] 补齐药店服务</b>：15分钟等时圈内仅 2 个，建议目标不少于 3 个。 优先在盲区侧新增/引入约 1 个药店服务点，并用步行算路复核可达性。</li><li><b>[中] 补齐购物/超市服务</b>：15分钟等时圈内仅 2 个，建议目标不少于 3 个。 优先在盲区侧新增/引入约 1 个购物/超市服务点，并用步行算路复核可达性。</li><li><b>[高] 补齐养老服务服务</b>：15分钟等时圈内仅 0 个，建议目标不少于 1 个。 优先在盲区侧新增/引入约 1 个养老服务服务点，并用步行算路复核可达性。</li><li><b>[中] 优先治理多设施叠加盲区</b>：识别到 12 个采样盲区点，其中 0 个同时缺少两类及以上关键设施。 将叠加盲区作为选址候选区域，结合道路穿越障碍、公共空间和人口数据进一步实地核验。</li></ul>
+<h2>方法与边界</h2>
+<p>16方向×4半径扇形采样；使用百度步行批量算路耗时，以保守单调包络+径向线性插值形成近似15分钟可达边界。</p>
+<p>等时圈为API测时采样插值近似，不等同于底层路网全量洪泛；符合题目鼓励的无底层路网条件下空间插值/扇形采样思路。</p>
+<h2>警告 / 待核验</h2><ul><li>当前为离线模拟模式：POI、路网耗时和诊断结果均为明确标注的模拟数据，不代表真实城市情况。</li></ul>
+<p class="note">本报告为离线模拟演示，不得作为真实社区规划结论。</p></body></html>

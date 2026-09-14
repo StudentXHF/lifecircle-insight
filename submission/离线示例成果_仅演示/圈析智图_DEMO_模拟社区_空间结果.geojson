@@ -1,0 +1,463 @@
+{
+  "type": "FeatureCollection",
+  "name": "LifeCircle Insight",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              121.601,
+              31.2084027120585
+            ],
+            [
+              121.60420472658006,
+              31.207617290333165
+            ],
+            [
+              121.60688007767948,
+              31.206029154042486
+            ],
+            [
+              121.60807326159032,
+              31.203505794842464
+            ],
+            [
+              121.60845252669075,
+              31.200999785233837
+            ],
+            [
+              121.60807296393753,
+              31.19849379093932
+            ],
+            [
+              121.60687959094977,
+              31.195970460162677
+            ],
+            [
+              121.6042042769857,
+              31.19438263292278
+            ],
+            [
+              121.601,
+              31.193597287941497
+            ],
+            [
+              121.59756190734069,
+              31.193899725165906
+            ],
+            [
+              121.59433563657534,
+              31.195299086729754
+            ],
+            [
+              121.59282804628725,
+              31.1981043321377
+            ],
+            [
+              121.59234545287987,
+              31.20099971036737
+            ],
+            [
+              121.59282762498968,
+              31.203895123404866
+            ],
+            [
+              121.59433495750368,
+              31.20670046356163
+            ],
+            [
+              121.59756135579971,
+              31.20810025654259
+            ],
+            [
+              121.601,
+              31.2084027120585
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "isochrone",
+        "threshold_minutes": 15,
+        "center_name": "模拟社区"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.603532927238,
+          31.20409403167191
+        ]
+      },
+      "properties": {
+        "kind": "poi",
+        "name": "【模拟】社区卫生服务站A",
+        "category": "medical",
+        "category_label": "基础医疗",
+        "address": "模拟地址，仅用于离线演示"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.59665822445771,
+          31.195695830281537
+        ]
+      },
+      "properties": {
+        "kind": "poi",
+        "name": "【模拟】综合门诊B",
+        "category": "medical",
+        "category_label": "基础医疗",
+        "address": "模拟地址，仅用于离线演示"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.60760112728234,
+          31.19948688345608
+        ]
+      },
+      "properties": {
+        "kind": "poi",
+        "name": "【模拟】社区小学A",
+        "category": "primary_school",
+        "category_label": "小学",
+        "address": "模拟地址，仅用于离线演示"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5957189461505,
+          31.202210250591587
+        ]
+      },
+      "properties": {
+        "kind": "poi",
+        "name": "【模拟】便民菜市场A",
+        "category": "market",
+        "category_label": "菜市场",
+        "address": "模拟地址，仅用于离线演示"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.60289246367482,
+          31.19819618273906
+        ]
+      },
+      "properties": {
+        "kind": "poi",
+        "name": "【模拟】便民药房A",
+        "category": "pharmacy",
+        "category_label": "药店",
+        "address": "模拟地址，仅用于离线演示"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.59758276755838,
+          31.20606237767234
+        ]
+      },
+      "properties": {
+        "kind": "poi",
+        "name": "【模拟】社区药房B",
+        "category": "pharmacy",
+        "category_label": "药店",
+        "address": "模拟地址，仅用于离线演示"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.60709664226148,
+          31.206214363599823
+        ]
+      },
+      "properties": {
+        "kind": "poi",
+        "name": "【模拟】社区药房C",
+        "category": "pharmacy",
+        "category_label": "药店",
+        "address": "模拟地址，仅用于离线演示"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.60373165593631,
+          31.202348951691313
+        ]
+      },
+      "properties": {
+        "kind": "poi",
+        "name": "【模拟】生活超市A",
+        "category": "supermarket",
+        "category_label": "购物/超市",
+        "address": "模拟地址，仅用于离线演示"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5950922174561,
+          31.198643435943882
+        ]
+      },
+      "properties": {
+        "kind": "poi",
+        "name": "【模拟】生鲜超市B",
+        "category": "supermarket",
+        "category_label": "购物/超市",
+        "address": "模拟地址，仅用于离线演示"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.59944800028615,
+          31.208528080852364
+        ]
+      },
+      "properties": {
+        "kind": "poi",
+        "name": "【模拟】生活超市C",
+        "category": "supermarket",
+        "category_label": "购物/超市",
+        "address": "模拟地址，仅用于离线演示"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.59469196056904,
+          31.19560392396506
+        ]
+      },
+      "properties": {
+        "kind": "blind_spot",
+        "missing_labels": [
+          "小学"
+        ],
+        "severity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.59469124093678,
+          31.206395768264343
+        ]
+      },
+      "properties": {
+        "kind": "blind_spot",
+        "missing_labels": [
+          "小学"
+        ],
+        "severity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.59784598028196,
+          31.195604039354507
+        ]
+      },
+      "properties": {
+        "kind": "blind_spot",
+        "missing_labels": [
+          "小学"
+        ],
+        "severity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.60415401971805,
+          31.195604039354507
+        ]
+      },
+      "properties": {
+        "kind": "blind_spot",
+        "missing_labels": [
+          "菜市场"
+        ],
+        "severity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.59469178069735,
+          31.198301885039886
+        ]
+      },
+      "properties": {
+        "kind": "blind_spot",
+        "missing_labels": [
+          "小学"
+        ],
+        "severity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.60730821930267,
+          31.198301885039886
+        ]
+      },
+      "properties": {
+        "kind": "blind_spot",
+        "missing_labels": [
+          "菜市场"
+        ],
+        "severity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.59469142088122,
+          31.20369780718953
+        ]
+      },
+      "properties": {
+        "kind": "blind_spot",
+        "missing_labels": [
+          "小学"
+        ],
+        "severity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.6073085791188,
+          31.20369780718953
+        ]
+      },
+      "properties": {
+        "kind": "blind_spot",
+        "missing_labels": [
+          "菜市场"
+        ],
+        "severity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.59784562046583,
+          31.206395883702857
+        ]
+      },
+      "properties": {
+        "kind": "blind_spot",
+        "missing_labels": [
+          "小学"
+        ],
+        "severity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5946916008014,
+          31.200999846114705
+        ]
+      },
+      "properties": {
+        "kind": "blind_spot",
+        "missing_labels": [
+          "小学"
+        ],
+        "severity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.6073083991986,
+          31.200999846114705
+        ]
+      },
+      "properties": {
+        "kind": "blind_spot",
+        "missing_labels": [
+          "菜市场"
+        ],
+        "severity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.59784571043805,
+          31.203697922615774
+        ]
+      },
+      "properties": {
+        "kind": "blind_spot",
+        "missing_labels": [
+          "小学"
+        ],
+        "severity": 1
+      }
+    }
+  ]
+}

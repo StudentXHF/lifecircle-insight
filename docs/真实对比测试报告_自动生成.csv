@@ -1,0 +1,3 @@
+﻿case,area_km2,health_score,data_confidence_percent,isochrone_to_naive_area_ratio,median_route_detour_ratio,median_time_penalty_ratio,blind_spot_count,http_request_count,cache_hits,quota_units_estimated,elapsed_ms
+张江镇街道级样例,1.608,42.7,100.0,0.439,1.39,1.425,4,10,1,72,2901
+徐家汇街道级样例,2.088,100.0,100.0,0.57,1.277,1.309,0,15,0,77,3301

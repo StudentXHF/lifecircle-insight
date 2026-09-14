@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>圈析智图｜15分钟生活圈智能体检与规划助手</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%232563eb'/%3E%3Cpath d='M17 17h30v8H25v22h-8zM31 31h16v16H31z' fill='white'/%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="/static/styles.css?v=3.0.0-rc3.2" />
+</head>
+<body>
+<header class="topbar">
+  <div>
+    <div class="brand">圈析智图 <span>LifeCircle Insight</span></div>
+    <div class="subtitle">基于百度地图开放能力的“15分钟生活圈”智能体检与规划助手</div>
+  </div>
+  <div class="status-row">
+    <span id="apiStatus" class="pill muted">读取配置…</span>
+    <span class="pill">v3.0 RC3 · 真实联调版</span>
+  </div>
+</header>
+
+<div class="layout">
+  <aside class="sidebar">
+    <button id="newBtn" class="primary full">＋ 新建体检</button>
+    <h3>历史记录</h3>
+    <div id="history" class="history">暂无记录</div>
+    <div class="notice small">
+      <b>数据边界</b><br/>
+      离线模式只使用明确标注的模拟数据；真实模式才会调用百度地图 Web 服务 API。任何类别 API 失败都会标记为“未知”，不会把未知误判为设施缺失。<br/><br/>
+      <b>视觉增强说明</b><br/>
+      城市沙盘中的楼体、树木与道路为<strong>基于分析结果生成的增强可视化表达层</strong>，用于展示可达性、覆盖与盲区，不直接等同于真实地籍轮廓或 BIM 模型。
+    </div>
+  </aside>
+
+  <main class="main">
+    <section class="hero card premium-hero">
+      <div class="hero-copy">
+        <span class="eyebrow">从“直线半径”升级为“真实路网可达性 + 沉浸式城市表达”</span>
+        <h1>15 分钟步行等时圈 + 民生设施覆盖 + 服务盲区诊断</h1>
+        <p>扇形采样、百度步行批量算路、空间插值、多页 POI 检索与异常降级联合完成社区体检，并提供真实百度 WebGL 城市视角、数字孪生表达层、分析热力图与可追溯 API 证据。</p>
+        <div class="hero-highlights">
+          <span>真实路网优先</span>
+          <span>真实 WebGL 城市视角</span>
+          <span>服务盲区预警</span>
+          <span>可导出交付包</span>
+        </div>
+      </div>
+      <div class="hero-side">
+        <div class="mode-switch">
+          <label><input type="radio" name="mode" value="demo" checked> 离线模拟</label>
+          <label><input type="radio" name="mode" value="real"> 真实百度 API</label>
+        </div>
+        <div class="hero-badge-grid">
+          <div><b>真实/离线</b><span>双模式</span></div>
+          <div><b>等时圈</b><span>可达性优先</span></div>
+          <div><b>空间可视化</b><span>真实地图 + 数字孪生 + 热力分析</span></div>
+          <div><b>导出</b><span>Markdown / HTML / CSV / JSON / GeoJSON / ZIP</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="card form-card">
+      <div class="section-title"><span>1</span><div><h2>分析参数</h2><p>真实模式可先输入上海社区/街道地址，调用百度地理编码自动填写 BD09 坐标。</p></div></div>
+      <div class="address-row">
+        <label>地址（真实模式可用）<input id="address" placeholder="例如：上海市浦东新区张江镇人民政府" /></label>
+        <button id="geocodeBtn" class="secondary">地址转坐标</button>
+      </div>
+      <div class="form-grid">
+        <label>中心点名称<input id="centerName" value="【模拟】浦东科创社区样例" /></label>
+        <label>城市<input id="city" value="上海市" /></label>
+        <label>经度<input id="lng" type="number" step="0.000001" value="121.601000" /></label>
+        <label>纬度<input id="lat" type="number" step="0.000001" value="31.201000" /></label>
+        <label>坐标系<select id="coordType"><option value="bd09ll">BD09LL（百度）</option><option value="gcj02">GCJ02</option><option value="wgs84">WGS84 / GPS</option></select></label>
+        <label>步行阈值（分钟）<input id="threshold" type="number" min="5" max="30" value="15" /></label>
+        <label>扇形采样方向数<select id="bearings"><option>12</option><option selected>16</option><option>24</option><option>32</option></select></label>
+        <label>POI 检索半径（米）<input id="poiRadius" type="number" min="800" max="3000" value="1800" /></label>
+      </div>
+      <div class="actions">
+        <button id="demoPreset" class="secondary">载入模拟样例</button>
+        <button id="analyzeBtn" class="primary">开始体检</button>
+      </div>
+      <div id="runNotice" class="inline-notice warn">当前为离线模拟：不会调用真实地图 API，结果不可作为真实规划结论。</div>
+    </section>
+
+    <section id="resultSection" class="hidden">
+      <div class="kpis">
+        <div class="kpi accent-blue"><span>综合体检分</span><b id="score">-</b><small>/100</small></div>
+        <div class="kpi accent-green"><span>数据置信度</span><b id="confidence">-</b><small>%</small></div>
+        <div class="kpi accent-indigo"><span>等时圈面积</span><b id="area">-</b><small>km²</small></div>
+        <div class="kpi accent-cyan"><span>圈内设施</span><b id="poiCount">-</b><small>个</small></div>
+        <div class="kpi accent-amber"><span>盲区采样点</span><b id="blindCount">-</b><small>个</small></div>
+        <div class="kpi accent-slate"><span>真实 HTTP 请求</span><b id="apiCount">-</b><small>次</small></div>
+      </div>
+
+      <section id="visualStage" class="card visual-stage-card">
+        <div class="stage-header">
+          <div class="section-title compact stage-title">
+            <span>2</span>
+            <div><h2>城市空间可视化中枢</h2><p id="mapSubtitle"></p></div>
+          </div>
+          <button id="presentationBtn" class="presentation-btn" type="button">进入沉浸演示</button>
+        </div>
+        <div class="viz-toolbar stage-toolbar">
+          <div class="viz-tabs" role="tablist" aria-label="可视化视图切换">
+            <button id="tabBaidu" class="viz-tab" data-viz="baidu" type="button">真实城市 3D</button>
+            <button id="tabTwin" class="viz-tab active" data-viz="twin" type="button">数字孪生表达</button>
+            <button id="tabMap" class="viz-tab" data-viz="map" type="button">分析热力图</button>
+          </div>
+          <div id="vizCaption" class="viz-caption">数字孪生表达：用分析结果构建可解释城市空间场景；真实楼块需切换到“真实城市 3D”。</div>
+        </div>
+
+        <div class="stage-shell">
+          <div class="viz-stack stage-viz">
+            <div id="twinWrap" class="twin-wrap">
+              <canvas id="twinCanvas" aria-label="数字孪生城市沙盘"></canvas>
+              <div class="twin-hud">
+                <span><i class="status-dot live"></i> DIGITAL TWIN</span>
+                <span id="twinMeta">WAITING FOR ANALYSIS</span>
+              </div>
+            </div>
+            <div id="baiduWrap" class="baidu-wrap hidden">
+              <div id="baidu3dMap" class="baidu-map"></div>
+              <div id="baiduMapPlaceholder" class="map-placeholder">
+                <div class="map-placeholder-icon">3D</div>
+                <h3>真实百度 3D 城市地图待启用</h3>
+                <p>在 <code>.env</code> 配置独立的 <code>BAIDU_MAP_BROWSER_AK</code> 后，可加载百度 JSAPI GL WebGL 城市底图，并叠加等时圈、POI、服务盲区与距离参考圈。</p>
+              </div>
+              <div id="baiduControls" class="map-controls hidden">
+                <button id="mapOrbitBtn" type="button">自动环绕</button>
+                <button id="mapTrafficBtn" type="button">实时路况</button>
+                <button id="mapSatelliteBtn" type="button">卫星底图</button>
+                <button id="mapResetBtn" type="button">重置视角</button>
+              </div>
+              <div class="map-truth-badge">百度 WebGL 真实底图 · 分析覆盖物</div>
+            </div>
+            <div id="mapWrap" class="map-wrap hidden">
+              <svg id="mapSvg" viewBox="0 0 800 540" role="img" aria-label="生活圈等时圈示意图"></svg>
+            </div>
+          </div>
+
+          <aside class="stage-inspector">
+            <div class="inspector-title">空间诊断摘要</div>
+            <div id="stageSummary" class="stage-summary"></div>
+            <div class="stage-divider"></div>
+            <div class="inspector-title">距离感参考</div>
+            <div class="distance-legend">
+              <div><span class="distance-ring d500"></span><b>500 m</b><small>近邻服务层</small></div>
+              <div><span class="distance-ring d1000"></span><b>1 km</b><small>任务书盲区阈值</small></div>
+              <div><span class="distance-ring d15"></span><b>15 min</b><small>真实路网等时边界</small></div>
+            </div>
+            <div class="stage-divider"></div>
+            <div class="inspector-title">真实性边界</div>
+            <p class="truth-note">“真实城市 3D”来自百度 JSAPI GL WebGL 底图；“数字孪生表达”用于离线展示分析关系，不冒充真实 BIM / 地籍楼块。建筑精细程度取决于百度底图在目标区域的覆盖与缩放级别。</p>
+          </aside>
+        </div>
+        <div class="legend enhanced-legend"><i class="lg blue"></i>15min 等时圈 <i class="lg green"></i>低耗时 <i class="lg yellow"></i>临界 <i class="lg red"></i>超阈值 <i class="dot poi"></i>设施 <i class="dot blind"></i>盲区预警 <i class="dot building"></i>空间表达</div>
+        <div id="realMapBox" class="real-map hidden"><h3>百度地图真实底图快照</h3><img id="realMapImg" alt="百度地图静态图" /></div>
+      </section>
+
+      <div class="insight-grid">
+        <section class="card insight-card">
+          <div class="section-title compact"><span>3</span><div><h2>设施覆盖</h2><p>未知类别不会按 0 分处理；评分只基于已成功核验类别归一化。</p></div></div>
+          <div id="coverageBars" class="coverage-bars"></div>
+          <div class="score-note" id="scoreNote"></div>
+        </section>
+        <section class="card insight-card">
+          <div class="section-title compact"><span>4</span><div><h2>算法质量诊断</h2><p>展示算路样本有效率、插值修正和边界截断情况。</p></div></div>
+          <div id="algoDiagnostics"></div>
+        </section>
+        <section class="card insight-card">
+          <div class="section-title compact"><span>5</span><div><h2>规划建议（摘要）</h2><p>优先展示最需要行动的公共服务补齐方向。</p></div></div>
+          <div id="recSummary" class="compact-list"></div>
+        </section>
+      </div>
+
+      <div class="two-col">
+        <section class="card">
+          <div class="section-title compact"><span>6</span><div><h2>路网差异诊断</h2><p>把“直线圆”作为基线，量化真实路网绕行和可达面积变化。</p></div></div>
+          <div id="comparisonCards" class="mini-cards"></div>
+        </section>
+        <section class="card">
+          <div class="section-title compact"><span>7</span><div><h2>服务盲区</h2><p>关键类别检索失败时不输出“无设施”结论，避免把未知当成缺失。</p></div></div>
+          <div id="blindTable"></div>
+        </section>
+      </div>
+
+      <div class="two-col">
+        <section class="card">
+          <div class="section-title compact"><span>8</span><div><h2>规划建议（完整）</h2><p>由确定性覆盖指标生成；未知事实明确标为待核验。</p></div></div>
+          <div id="recommendations"></div>
+          <div class="ai-brief-panel">
+            <div class="ai-brief-heading">
+              <div><b>模型辅助规划解读</b><small>只解释上方证据，不参与地图计算与评分</small></div>
+              <button id="aiBriefBtn" type="button" class="secondary">生成解读</button>
+            </div>
+            <div id="aiBriefNotice" class="ai-brief-notice">模型不会自动调用；点击后才会发送脱敏后的汇总指标。</div>
+            <div id="aiBriefText" class="ai-brief-text hidden"></div>
+          </div>
+        </section>
+        <section class="card">
+          <div class="section-title compact"><span>9</span><div><h2>API 与工程证据</h2><p>展示调用类别、耗时、缓存与估算配额单元；不展示服务端 AK。</p></div></div>
+          <div id="apiSummary" class="summary-strip"></div>
+          <div id="apiTrace"></div>
+          <div id="warnings"></div>
+        </section>
+      </div>
+
+      <section class="card">
+        <div class="section-title compact"><span>10</span><div><h2>成果导出</h2><p>真实生成 Markdown、HTML、CSV、JSON、GeoJSON 与 ZIP 交付包。</p></div></div>
+        <div class="actions export-actions">
+          <a id="expMd" class="secondary button-link">Markdown 报告</a>
+          <a id="expHtml" class="secondary button-link">HTML 报告</a>
+          <a id="expPoi" class="secondary button-link">POI CSV</a>
+          <a id="expBlind" class="secondary button-link">盲区 CSV</a>
+          <a id="expJson" class="secondary button-link">JSON</a>
+          <a id="expGeo" class="secondary button-link">GeoJSON</a>
+          <a id="expZip" class="primary button-link">ZIP 交付包</a>
+        </div>
+      </section>
+    </section>
+  </main>
+</div>
+<div id="toast" class="toast"></div>
+<script src="/static/app.js?v=3.0.0-rc3.2"></script>
+</body>
+</html>
