@@ -8,7 +8,6 @@ ROOT = Path(__file__).resolve().parent.parent
 EXCLUDE_DIRS = {'.venv', '__pycache__', '.pytest_cache', '.git', 'data', 'exports', 'tmp'}
 EXCLUDE_NAMES = {
     '.env',
-    '圈析智图_v3.0_RC_准提交材料包_真实实测后补齐.zip',
 }
 EXCLUDE_SUFFIXES = {'.pyc', '.pyo'}
 

@@ -1,6 +1,6 @@
 # 圈析智图（LifeCircle Insight）
 
-> **2026 上海开源软件应用创新大赛｜开源 AI 工具赛道｜百度地图命题** 参赛工程 v3.0.0-rc3（正式提交准备版）
+> **2026 上海开源软件应用创新大赛｜开源 AI 工具赛道｜百度地图命题** 参赛项目 v3.0.0-rc3
 >
 > 基于百度地图开放能力的“15 分钟生活圈”智能体检与规划助手。
 
@@ -8,7 +8,7 @@
 
 输入上海任意社区/街道中心点，系统不再用“直线半径画圆”代替步行可达性，而是调用百度地图步行路网能力，对周边分散采样点批量测时，构造近似 15 分钟步行等时圈；随后检索医疗、小学、菜市场、药店、超市和养老设施，识别关键服务覆盖与“1 km 服务盲区”，给出可解释规划建议，并导出可验收成果。
 
-## 2. 对照赛题的核心实现
+## 2. 核心能力
 
 - **坐标能力**：WGS84 / GCJ02 → 百度 BD09LL（geoconv）。
 - **POI 检索**：百度 Place 圆形检索，支持多页拉取、去重；单类别失败时标记“未知”，不会误判为“0 个设施”。
@@ -86,7 +86,7 @@ python -m uvicorn app.main:app --host 127.0.0.1 --port 8015
 
 即使没有浏览器 AK，数字孪生 3D 与分析热力图仍可离线使用；真实城市地图会明确显示配置提示，不会伪造真实底图。
 
-## 5. 建议的真实联调顺序
+## 5. 真实模式验证流程
 
 配置 AK 后，不要直接长时间反复跑完整分析，先执行：
 
@@ -109,7 +109,7 @@ docs/真实对比测试报告_自动生成.md
 docs/真实对比测试报告_自动生成.json
 ```
 
-该文件只有在真实 AK 成功调用后才会产生，避免用模拟数据“填满报告”。本交付已于 2026-09-14 完成一次真实联调和两社区对比；免费账户建议保持 `BAIDU_CONCURRENCY=1`，不要连续重复运行完整 Benchmark。
+该文件只有在真实 AK 成功调用后才会产生，避免用模拟数据“填满报告”。本版本已于 2026-09-14 完成一次真实联调和两社区对比；免费账户建议保持 `BAIDU_CONCURRENCY=1`，不要连续重复运行完整 Benchmark。
 
 可选模型连接检查：
 
@@ -185,8 +185,8 @@ scripts/check_llm_api.py     最小模型兼容性检查
 scripts/run_real_benchmark.py 两社区真实对比脚本
 scripts/verify.py            一键验收
 .github/                     CI、Issue、PR 模板
-docs/                        设计、评分追踪、测试、提交清单
-submission/                  准提交作品文档、视频与邮件材料
+docs/                        架构、算法、API、测试与验证文档
+submission/                  作品介绍与技术设计评审材料
 ```
 
 ## 10. 算法诚信边界
@@ -210,21 +210,17 @@ submission/                  准提交作品文档、视频与邮件材料
 - GitHub Actions
 - Issue / Pull Request 模板
 
-## 12. 提交前真正剩余的工作
+## 12. 项目状态与评审入口
 
-主体源码、真实百度 API、真实 WebGL 地图、两社区 A/B、模型解读、测试、导出、安全检查和正式 PDF 均已准备。提交前仍需参赛者本人完成：
+- **作品演示：** https://studentxhf.github.io/lifecircle-insight/
+- **视频发布页：** https://github.com/StudentXHF/lifecircle-insight/releases/tag/demo-video-v1
+- **作品介绍：** `submission/01_圈析智图_作品介绍文档_正式稿.pdf`
+- **技术设计：** `submission/02_圈析智图_技术设计报告_正式稿.pdf`
+- **真实测试：** `docs/真实对比测试报告.md` 与 `docs/实际测试记录.md`
 
-1. 团队、学校/单位、负责人和联系方式已填写。
-2. 公开仓库已发布至 https://github.com/StudentXHF/lifecircle-insight，CI 已通过，`.env` 与运行数据库未提交。
-3. 按讲解稿录制并上传真实演示视频，填写可公开播放链接。
-4. 在正式提交前按当日官网/报名确认邮件复核材料字段和截止时间。
-5. 若现场再次实跑真实模式，保持 `BAIDU_CONCURRENCY=1`，避免免费账户并发预警。
+当前版本已完成真实百度 API、真实 WebGL 地图、两社区对比、模型解读、历史记录、七类导出、自动化测试与安全检查。公开仓库不包含 `.env`、API 密钥或运行数据库。
 
-如果后续交给 Codex 做本机真实 AK 联调、真实 A/B 和最终提交替换，直接使用 `CODEX_CONTINUE_PROMPT.md`。
-
-正式提交资料优先查看 `submission/01_*` 至 `submission/05_*`。
-
-## 13. 发布前密钥/打包自检
+## 13. 安全与发布自检
 
 普通本地检查（允许本地存在 `.env` / 运行数据库，仅提示）：
 
@@ -232,11 +228,11 @@ submission/                  准提交作品文档、视频与邮件材料
 python scripts/release_preflight.py
 ```
 
-制作公开提交 ZIP 前，在一个不含 `.env` 和运行数据库的干净副本执行：
+制作公开发行归档前，在一个不含 `.env` 和运行数据库的干净副本执行：
 
 ```bash
 python scripts/release_preflight.py --strict
 python scripts/make_release_zip.py --out 圈析智图_release.zip
 ```
 
-`make_release_zip.py` 默认排除 `.env`、`.venv`、`data/` 运行数据库、`exports/` 临时导出、缓存和 Python 字节码，减少误把密钥或本地运行垃圾提交出去的风险。
+`make_release_zip.py` 默认排除 `.env`、`.venv`、`data/` 运行数据库、`exports/` 临时导出、缓存和 Python 字节码，减少误把密钥或本地运行文件写入发行归档的风险。

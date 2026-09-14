@@ -24,13 +24,6 @@ DOCS = [
         '百度地图开放能力 · 路网等时圈 · 设施覆盖 · 服务盲区 · 工程可靠性',
         'TECHNICAL DESIGN',
     ),
-    (
-        ROOT / 'submission' / '04_答辩核心卖点与Q&A.md',
-        '04_答辩Q&A.html',
-        '答辩核心卖点与 Q&A',
-        '30 秒开场、评分维度答法与 22 个高概率问题',
-        'DEFENSE PLAYBOOK',
-    ),
 ]
 
 

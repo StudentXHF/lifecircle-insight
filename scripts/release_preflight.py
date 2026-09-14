@@ -12,7 +12,6 @@ REQUIRED = [
     '.github/workflows/ci.yml', 'docs/赛题任务书_原始.pdf', 'docs/评分点逐项对照表.md',
     'submission/01_圈析智图_作品介绍文档_正式稿.pdf',
     'submission/02_圈析智图_技术设计报告_正式稿.pdf',
-    'submission/04_圈析智图_答辩核心卖点与Q&A.pdf',
 ]
 # Looks for common secret assignments with a non-placeholder value. The pattern is intentionally conservative.
 SECRET_PATTERNS = [
