@@ -41,10 +41,10 @@
 
 ## 参赛者 / Codex 最后阶段任务
 
-1. 填写团队 / 学校 / 联系方式。
-2. 上传 GitHub/Gitee，确认 CI、README、MIT 和无密钥泄露。
+1. 团队 / 学校 / 联系方式已填写。
+2. GitHub 公开仓库已发布，CI、README、MIT 和密钥排除检查均通过。
 3. 按 `submission/03_*` 录制约 4 分钟真实演示视频并上传可公开播放链接。
-4. 将仓库与视频 URL 写入正式材料，按 `submission/05_*` 做最后提交核对。
+4. 将视频 URL 写入正式材料，按 `submission/05_*` 做最后提交核对。
 5. 现场若重复实跑，保持 `BAIDU_CONCURRENCY=1`；无需为 Style ID 专门付费或阻塞提交。
 
 ## 给 Codex
