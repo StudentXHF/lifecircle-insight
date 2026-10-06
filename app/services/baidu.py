@@ -3,6 +3,7 @@ from __future__ import annotations
 import asyncio
 import hashlib
 import json
+import threading
 import time
 from dataclasses import dataclass, field
 from typing import Any
@@ -11,6 +12,25 @@ import httpx
 
 from app.config import settings
 from app.services.cache import get_cached, set_cached
+
+
+# Shared by all BaiduMapClient instances in this server process.  The personal
+# account limits are per service and per second; a per-client semaphore alone
+# cannot protect successive fast requests or concurrent analyses.
+_RATE_LOCK = threading.Lock()
+_NEXT_REQUEST_AT: dict[str, float] = {}
+_MIN_REQUEST_GAP_SECONDS = {'route_matrix_walking': 1.1, 'place_search': 0.6}
+
+
+async def _wait_for_service_slot(service: str) -> None:
+    gap = _MIN_REQUEST_GAP_SECONDS.get(service)
+    if gap is None:
+        return
+    with _RATE_LOCK:
+        now = time.monotonic()
+        start_at = max(now, _NEXT_REQUEST_AT.get(service, now))
+        _NEXT_REQUEST_AT[service] = start_at + gap
+    await asyncio.sleep(max(0.0, start_at - now))
 
 
 class BaiduAPIError(RuntimeError):
@@ -75,6 +95,7 @@ class BaiduMapClient:
         self._memory_cache: dict[str, tuple[float, Any]] = {}
         self.stats = BaiduStats()
         self._allow_persistent_cache = transport is None
+        self._rate_limit_enabled = transport is None
 
     async def aclose(self) -> None:
         await self._client.aclose()
@@ -121,6 +142,8 @@ class BaiduMapClient:
             started = time.perf_counter()
             try:
                 async with self._semaphore:
+                    if self._rate_limit_enabled:
+                        await _wait_for_service_slot(service)
                     resp = await self._client.get(self.base + path, params=params)
                 elapsed = int((time.perf_counter() - started) * 1000)
                 if resp.status_code != 200:
@@ -242,8 +265,9 @@ class BaiduMapClient:
         if not destinations:
             return []
         output: list[dict] = []
-        for start in range(0, len(destinations), 50):
-            batch = destinations[start:start + 50]
+        batch_size = settings.baidu_route_batch_size
+        for start in range(0, len(destinations), batch_size):
+            batch = destinations[start:start + batch_size]
             params = {
                 'output': 'json',
                 'origins': f"{origin['lat']:.7f},{origin['lng']:.7f}",

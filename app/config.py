@@ -39,6 +39,9 @@ class Settings:
     baidu_map_style_id: str = os.getenv('BAIDU_MAP_STYLE_ID', '').strip()
     baidu_api_base: str = os.getenv('BAIDU_API_BASE', 'https://api.map.baidu.com').rstrip('/')
     baidu_concurrency: int = max(1, _int('BAIDU_CONCURRENCY', 1))
+    # RouteMatrix limits are counted by returned routes, not HTTP requests.
+    # Keep each request below the personal-account 3 routes/s threshold.
+    baidu_route_batch_size: int = min(2, max(1, _int('BAIDU_ROUTE_BATCH_SIZE', 2)))
     baidu_retry_times: int = max(0, _int('BAIDU_RETRY_TIMES', 2))
     baidu_cache_ttl_seconds: int = max(0, _int('BAIDU_CACHE_TTL_SECONDS', 900))
     baidu_poi_max_pages: int = min(10, max(1, _int('BAIDU_POI_MAX_PAGES', 3)))
